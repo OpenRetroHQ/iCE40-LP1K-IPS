@@ -418,11 +418,11 @@
           "id": "941ea568-34b4-4a5c-b0df-1dc0f1fa2f3e",
           "type": "basic.info",
           "data": {
-            "info": "SRAM IC - IS61WV25616BLL-10BLI\n\n~OE pin tied to ground permanently.\n\n~CE pin tied to ground permanently.\n\n~UB pin tied to ground permanently.\n\n~LB pin tied to ground permanently.\n\nIO12, IO13, IO14, IO15 are \"no connect\" as we only have 12bit RGB data.",
+            "info": "SRAM IC - IS61WV25616BLL-10BLI\n\n~OE pin tied to ground permanently.\n~CE pin tied to ground permanently.\n\n~UB pin tied to ground permanently.\n\n~LB pin tied to ground permanently.\n\nIO12, IO13, IO14, IO15 are \"no connect\" as we only have 12bit RGB data.",
             "readonly": true
           },
           "position": {
-            "x": -600,
+            "x": -632,
             "y": -64
           },
           "size": {
