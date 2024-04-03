@@ -60,9 +60,9 @@ module main (
  wire w34;
  wire [0:17] w35;
  wire [0:11] w36;
- wire [0:15] w37;
+ wire w37;
  wire w38;
- wire w39;
+ wire [0:11] w39;
  wire [0:11] w40;
  assign v133c7d = w0;
  assign va834c1 = w1;
@@ -82,8 +82,8 @@ module main (
  assign w30 = v29d3f1;
  assign w31 = v29d3f1;
  assign vb53f50 = w35;
- assign vbe49b8 = w39;
- assign w40 = v7862f7;
+ assign vbe49b8 = w38;
+ assign w39 = v7862f7;
  assign w30 = w29;
  assign w31 = w29;
  assign w31 = w30;
@@ -142,10 +142,14 @@ module main (
   .vb33f83(w34),
   .v64d6af(w35),
   .vdd0bfb(w36),
-  .v76e5cf(w37),
-  .vb680b9(w38),
-  .v619423(w39),
-  .v77de7c(w40)
+  .vb680b9(w37),
+  .v619423(w38),
+  .v77de7c(w39),
+  .v5d087b(w40)
+ );
+ vf55351 v917657 (
+  .v73ceb8(w31),
+  .v7efef0(w37)
  );
  main_v3d08f2 v3d08f2 (
   .VGAStr(w27),
@@ -155,11 +159,7 @@ module main (
   .sram_read_addr(w33),
   .sram_wr_en(w34),
   .sram_data_out(w36),
-  .sram_data_in(w37)
- );
- vf55351 v917657 (
-  .v73ceb8(w31),
-  .v7efef0(w38)
+  .sram_data_in(w40)
  );
 endmodule
 
@@ -587,7 +587,7 @@ module vd6099e (
  input vb33f83,
  input [17:0] v1c8814,
  input [17:0] v9377ba,
- input [15:0] v76e5cf,
+ input [11:0] v5d087b,
  input [11:0] v77de7c,
  output [17:0] v64d6af,
  output [11:0] vdd0bfb,
@@ -601,7 +601,7 @@ module vd6099e (
  wire w5;
  wire [0:17] w6;
  wire [0:17] w7;
- wire [0:15] w8;
+ wire [0:11] w8;
  assign v619423 = w0;
  assign vdd0bfb = w1;
  assign w2 = v77de7c;
@@ -610,7 +610,7 @@ module vd6099e (
  assign w5 = vb680b9;
  assign w6 = v1c8814;
  assign w7 = v9377ba;
- assign w8 = v76e5cf;
+ assign w8 = v5d087b;
  vd6099e_v931b7c v931b7c (
   .sram_we(w0),
   .data_out(w1),
@@ -630,7 +630,7 @@ module vd6099e_v931b7c (
  input wr_en,
  input [17:0] write_addr,
  input [17:0] read_addr,
- input [15:0] data_in,
+ input [11:0] data_in,
  output [17:0] sram_addr,
  output [11:0] data_out,
  output sram_we,
@@ -649,11 +649,11 @@ module vd6099e_v931b7c (
  assign sram_addr = wr_en ?  write_addr : read_addr;
  
  // Set the SRAM data input/output to data_in if we are writing, otherwise tristate.
- // assign sram_io = wr_en ? data_in : 12'bzzzzzzzzzzzz;
+ assign sram_io = wr_en ? data_in : 12'bzzzzzzzzzzzz;
  
  // Set the SRAM write enable pin
  // assign sram_we = ~(wr_en & (~sys_clk));  
-  assign sram_we = (~wr_en)|sys_clk;
+ assign sram_we = (~wr_en)|sys_clk;
  
  // assign sram_we = 1'b1;
  
@@ -795,7 +795,7 @@ module main_v3d08f2 (
  output [17:0] sram_write_addr,
  output [17:0] sram_read_addr,
  output sram_wr_en,
- output [15:0] sram_data_in
+ output [11:0] sram_data_in
 );
  // Aliases.
  `define Active 0:0
@@ -818,7 +818,7 @@ module main_v3d08f2 (
  reg [42:0] RGBStrReg;
  reg [17:0] sram_write_addr_reg;
  reg [17:0] sram_read_addr_reg;
- 
+  reg [11:0] sram_data_in_reg;
  
  
  always @(posedge px_clk)
@@ -837,6 +837,8 @@ module main_v3d08f2 (
          RGBStrReg[`RGB] <= sram_data_out;
          
      end else begin
+         sram_data_in_reg <= 12'b111100000000;
+         
          // Always black if not it active screen.    
          RGBStrReg[`RGB] <= 12'b000000000000;
      end
@@ -853,6 +855,8 @@ module main_v3d08f2 (
  
  // Turn on read mode.
  assign sram_wr_en = 1'b0;
+ 
+ assign sram_data_in = sram_data_in_reg;
  
  
 endmodule
