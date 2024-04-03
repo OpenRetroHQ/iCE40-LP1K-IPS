@@ -733,6 +733,7 @@ module main_v3d08f2 (
  output sram_wr_en,
  output [15:0] sram_data_in
 );
+ // Aliases.
  `define Active 0:0
  `define ALS 1:1
  `define ALE 2:2
@@ -749,43 +750,36 @@ module main_v3d08f2 (
  `define VGA    30:0
  `define RGB    42:31
  
- 
+ // Registers.
  reg [42:0] RGBStrReg;
- 
- reg [12:0] counter;
- 
  reg [17:0] sram_write_addr_reg;
  reg [17:0] sram_read_addr_reg;
  reg [15:0] sram_data_in;
  
- reg sram_wr_en_reg;
- 
- always @(posedge px_clk) begin
-   if (VGAStr[`ALS]) begin
-      counter <= 0;
-   end else begin
-      counter <= counter + 2;  
-   end
-  
- end
- 
- 
  
  always @(posedge px_clk)
  begin
+ 
      // Clone the VGA stream.
      RGBStrReg[`VGA] <= VGAStr[`VGA];
+     
+     // If we are in the active screen region.
      if (VGAStr[`Active]  ) begin
-       // Set the SRAM Controller address to the pixel address    
-       sram_read_addr_reg <= VGAStr[`XC];
-       // Set the RGB data to the data from the SRAM.
-       RGBStrReg[`RGB] <= sram_data_out;
+     
+         // Set the SRAM Controller address to the pixel address    
+         sram_read_addr_reg <= VGAStr[`XC];
+         
+         // Set the RGB data to the data from the SRAM.
+         RGBStrReg[`RGB] <= sram_data_out;
+         
      end else begin
-       RGBStrReg[`RGB] <= 12'b000000000000;
+         // Always black if not it active screen.    
+         RGBStrReg[`RGB] <= 12'b000000000000;
      end
  end
- assign  RGBStr = RGBStrReg;
  
+ // Output the RGB Stream.
+ assign  RGBStr = RGBStrReg;
  
  // Set the write address
  assign sram_write_addr = sram_write_addr_reg;
