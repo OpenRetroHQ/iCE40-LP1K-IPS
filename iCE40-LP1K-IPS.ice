@@ -251,6 +251,25 @@
           }
         },
         {
+          "id": "249f7b10-4fea-45db-921a-040ed83fe278",
+          "type": "basic.output",
+          "data": {
+            "name": "VGA G0",
+            "virtual": false,
+            "pins": [
+              {
+                "index": "0",
+                "name": "IOT_90",
+                "value": "A4"
+              }
+            ]
+          },
+          "position": {
+            "x": 2408,
+            "y": -328
+          }
+        },
+        {
           "id": "2c0ad0bc-b9ac-4fe4-87a6-969399fc6fa4",
           "type": "basic.inputLabel",
           "data": {
@@ -352,27 +371,47 @@
             ]
           },
           "position": {
-            "x": 1736,
-            "y": -336
+            "x": 1744,
+            "y": -320
           }
         },
         {
-          "id": "249f7b10-4fea-45db-921a-040ed83fe278",
+          "id": "f23b8c5b-731f-4c21-a809-089bc3f3a3e0",
           "type": "basic.output",
           "data": {
-            "name": "VGA G0",
+            "name": "VGA G1",
             "virtual": false,
             "pins": [
               {
                 "index": "0",
-                "name": "IOT_90",
-                "value": "A4"
+                "name": "IOT_92",
+                "value": "B5"
               }
             ]
           },
           "position": {
             "x": 2408,
-            "y": -328
+            "y": -248
+          }
+        },
+        {
+          "id": "1a0827ef-bc36-4cd7-b316-3be02293aa1a",
+          "type": "basic.outputLabel",
+          "data": {
+            "name": "clk",
+            "blockColor": "fuchsia",
+            "virtual": true,
+            "pins": [
+              {
+                "index": "0",
+                "name": "NULL",
+                "value": "NULL"
+              }
+            ]
+          },
+          "position": {
+            "x": 0,
+            "y": -248
           }
         },
         {
@@ -477,67 +516,8 @@
             ]
           },
           "position": {
-            "x": 1736,
-            "y": -256
-          }
-        },
-        {
-          "id": "f23b8c5b-731f-4c21-a809-089bc3f3a3e0",
-          "type": "basic.output",
-          "data": {
-            "name": "VGA G1",
-            "virtual": false,
-            "pins": [
-              {
-                "index": "0",
-                "name": "IOT_92",
-                "value": "B5"
-              }
-            ]
-          },
-          "position": {
-            "x": 2408,
-            "y": -248
-          }
-        },
-        {
-          "id": "1a0827ef-bc36-4cd7-b316-3be02293aa1a",
-          "type": "basic.outputLabel",
-          "data": {
-            "name": "clk",
-            "blockColor": "fuchsia",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
-          },
-          "position": {
-            "x": 0,
-            "y": -248
-          }
-        },
-        {
-          "id": "feaa713e-de17-41e9-816d-d62943d275c6",
-          "type": "basic.inputLabel",
-          "data": {
-            "name": "sram_wr_en",
-            "blockColor": "fuchsia",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
-          },
-          "position": {
-            "x": 1728,
-            "y": -176
+            "x": 1744,
+            "y": -240
           }
         },
         {
@@ -557,6 +537,26 @@
           "position": {
             "x": 2408,
             "y": -168
+          }
+        },
+        {
+          "id": "feaa713e-de17-41e9-816d-d62943d275c6",
+          "type": "basic.inputLabel",
+          "data": {
+            "name": "SRAMWriteEnable",
+            "blockColor": "fuchsia",
+            "virtual": true,
+            "pins": [
+              {
+                "index": "0",
+                "name": "NULL",
+                "value": "NULL"
+              }
+            ]
+          },
+          "position": {
+            "x": 1744,
+            "y": -160
           }
         },
         {
@@ -761,34 +761,14 @@
           }
         },
         {
-          "id": "04932128-4144-4197-b939-8936e5bf2fb4",
+          "id": "795a95c9-757c-4aef-be8a-d45ebe7f8cba",
           "type": "basic.inputLabel",
           "data": {
             "name": "SRAMDataIn",
-            "range": "[15:0]",
+            "range": "[11:0]",
             "blockColor": "fuchsia",
             "virtual": true,
             "pins": [
-              {
-                "index": "15",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "14",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "13",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "12",
-                "name": "NULL",
-                "value": "NULL"
-              },
               {
                 "index": "11",
                 "name": "NULL",
@@ -852,8 +832,8 @@
             ]
           },
           "position": {
-            "x": 1728,
-            "y": -88
+            "x": 1744,
+            "y": -72
           }
         },
         {
@@ -1425,34 +1405,14 @@
           }
         },
         {
-          "id": "8c30f0f8-f77e-42a4-a102-b44e05e13bd6",
+          "id": "3db706e6-c895-4145-9e65-8d4ce48151b7",
           "type": "basic.outputLabel",
           "data": {
             "name": "SRAMDataIn",
-            "range": "[15:0]",
+            "range": "[11:0]",
             "blockColor": "fuchsia",
             "virtual": true,
             "pins": [
-              {
-                "index": "15",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "14",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "13",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "12",
-                "name": "NULL",
-                "value": "NULL"
-              },
               {
                 "index": "11",
                 "name": "NULL",
@@ -1791,6 +1751,66 @@
           }
         },
         {
+          "id": "949c40ad-1ce1-46fb-ada9-493fe0c7b33b",
+          "type": "basic.inputLabel",
+          "data": {
+            "name": "sys_clk",
+            "blockColor": "fuchsia",
+            "virtual": true,
+            "pins": [
+              {
+                "index": "0",
+                "name": "NULL",
+                "value": "NULL"
+              }
+            ]
+          },
+          "position": {
+            "x": 16,
+            "y": 864
+          }
+        },
+        {
+          "id": "b34e8fc4-bb85-4490-b82c-e79f60a387cb",
+          "type": "basic.outputLabel",
+          "data": {
+            "name": "clk",
+            "blockColor": "fuchsia",
+            "virtual": true,
+            "pins": [
+              {
+                "index": "0",
+                "name": "NULL",
+                "value": "NULL"
+              }
+            ]
+          },
+          "position": {
+            "x": -280,
+            "y": 880
+          }
+        },
+        {
+          "id": "fd754946-0070-4ffa-aed9-87b8ae75450b",
+          "type": "basic.inputLabel",
+          "data": {
+            "name": "reset",
+            "blockColor": "fuchsia",
+            "virtual": true,
+            "pins": [
+              {
+                "index": "0",
+                "name": "NULL",
+                "value": "NULL"
+              }
+            ]
+          },
+          "position": {
+            "x": 16,
+            "y": 912
+          }
+        },
+        {
           "id": "941ea568-34b4-4a5c-b0df-1dc0f1fa2f3e",
           "type": "basic.info",
           "data": {
@@ -1871,6 +1891,18 @@
           }
         },
         {
+          "id": "eff6b6e5-a460-43f3-ab3a-1ef449815a48",
+          "type": "f5535186523202f5beca3f0d5de2771bbf01908b",
+          "position": {
+            "x": -136,
+            "y": 880
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
           "id": "de69c1d7-8133-4ada-b91c-ed72139eb948",
           "type": "basic.code",
           "data": {
@@ -1911,22 +1943,22 @@
                 },
                 {
                   "name": "sram_data_in",
-                  "range": "[15:0]",
-                  "size": 16
+                  "range": "[11:0]",
+                  "size": 12
                 }
               ],
               "inoutLeft": [],
               "inoutRight": []
             },
             "params": [],
-            "code": "// Aliases.\n`define Active 0:0\n`define ALS 1:1\n`define ALE 2:2\n`define AFS 3:3\n`define AFE 4:4\n`define LS 5:5\n`define LE 6:6\n`define FS 7:7\n`define FE 8:8\n`define VS 9:9\n`define HS 10:10\n`define YC 20:11\n`define XC 30:21\n`define VGA    30:0\n`define RGB    42:31\n\n// Registers.\nreg [42:0] RGBStrReg;\nreg [17:0] sram_write_addr_reg;\nreg [17:0] sram_read_addr_reg;\nreg [15:0] sram_data_in;\n\n\nalways @(posedge px_clk)\nbegin\n\n    // Clone the VGA stream.\n    RGBStrReg[`VGA] <= VGAStr[`VGA];\n    \n    // If we are in the active screen region.\n    if (VGAStr[`Active]  ) begin\n    \n        // Set the SRAM Controller address to the pixel address    \n        sram_read_addr_reg <= VGAStr[`XC];\n        \n        // Set the RGB data to the data from the SRAM.\n        RGBStrReg[`RGB] <= sram_data_out;\n        \n    end else begin\n        // Always black if not it active screen.    \n        RGBStrReg[`RGB] <= 12'b000000000000;\n    end\nend\n\n// Output the RGB Stream.\nassign  RGBStr = RGBStrReg;\n\n// Set the write address\nassign sram_write_addr = sram_write_addr_reg;\n\n// Set the read address\nassign sram_read_addr = sram_read_addr_reg;\n\n// Turn on read mode.\nassign sram_wr_en = 1'b0;\n\n"
+            "code": "// Aliases.\n`define Active 0:0\n`define ALS 1:1\n`define ALE 2:2\n`define AFS 3:3\n`define AFE 4:4\n`define LS 5:5\n`define LE 6:6\n`define FS 7:7\n`define FE 8:8\n`define VS 9:9\n`define HS 10:10\n`define YC 20:11\n`define XC 30:21\n`define VGA    30:0\n`define RGB    42:31\n\n// Registers.\nreg [42:0] RGBStrReg;\nreg [17:0] sram_write_addr_reg;\nreg [17:0] sram_read_addr_reg;\n reg [11:0] sram_data_in_reg;\nreg sram_wr_en_reg;\n\nalways @(posedge px_clk)\nbegin\n\n    // Clone the VGA stream.\n    RGBStrReg[`VGA] <= VGAStr[`VGA];\n    \n    // If we are in the active screen region.\n    if (VGAStr[`Active]  ) begin\n        \n        // Read Enable.\n        sram_wr_en_reg = 1'b0;\n    \n        // Set the SRAM Controller address to the pixel address    \n        sram_read_addr_reg <= VGAStr[`XC];\n        \n        // Set the RGB data to the data from the SRAM.\n        RGBStrReg[`RGB] <= sram_data_out;\n        \n    end else begin\n    \n        // Write Enable.\n        sram_wr_en_reg = 1'b1;\n    \n        sram_data_in_reg <= 12'b111100000000;\n        \n        sram_write_addr_reg <= VGAStr[`YC];\n        \n        // Always black if not it active screen.    \n        RGBStrReg[`RGB] <= 12'b000000000000;\n    end\nend\n\n// Output the RGB Stream.\nassign  RGBStr = RGBStrReg;\n\n// Set the write address\nassign sram_write_addr = sram_write_addr_reg;\n\n// Set the read address\nassign sram_read_addr = sram_read_addr_reg;\n\n// Turn on read mode.\nassign sram_wr_en = sram_wr_en_reg;\n\nassign sram_data_in = sram_data_in_reg;\n\n"
           },
           "position": {
-            "x": 888,
-            "y": -432
+            "x": 896,
+            "y": -416
           },
           "size": {
-            "width": 688,
+            "width": 664,
             "height": 416
           }
         }
@@ -2442,18 +2474,6 @@
         },
         {
           "source": {
-            "block": "8c30f0f8-f77e-42a4-a102-b44e05e13bd6",
-            "port": "outlabel"
-          },
-          "target": {
-            "block": "515c9ea4-f8e8-4204-a211-ee92f966bde6",
-            "port": "0eb1100b-8e35-4934-8bfe-91b7d3f37e9c"
-          },
-          "vertices": [],
-          "size": 16
-        },
-        {
-          "source": {
             "block": "404d25be-8b6d-45dc-ad85-8393268c1d7d",
             "port": "outlabel"
           },
@@ -2519,14 +2539,58 @@
         },
         {
           "source": {
+            "block": "eff6b6e5-a460-43f3-ab3a-1ef449815a48",
+            "port": "ba122a35-a693-43a1-aa3f-33dd3b036d1d"
+          },
+          "target": {
+            "block": "949c40ad-1ce1-46fb-ada9-493fe0c7b33b",
+            "port": "inlabel"
+          },
+          "vertices": []
+        },
+        {
+          "source": {
+            "block": "eff6b6e5-a460-43f3-ab3a-1ef449815a48",
+            "port": "3679fb2d-6c31-4b83-adf5-ec0bfd86cd00"
+          },
+          "target": {
+            "block": "fd754946-0070-4ffa-aed9-87b8ae75450b",
+            "port": "inlabel"
+          },
+          "vertices": []
+        },
+        {
+          "source": {
+            "block": "b34e8fc4-bb85-4490-b82c-e79f60a387cb",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "eff6b6e5-a460-43f3-ab3a-1ef449815a48",
+            "port": "6620fd01-56e3-4142-931f-039802b520d2"
+          },
+          "vertices": []
+        },
+        {
+          "source": {
             "block": "de69c1d7-8133-4ada-b91c-ed72139eb948",
             "port": "sram_data_in"
           },
           "target": {
-            "block": "04932128-4144-4197-b939-8936e5bf2fb4",
+            "block": "795a95c9-757c-4aef-be8a-d45ebe7f8cba",
             "port": "inlabel"
           },
-          "size": 16
+          "size": 12
+        },
+        {
+          "source": {
+            "block": "3db706e6-c895-4145-9e65-8d4ce48151b7",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "515c9ea4-f8e8-4204-a211-ee92f966bde6",
+            "port": "ff25b2c0-b1de-4d30-8954-f24c3ecadbf2"
+          },
+          "size": 12
         }
       ]
     }
@@ -4679,33 +4743,13 @@
               }
             },
             {
-              "id": "0eb1100b-8e35-4934-8bfe-91b7d3f37e9c",
+              "id": "ff25b2c0-b1de-4d30-8954-f24c3ecadbf2",
               "type": "basic.input",
               "data": {
                 "name": "data_in",
                 "virtual": true,
-                "range": "[15:0]",
+                "range": "[11:0]",
                 "pins": [
-                  {
-                    "index": "15",
-                    "name": "NULL",
-                    "value": "NULL"
-                  },
-                  {
-                    "index": "14",
-                    "name": "NULL",
-                    "value": "NULL"
-                  },
-                  {
-                    "index": "13",
-                    "name": "NULL",
-                    "value": "NULL"
-                  },
-                  {
-                    "index": "12",
-                    "name": "NULL",
-                    "value": "NULL"
-                  },
                   {
                     "index": "11",
                     "name": "NULL",
@@ -4896,8 +4940,8 @@
                     },
                     {
                       "name": "data_in",
-                      "range": "[15:0]",
-                      "size": 16
+                      "range": "[11:0]",
+                      "size": 12
                     }
                   ],
                   "out": [
@@ -4925,7 +4969,7 @@
                   "inoutRight": []
                 },
                 "params": [],
-                "code": "// SRAM IC - IS61WV25616BLL-10BLI\n// ~OE pin tied to ground permanently.\n// ~CE pin tied to ground permanently.\n// ~UB pin tied to ground permanently.\n// ~LB pin tied to ground permanently.\n// IO12, IO13, IO14, IO15 are \"no connect\" as we only have 12bit RGB data.\n\nreg [11:0] dataOutReg;\n\n// Set the SRAM address input to either the write or read address.\nassign sram_addr = wr_en ?  write_addr : read_addr;\n\n// Set the SRAM data input/output to data_in if we are writing, otherwise tristate.\n// assign sram_io = wr_en ? data_in : 12'bzzzzzzzzzzzz;\n\n// Set the SRAM write enable pin\n// assign sram_we = ~(wr_en & (~sys_clk));  \n// assign sram_we = (~wr_en)|sys_clk;\n\nassign sram_we = 1'b1;\n\n// always @(posedge sys_clk) begin\n//   if (wr_en == 1'b0)\n//      dataOutReg <= sram_io;\n// end\n \nassign data_out = sram_io;"
+                "code": "// SRAM IC - IS61WV25616BLL-10BLI\n// ~OE pin tied to ground permanently.\n// ~CE pin tied to ground permanently.\n// ~UB pin tied to ground permanently.\n// ~LB pin tied to ground permanently.\n// IO12, IO13, IO14, IO15 are \"no connect\" as we only have 12bit RGB data.\n\nreg [11:0] dataOutReg;\n\n// Set the SRAM address input to either the write or read address.\nassign sram_addr = wr_en ?  write_addr : read_addr;\n\n// Set the SRAM data input/output to data_in if we are writing, otherwise tristate.\nassign sram_io = wr_en ? data_in : 12'bzzzzzzzzzzzz;\n\n// Set the SRAM write enable pin\n// assign sram_we = ~(wr_en & (~sys_clk));  \nassign sram_we = (~wr_en)|sys_clk;\n\n// assign sram_we = 1'b1;\n\nalways @(posedge sys_clk) begin\n  if (wr_en == 1'b0)\n     dataOutReg <= sram_io;\nend\n \nassign data_out = dataOutReg;"
               },
               "position": {
                 "x": 248,
@@ -5025,14 +5069,153 @@
             },
             {
               "source": {
-                "block": "0eb1100b-8e35-4934-8bfe-91b7d3f37e9c",
+                "block": "ff25b2c0-b1de-4d30-8954-f24c3ecadbf2",
                 "port": "out"
               },
               "target": {
                 "block": "f1e65da0-05ac-49c2-84b7-a9230636e9b3",
                 "port": "data_in"
               },
-              "size": 16
+              "size": 12
+            }
+          ]
+        }
+      }
+    },
+    "f5535186523202f5beca3f0d5de2771bbf01908b": {
+      "package": {
+        "name": "pixelClockVGA",
+        "version": "1.0",
+        "description": "Genera la frecuencia de pixel VGA a partir de la frecuencia del sistema.",
+        "author": "Juan Manuel Rico",
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22652.495%22%20height=%22576.305%22%20viewBox=%220%200%20611.71429%20540.28571%22%3E%3Cg%20transform=%22translate(-69.857%20-230.79)%22%3E%3Crect%20width=%22605.714%22%20height=%22534.286%22%20x=%2272.857%22%20y=%22234.856%22%20ry=%2278.704%22%20stroke=%22#fff%22%20stroke-width=%226%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20fill=%22#fffffd%22%20d=%22M171.954%20559.628h85.845v30.445h-85.845z%22/%3E%3Cpath%20fill=%22#fffffd%22%20d=%22M242.247%20589.86l.603-168.04%2015.553.214-.604%20168.04z%22/%3E%3Cpath%20fill=%22#fffffd%22%20d=%22M242.85%20421.819h82.365v30.445H242.85zM309.06%20559.2h82.365v30.445H309.06zM376.476%20421.391h42.931v30.445h-42.931zM403.252%20558.772h42.931v30.445h-42.931zM431.234%20420.963h42.931v41.797h-42.931zM458.009%20558.344h42.931v30.445h-42.931z%22/%3E%3Cpath%20fill=%22#fffffd%22%20d=%22M309.06%20589.645l.603-168.04%2015.553.214-.604%20168.04zM375.873%20589.431l.604-168.04%2015.552.214-.603%20168.04zM403.252%20589.217l.603-168.04%2015.553.214-.604%20168.04zM430.63%20589.003l.604-168.04%2015.552.214-.603%20168.04zM458.01%20588.789l.603-168.04%2015.553.214-.604%20168.04zM171.954%20590.074l.604-168.04%2015.552.214-.603%20168.04z%22/%3E%3Cpath%20fill=%22#fffffd%22%20d=%22M105.745%20422.248h82.365v30.445h-82.365zM485.388%20588.575l.604-168.04%2015.552.214-.603%20168.04z%22/%3E%3Cpath%20fill=%22#fffffd%22%20d=%22M485.992%20420.535h42.931v30.445h-42.931zM512.767%20557.916h42.931v30.445h-42.931zM540.75%20420.107h42.931v41.797H540.75zM567.525%20557.487h42.931v30.445h-42.931z%22/%3E%3Cpath%20fill=%22#fffffd%22%20d=%22M512.768%20588.36l.603-168.04%2015.553.215-.604%20168.04zM540.146%20588.147l.604-168.04%2015.553.214-.604%20168.04zM567.525%20587.933l.604-168.04%2015.552.214-.604%20168.04zM594.904%20587.718l.604-168.04%2015.553.215-.604%20168.04z%22/%3E%3Cpath%20fill=%22#fffffd%22%20d=%22M595.508%20419.678h46.411v30.445h-46.411z%22/%3E%3C/g%3E%3C/svg%3E"
+      },
+      "design": {
+        "graph": {
+          "blocks": [
+            {
+              "id": "6620fd01-56e3-4142-931f-039802b520d2",
+              "type": "basic.input",
+              "data": {
+                "name": "clk",
+                "virtual": true,
+                "pins": [
+                  {
+                    "index": "0",
+                    "name": "NULL",
+                    "value": "NULL"
+                  }
+                ],
+                "clock": false
+              },
+              "position": {
+                "x": -40,
+                "y": 568
+              }
+            },
+            {
+              "id": "ba122a35-a693-43a1-aa3f-33dd3b036d1d",
+              "type": "basic.output",
+              "data": {
+                "name": "sys_clk",
+                "virtual": true,
+                "pins": [
+                  {
+                    "index": "0",
+                    "name": "NULL",
+                    "value": "NULL"
+                  }
+                ]
+              },
+              "position": {
+                "x": 1072,
+                "y": 568
+              }
+            },
+            {
+              "id": "3679fb2d-6c31-4b83-adf5-ec0bfd86cd00",
+              "type": "basic.output",
+              "data": {
+                "name": "reset",
+                "virtual": true,
+                "pins": [
+                  {
+                    "index": "0",
+                    "name": "NULL",
+                    "value": "NULL"
+                  }
+                ],
+                "inout": false
+              },
+              "position": {
+                "x": 1048,
+                "y": 768
+              }
+            },
+            {
+              "id": "3d451d01-e282-451e-b20c-3fc2afb2ec82",
+              "type": "basic.code",
+              "data": {
+                "ports": {
+                  "in": [
+                    {
+                      "name": "clk"
+                    }
+                  ],
+                  "out": [
+                    {
+                      "name": "sys_clk"
+                    },
+                    {
+                      "name": "reset"
+                    }
+                  ],
+                  "inoutLeft": [],
+                  "inoutRight": []
+                },
+                "params": [],
+                "code": "///////////////////////////////////////////////////////////////////////////////\n// Company:     Ridotech\n// Engineer:    Juan Manuel Rico\n// Create Date: 11/01/2020\n// Module Name: pixelClockVGA\n//\n// Description: Genera, utilizando el bloque PLL interno de Lattice y el reloj\n//              del sistema, la frecuencia de pixel de 31.5Mhz necesaria para\n//              un modo 640x480@72Hz.\n//\n// Dependencies: \n//\n// Revisions: \n//     0.01 - Fichero creado.\n//\n// Additional Comments:\n//            Se deja como parámetro el \"Feedback divider\" para poder adaptar\n//            el bloque según la frecuencia de entrada del reloj de cada\n//            tarjeta (TinyFPGA o Alhambra).\n//\n///////////////////////////////////////////////////////////////////////////////\n// module pixelClockVGA #(\n//    parameter FDivider = 62         // Feedback divider default for 16Mhz.\n// )\n// (\n//    input wire       sys_clk,       // System clock (12Mhz or 16Mhz)\n//    output wire      px_clk         // Pixel clock.\n// );\n\n    // Generated values for pixel clock of 31.5Mhz and 72Hz frame frecuency\n    // (12Mhz - iceZum Alhambra). Use \"icepll\" tool.\n    //\n    // # icepll -i12 -o31.5\n    //\n    // F_PLLIN:    12.000 MHz (given)\n    // F_PLLOUT:   31.500 MHz (requested)\n    // F_PLLOUT:   31.500 MHz (achieved)\n    //\n    // FEEDBACK: SIMPLE\n    // F_PFD:   12.000 MHz\n    // F_VCO: 1008.000 MHz\n    //\n    // DIVR:  0 (4'b0000)\n    // DIVF: 83 (7'b1010011)\n    // DIVQ:  5 (3'b101)\n    //\n    // FILTER_RANGE: 1 (3'b001)\n    //\n    // Generated values for pixel clock of 31.5Mhz and 72Hz frame frecuency\n    // (16Mhz - TinyFPGA-B2). Use \"icepll\" tool.\n    //\n    // # icepll -i16 -o31.5\n    //\n    // F_PLLIN:    16.000 MHz (given)\n    // F_PLLOUT:   31.500 MHz (requested)\n    // F_PLLOUT:   31.500 MHz (achieved)\n    //\n    // FEEDBACK: SIMPLE\n    // F_PFD:   16.000 MHz\n    // F_VCO: 1008.000 MHz\n    //\n    // DIVR:  0 (4'b0000)\n    // DIVF: 62 (7'b0111110)\n    // DIVQ:  5 (3'b101)\n    //\n    // FILTER_RANGE: 1 (3'b001)\n\n\n    \n\n    SB_PLL40_CORE #(.FEEDBACK_PATH(\"SIMPLE\"),\n                    .PLLOUT_SELECT(\"GENCLK\"),\n                .FEEDBACK_PATH(\"SIMPLE\"),\n     .DIVR(4'b0000),         // DIVR =  0\n                .DIVF(7'b0010111),      // DIVF = 23\n                .DIVQ(3'b010),          // DIVQ =  2\n                .FILTER_RANGE(3'b010)   // FILTER_RANGE = 2\n\n\n            )\n            uut\n            (\n             .LOCK(reset),\n                    .REFERENCECLK(clk),\n                    .PLLOUTCORE(sys_clk),\n                    .RESETB(1'b1),\n                    .BYPASS(1'b0)\n              );\n// endmodule\n\n"
+              },
+              "position": {
+                "x": 160,
+                "y": 208
+              },
+              "size": {
+                "width": 808,
+                "height": 784
+              }
+            }
+          ],
+          "wires": [
+            {
+              "source": {
+                "block": "6620fd01-56e3-4142-931f-039802b520d2",
+                "port": "out"
+              },
+              "target": {
+                "block": "3d451d01-e282-451e-b20c-3fc2afb2ec82",
+                "port": "clk"
+              }
+            },
+            {
+              "source": {
+                "block": "3d451d01-e282-451e-b20c-3fc2afb2ec82",
+                "port": "sys_clk"
+              },
+              "target": {
+                "block": "ba122a35-a693-43a1-aa3f-33dd3b036d1d",
+                "port": "in"
+              }
+            },
+            {
+              "source": {
+                "block": "3d451d01-e282-451e-b20c-3fc2afb2ec82",
+                "port": "reset"
+              },
+              "target": {
+                "block": "3679fb2d-6c31-4b83-adf5-ec0bfd86cd00",
+                "port": "in"
+              }
             }
           ]
         }
