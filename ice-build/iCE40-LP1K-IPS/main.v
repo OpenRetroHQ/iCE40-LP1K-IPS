@@ -819,7 +819,7 @@ module main_v3d08f2 (
  reg [17:0] sram_write_addr_reg;
  reg [17:0] sram_read_addr_reg;
   reg [11:0] sram_data_in_reg;
- 
+ reg sram_wr_en_reg;
  
  always @(posedge px_clk)
  begin
@@ -829,6 +829,9 @@ module main_v3d08f2 (
      
      // If we are in the active screen region.
      if (VGAStr[`Active]  ) begin
+         
+         // Read Enable.
+         sram_wr_en_reg = 1'b0;
      
          // Set the SRAM Controller address to the pixel address    
          sram_read_addr_reg <= VGAStr[`XC];
@@ -837,7 +840,13 @@ module main_v3d08f2 (
          RGBStrReg[`RGB] <= sram_data_out;
          
      end else begin
+     
+         // Write Enable.
+         sram_wr_en_reg = 1'b1;
+     
          sram_data_in_reg <= 12'b111100000000;
+         
+         sram_write_addr_reg <= VGAStr[`YC];
          
          // Always black if not it active screen.    
          RGBStrReg[`RGB] <= 12'b000000000000;
@@ -854,7 +863,7 @@ module main_v3d08f2 (
  assign sram_read_addr = sram_read_addr_reg;
  
  // Turn on read mode.
- assign sram_wr_en = 1'b0;
+ assign sram_wr_en = sram_wr_en_reg;
  
  assign sram_data_in = sram_data_in_reg;
  
