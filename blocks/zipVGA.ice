@@ -18,11 +18,12 @@
             "name": "x_px",
             "range": "[9:0]",
             "clock": false,
+            "inout": false,
             "size": 10
           },
           "position": {
-            "x": 1608,
-            "y": -288
+            "x": 1752,
+            "y": -280
           }
         },
         {
@@ -32,11 +33,12 @@
             "name": "y_px",
             "range": "[9:0]",
             "clock": false,
+            "inout": false,
             "size": 10
           },
           "position": {
-            "x": 1608,
-            "y": -184
+            "x": 1752,
+            "y": -224
           }
         },
         {
@@ -44,24 +46,12 @@
           "type": "basic.input",
           "data": {
             "name": "hsync",
-            "clock": false
+            "clock": false,
+            "inout": false
           },
           "position": {
-            "x": 1608,
-            "y": -88
-          }
-        },
-        {
-          "id": "ff0be578-6fd7-4fac-80b2-2d09cb3b6430",
-          "type": "basic.output",
-          "data": {
-            "name": "VGAStr",
-            "range": "[22:0]",
-            "size": 23
-          },
-          "position": {
-            "x": 2528,
-            "y": -88
+            "x": 1752,
+            "y": -168
           }
         },
         {
@@ -69,31 +59,373 @@
           "type": "basic.input",
           "data": {
             "name": "vsync",
-            "clock": false
+            "clock": false,
+            "inout": false
           },
           "position": {
-            "x": 1608,
-            "y": 8
+            "x": 1752,
+            "y": -112
           }
         },
         {
           "id": "339d597b-0dfa-4d6b-94f5-7ddaff388a11",
           "type": "basic.input",
           "data": {
-            "name": "activevideo",
-            "clock": false
+            "name": "activeVideo",
+            "virtual": true,
+            "pins": [
+              {
+                "index": "0",
+                "name": "NULL",
+                "value": "NULL"
+              }
+            ],
+            "clock": false,
+            "inout": false
           },
           "position": {
-            "x": 1608,
-            "y": 112
+            "x": 1752,
+            "y": -56
+          }
+        },
+        {
+          "id": "5c5dba8d-7f52-435c-87ec-26513b543566",
+          "type": "basic.input",
+          "data": {
+            "name": "activeLineStart",
+            "virtual": true,
+            "pins": [
+              {
+                "index": "0",
+                "name": "NULL",
+                "value": "NULL"
+              }
+            ],
+            "clock": false,
+            "inout": false
+          },
+          "position": {
+            "x": 1752,
+            "y": 0
+          }
+        },
+        {
+          "id": "ee4bcacf-a593-4520-adb3-d060bb523578",
+          "type": "basic.input",
+          "data": {
+            "name": "activeLineEnd",
+            "virtual": true,
+            "pins": [
+              {
+                "index": "0",
+                "name": "NULL",
+                "value": "NULL"
+              }
+            ],
+            "clock": false,
+            "inout": false
+          },
+          "position": {
+            "x": 1752,
+            "y": 64
+          }
+        },
+        {
+          "id": "b2466348-f233-47d3-b622-8bdc4bc2c447",
+          "type": "basic.output",
+          "data": {
+            "name": "VGAStr",
+            "virtual": true,
+            "range": "[29:0]",
+            "pins": [
+              {
+                "index": "29",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "28",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "27",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "26",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "25",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "24",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "23",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "22",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "21",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "20",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "19",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "18",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "17",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "16",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "15",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "14",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "13",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "12",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "11",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "10",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "9",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "8",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "7",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "6",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "5",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "4",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "3",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "2",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "1",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "0",
+                "name": "NULL",
+                "value": "NULL"
+              }
+            ],
+            "inout": false
+          },
+          "position": {
+            "x": 2824,
+            "y": 64
+          }
+        },
+        {
+          "id": "cf5ad77a-7d04-4fe4-8184-8def585b61ca",
+          "type": "basic.input",
+          "data": {
+            "name": "activeFrameStart",
+            "virtual": true,
+            "pins": [
+              {
+                "index": "0",
+                "name": "NULL",
+                "value": "NULL"
+              }
+            ],
+            "clock": false,
+            "inout": false
+          },
+          "position": {
+            "x": 1752,
+            "y": 120
+          }
+        },
+        {
+          "id": "7ae677f5-6c5b-4c06-9a51-a583bf2f1777",
+          "type": "basic.input",
+          "data": {
+            "name": "activeFrameEnd",
+            "virtual": true,
+            "pins": [
+              {
+                "index": "0",
+                "name": "NULL",
+                "value": "NULL"
+              }
+            ],
+            "clock": false,
+            "inout": false
+          },
+          "position": {
+            "x": 1752,
+            "y": 176
+          }
+        },
+        {
+          "id": "f3b95419-8f2e-4e1a-af80-6efced8406f5",
+          "type": "basic.input",
+          "data": {
+            "name": "lineStart",
+            "virtual": true,
+            "pins": [
+              {
+                "index": "0",
+                "name": "NULL",
+                "value": "NULL"
+              }
+            ],
+            "clock": false,
+            "inout": false
+          },
+          "position": {
+            "x": 1752,
+            "y": 232
+          }
+        },
+        {
+          "id": "a0904c52-fe5e-4969-91a9-b564a2145ece",
+          "type": "basic.input",
+          "data": {
+            "name": "lineEnd",
+            "virtual": true,
+            "pins": [
+              {
+                "index": "0",
+                "name": "NULL",
+                "value": "NULL"
+              }
+            ],
+            "clock": false,
+            "inout": false
+          },
+          "position": {
+            "x": 1752,
+            "y": 288
+          }
+        },
+        {
+          "id": "1825d6df-bf3b-433e-ab08-3f9208519fc5",
+          "type": "basic.input",
+          "data": {
+            "name": "frameStart",
+            "virtual": true,
+            "pins": [
+              {
+                "index": "0",
+                "name": "NULL",
+                "value": "NULL"
+              }
+            ],
+            "clock": false,
+            "inout": false
+          },
+          "position": {
+            "x": 1752,
+            "y": 344
+          }
+        },
+        {
+          "id": "80d89885-7d02-4f59-b237-8b0c546f44ca",
+          "type": "basic.input",
+          "data": {
+            "name": "frameEnd",
+            "virtual": true,
+            "pins": [
+              {
+                "index": "0",
+                "name": "NULL",
+                "value": "NULL"
+              }
+            ],
+            "clock": false,
+            "inout": false
+          },
+          "position": {
+            "x": 1752,
+            "y": 400
           }
         },
         {
           "id": "fabbd2ae-d75a-443d-9b7e-b8205b86adb7",
           "type": "basic.code",
           "data": {
-            "code": "//////////////////////////////////////////////////////////////////////////////////\n// Company: University of Alicante\n// Engineer: Sergio Cuenca\n// \n// Create Date:    03/11/2017 \n// Module Name:    PxsStrVGAJoin\n// Description:    Join the components of a VGA stream \n//\n// Dependencies: \n//\n// Revision: \n// Revision 0.01 - File Created \n// \n//\n// Additional Comments: based on PixelStream lib from Celoxica Ltd.\n//\n//\tVideo Stream notation \n//\t- VGA: type of video 640x480 progresive\n//  - S: Sync signals HSync, VSync\n//\t- C: Coordinates XCoord, YCoord\t\n//\t- A: ActiveVideo \n//\t- P: Pixel type RGB(1:1:1)/ Gray(3b)\t\n//////////////////////////////////////////////////////////////////////////////////\n/*\nmodule PxsStrVGAJoin (\t\t\t\n            input wire      HSync,         // Horizontal sync out\n            input wire      VSync,         // Vertical sync out\n            input wire [9:0] XCoord,       // ScanX postion\n            input wire [9:0] YCoord,       // ScanY position \n            input wire      ActiveVideo,\t// active video\n\t\t\toutput wire [22:0] VGAStr\t\t// output stream\n         );\n*/\n\n// alias \n`define Active 0:0\n`define VS 1:1\n`define HS 2:2\n`define YC 12:3\n`define XC 22:13\n\nassign VGAStr[`XC] = x_px;\nassign VGAStr[`YC] = y_px;\nassign VGAStr[`HS] = hsync;\nassign VGAStr[`VS] = vsync;\nassign VGAStr[`Active] = activevideo;\n\t\n// endmodule\n",
-            "params": [],
             "ports": {
               "in": [
                 {
@@ -113,40 +445,57 @@
                   "name": "vsync"
                 },
                 {
-                  "name": "activevideo"
+                  "name": "activeVideo"
+                },
+                {
+                  "name": "activeLineStart"
+                },
+                {
+                  "name": "activeLineEnd"
+                },
+                {
+                  "name": "activeFrameStart"
+                },
+                {
+                  "name": "activeFrameEnd"
+                },
+                {
+                  "name": "lineStart"
+                },
+                {
+                  "name": "lineEnd"
+                },
+                {
+                  "name": "frameStart"
+                },
+                {
+                  "name": "frameEnd"
                 }
               ],
               "out": [
                 {
                   "name": "VGAStr",
-                  "range": "[22:0]",
-                  "size": 23
+                  "range": "[29:0]",
+                  "size": 30
                 }
-              ]
-            }
+              ],
+              "inoutLeft": [],
+              "inoutRight": []
+            },
+            "params": [],
+            "code": "\n\n// alias \n`define Active 0:0\n`define VS 1:1\n`define HS 2:2\n`define YC 12:3\n`define XC 22:13\n\n`define ALS 23:23\n`define ALE 24:24\n`define AFS 25:25\n`define AFE 26:26\n`define LS 27:27\n`define LE 28:28\n`define FS 29:29\n`define FE 30:30\n\nassign VGAStr[`XC] = x_px;\nassign VGAStr[`YC] = y_px;\nassign VGAStr[`HS] = hsync;\nassign VGAStr[`VS] = vsync;\nassign VGAStr[`Active] = activeVideo;\n\t\nassign VGAStr[`ALS] = activeLineStart;\nassign VGAStr[`ALE] = activeLineEnd;\nassign VGAStr[`AFS] = activeFrameStart;\nassign VGAStr[`AFE] = activeFrameEnd;\n\nassign VGAStr[`LS] = lineStart;\nassign VGAStr[`LE] = lineEnd;\nassign VGAStr[`FS] = frameStart;\nassign VGAStr[`FE] = frameEnd;"
           },
           "position": {
-            "x": 1792,
-            "y": -304
+            "x": 1992,
+            "y": -280
           },
           "size": {
-            "width": 616,
-            "height": 496
+            "width": 712,
+            "height": 744
           }
         }
       ],
       "wires": [
-        {
-          "source": {
-            "block": "fabbd2ae-d75a-443d-9b7e-b8205b86adb7",
-            "port": "VGAStr"
-          },
-          "target": {
-            "block": "ff0be578-6fd7-4fac-80b2-2d09cb3b6430",
-            "port": "in"
-          },
-          "size": 23
-        },
         {
           "source": {
             "block": "130d52fc-564a-4fcd-80ea-a8a3cc421411",
@@ -196,8 +545,99 @@
           },
           "target": {
             "block": "fabbd2ae-d75a-443d-9b7e-b8205b86adb7",
-            "port": "activevideo"
+            "port": "activeVideo"
           }
+        },
+        {
+          "source": {
+            "block": "5c5dba8d-7f52-435c-87ec-26513b543566",
+            "port": "out"
+          },
+          "target": {
+            "block": "fabbd2ae-d75a-443d-9b7e-b8205b86adb7",
+            "port": "activeLineStart"
+          }
+        },
+        {
+          "source": {
+            "block": "ee4bcacf-a593-4520-adb3-d060bb523578",
+            "port": "out"
+          },
+          "target": {
+            "block": "fabbd2ae-d75a-443d-9b7e-b8205b86adb7",
+            "port": "activeLineEnd"
+          }
+        },
+        {
+          "source": {
+            "block": "cf5ad77a-7d04-4fe4-8184-8def585b61ca",
+            "port": "out"
+          },
+          "target": {
+            "block": "fabbd2ae-d75a-443d-9b7e-b8205b86adb7",
+            "port": "activeFrameStart"
+          }
+        },
+        {
+          "source": {
+            "block": "7ae677f5-6c5b-4c06-9a51-a583bf2f1777",
+            "port": "out"
+          },
+          "target": {
+            "block": "fabbd2ae-d75a-443d-9b7e-b8205b86adb7",
+            "port": "activeFrameEnd"
+          }
+        },
+        {
+          "source": {
+            "block": "f3b95419-8f2e-4e1a-af80-6efced8406f5",
+            "port": "out"
+          },
+          "target": {
+            "block": "fabbd2ae-d75a-443d-9b7e-b8205b86adb7",
+            "port": "lineStart"
+          }
+        },
+        {
+          "source": {
+            "block": "a0904c52-fe5e-4969-91a9-b564a2145ece",
+            "port": "out"
+          },
+          "target": {
+            "block": "fabbd2ae-d75a-443d-9b7e-b8205b86adb7",
+            "port": "lineEnd"
+          }
+        },
+        {
+          "source": {
+            "block": "1825d6df-bf3b-433e-ab08-3f9208519fc5",
+            "port": "out"
+          },
+          "target": {
+            "block": "fabbd2ae-d75a-443d-9b7e-b8205b86adb7",
+            "port": "frameStart"
+          }
+        },
+        {
+          "source": {
+            "block": "80d89885-7d02-4f59-b237-8b0c546f44ca",
+            "port": "out"
+          },
+          "target": {
+            "block": "fabbd2ae-d75a-443d-9b7e-b8205b86adb7",
+            "port": "frameEnd"
+          }
+        },
+        {
+          "source": {
+            "block": "fabbd2ae-d75a-443d-9b7e-b8205b86adb7",
+            "port": "VGAStr"
+          },
+          "target": {
+            "block": "b2466348-f233-47d3-b622-8bdc4bc2c447",
+            "port": "in"
+          },
+          "size": 30
         }
       ]
     }

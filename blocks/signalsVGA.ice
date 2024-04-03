@@ -16,61 +16,9 @@
           "type": "basic.output",
           "data": {
             "name": "x_px",
-            "virtual": true,
             "range": "[9:0]",
-            "pins": [
-              {
-                "index": "9",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "8",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "7",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "6",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "5",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "4",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "3",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "2",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "1",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "inout": false
+            "inout": false,
+            "size": 10
           },
           "position": {
             "x": 920,
@@ -82,61 +30,9 @@
           "type": "basic.output",
           "data": {
             "name": "y_px",
-            "virtual": true,
             "range": "[9:0]",
-            "pins": [
-              {
-                "index": "9",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "8",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "7",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "6",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "5",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "4",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "3",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "2",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "1",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "inout": false
+            "inout": false,
+            "size": 10
           },
           "position": {
             "x": 920,
@@ -148,14 +44,6 @@
           "type": "basic.output",
           "data": {
             "name": "hsync",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
             "inout": false
           },
           "position": {
@@ -168,14 +56,6 @@
           "type": "basic.output",
           "data": {
             "name": "vsync",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
             "inout": false
           },
           "position": {
@@ -187,7 +67,7 @@
           "id": "1abb0e43-39a7-4a67-a9f3-814c1bcfa121",
           "type": "basic.output",
           "data": {
-            "name": "activevideo",
+            "name": "activeVideo",
             "virtual": true,
             "pins": [
               {
@@ -208,14 +88,6 @@
           "type": "basic.output",
           "data": {
             "name": "activeLineStart",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
             "inout": false
           },
           "position": {
@@ -228,14 +100,6 @@
           "type": "basic.input",
           "data": {
             "name": "px_clk",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
             "clock": false,
             "inout": false
           },
@@ -249,14 +113,6 @@
           "type": "basic.output",
           "data": {
             "name": "activeLineEnd",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
             "inout": false
           },
           "position": {
@@ -269,14 +125,6 @@
           "type": "basic.output",
           "data": {
             "name": "activeFrameStart",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
             "inout": false
           },
           "position": {
@@ -289,14 +137,6 @@
           "type": "basic.output",
           "data": {
             "name": "activeFrameEnd",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
             "inout": false
           },
           "position": {
@@ -309,14 +149,6 @@
           "type": "basic.output",
           "data": {
             "name": "lineStart",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
             "inout": false
           },
           "position": {
@@ -329,14 +161,6 @@
           "type": "basic.output",
           "data": {
             "name": "lineEnd",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
             "inout": false
           },
           "position": {
@@ -349,14 +173,6 @@
           "type": "basic.output",
           "data": {
             "name": "frameStart",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
             "inout": false
           },
           "position": {
@@ -369,14 +185,6 @@
           "type": "basic.output",
           "data": {
             "name": "frameEnd",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
             "inout": false
           },
           "position": {
@@ -412,7 +220,7 @@
                   "name": "vsync"
                 },
                 {
-                  "name": "activevideo"
+                  "name": "activeVideo"
                 },
                 {
                   "name": "activeLineStart"
@@ -443,7 +251,7 @@
               "inoutRight": []
             },
             "params": [],
-            "code": "\n// Constants.\nparameter activeHvideo = 640;               // Width of visible pixels.\nparameter activeVvideo =  480;              // Height of visible lines.\nparameter hfp = 16;                         // Horizontal front porch length.\nparameter hpulse = 96;                     // Hsync pulse length.\nparameter hbp = 48;                         // Horizontal back porch length.\nparameter vfp = 10;                         // Vertical front porch length.\nparameter vpulse = 2;                       // Vsync pulse length.\nparameter vbp = 33;                         // Vertical back porch length.\nparameter blackH = hfp + hpulse + hbp;      // Hide pixels in one line.\nparameter blackV = vfp + vpulse + vbp;      // Hide lines in one frame.\nparameter hpixels = blackH + activeHvideo;  // Total horizontal pixels.\nparameter vlines = blackV + activeVvideo;   // Total lines.\n\n// Registers for storing the horizontal & vertical counters.\nreg [10:0] hc;\nreg [10:0] vc;\n\nreg [9:0] x_pxi;          // X position for actual pixel.\nreg [9:0] y_pxi;          // Y position for actual pixel.\n\n// Counting pixels.\nalways @(posedge px_clk)\nbegin\n    // Keep counting until the end of the line.\n    if (hc < hpixels - 1)\n        hc <= hc + 1;\n    else\n    // When we hit the end of the line, reset the horizontal\n    // counter and increment the vertical counter.\n    // If vertical counter is at the end of the frame, then\n    // reset that one too.\n    begin\n        hc <= 0;\n        if (vc < vlines - 1)\n           vc <= vc + 1;\n        else\n           vc <= 0;\n    end\n end\n\n// Generate sync pulses (active low) and active video.\nassign hsync = (hc >= hfp && hc < hfp + hpulse) ? 0:1;\nassign vsync = (vc >= vfp && vc < vfp + vpulse) ? 0:1;\nassign activevideo = (hc >= blackH && vc >= blackV) ? 1:0;\n\nassign activeLineStart = (hc == blackH ) ? 1 : 0;\nassign activeLineEnd = (hc == 0 ) ? 1 : 0;\n\nassign activeFrameStart = (vc == blackV ) ? 1 : 0;\nassign activeFrameEnd = (vc == 0 ) ? 1 : 0;\n\nassign lineStart = (hc == 0 ) ? 1 : 0;\nassign lineEnd = (hc == blackH ) ? 1 : 0; // @todo\n\nassign frameStart = (vc == 0 ) ? 1 : 0;\nassign frameEnd = (vc == vlines-1 ) ? 1 : 0;  // @todo\n\n// assign endline = (hc == hpixels-1) ? 1'b1 : 1'b0;\n// assign endframe = (hc == hpixels-1 && vc == vlines-1) ? 1'b1 : 1'b0;\n\n// Generate new pixel position.\nalways @(posedge px_clk)\nbegin\n    // First check if we are within vertical active video range.\n    if (activevideo)\n    begin\n        x_pxi <= hc - blackH;\n        y_pxi <= vc - blackV;\n    end\n    else\n    // We are outside active video range so initial position it's ok.\n    begin\n        x_pxi <= 0;\n        y_pxi <= 0;\n    end\n end\n \n assign  x_px = x_pxi;\n assign y_px = y_pxi;\n\n//endmodule"
+            "code": "\n// Constants.\nparameter activeHvideo = 640;               // Width of visible pixels.\nparameter activeVvideo =  480;              // Height of visible lines.\nparameter hfp = 16;                         // Horizontal front porch length.\nparameter hpulse = 96;                     // Hsync pulse length.\nparameter hbp = 48;                         // Horizontal back porch length.\nparameter vfp = 10;                         // Vertical front porch length.\nparameter vpulse = 2;                       // Vsync pulse length.\nparameter vbp = 33;                         // Vertical back porch length.\nparameter blackH = hfp + hpulse + hbp;      // Hide pixels in one line.\nparameter blackV = vfp + vpulse + vbp;      // Hide lines in one frame.\nparameter hpixels = blackH + activeHvideo;  // Total horizontal pixels.\nparameter vlines = blackV + activeVvideo;   // Total lines.\n\n// Registers for storing the horizontal & vertical counters.\nreg [10:0] hc;\nreg [10:0] vc;\n\nreg [9:0] x_pxi;          // X position for actual pixel.\nreg [9:0] y_pxi;          // Y position for actual pixel.\n\n// Counting pixels.\nalways @(posedge px_clk)\nbegin\n    // Keep counting until the end of the line.\n    if (hc < hpixels - 1)\n        hc <= hc + 1;\n    else\n    // When we hit the end of the line, reset the horizontal\n    // counter and increment the vertical counter.\n    // If vertical counter is at the end of the frame, then\n    // reset that one too.\n    begin\n        hc <= 0;\n        if (vc < vlines - 1)\n           vc <= vc + 1;\n        else\n           vc <= 0;\n    end\n end\n\n// Generate sync pulses (active low) and active video.\nassign hsync = (hc >= hfp && hc < hfp + hpulse) ? 0:1;\nassign vsync = (vc >= vfp && vc < vfp + vpulse) ? 0:1;\nassign activeVideo = (hc >= blackH && vc >= blackV) ? 1:0;\n\nassign activeLineStart = (hc == blackH ) ? 1 : 0;\nassign activeLineEnd = (hc == 0 ) ? 1 : 0; // @todo maybe hlines - 1\n\nassign activeFrameStart = (vc == blackV ) ? 1 : 0;\nassign activeFrameEnd = (vc == 0 ) ? 1 : 0; // @todo maybe vlines - 1\n\nassign lineStart = (hc == 0 ) ? 1 : 0;\nassign lineEnd = (hc == hpixels - 1 ) ? 1 : 0; // @todo\n\nassign frameStart = (vc == 0 ) ? 1 : 0;\nassign frameEnd = (vc == vlines - 1 ) ? 1 : 0;  // @todo\n\n\n\n// Generate new pixel position.\nalways @(posedge px_clk)\nbegin\n    // First check if we are within vertical active video range.\n    if (activeVideo)\n    begin\n        x_pxi <= hc - blackH;\n        y_pxi <= vc - blackV;\n    end\n    else\n    // We are outside active video range so initial position it's ok.\n    begin\n        x_pxi <= 0;\n        y_pxi <= 0;\n    end\n end\n \n assign  x_px = x_pxi;\n assign y_px = y_pxi;\n\n//endmodule"
           },
           "position": {
             "x": 80,
@@ -473,16 +281,6 @@
           },
           "target": {
             "block": "0e4ec6f7-fe91-47bb-8666-305db4da1e5b",
-            "port": "in"
-          }
-        },
-        {
-          "source": {
-            "block": "acff07b8-f9b5-452f-936b-0e148483079c",
-            "port": "activevideo"
-          },
-          "target": {
-            "block": "1abb0e43-39a7-4a67-a9f3-814c1bcfa121",
             "port": "in"
           }
         },
@@ -595,6 +393,16 @@
           },
           "target": {
             "block": "cf15b8a0-dfe0-4486-aef3-8d149ab2e3dc",
+            "port": "in"
+          }
+        },
+        {
+          "source": {
+            "block": "acff07b8-f9b5-452f-936b-0e148483079c",
+            "port": "activeVideo"
+          },
+          "target": {
+            "block": "1abb0e43-39a7-4a67-a9f3-814c1bcfa121",
             "port": "in"
           }
         }
