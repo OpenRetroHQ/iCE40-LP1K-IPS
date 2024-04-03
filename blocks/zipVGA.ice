@@ -12,62 +12,6 @@
     "graph": {
       "blocks": [
         {
-          "id": "130d52fc-564a-4fcd-80ea-a8a3cc421411",
-          "type": "basic.input",
-          "data": {
-            "name": "x_px",
-            "range": "[9:0]",
-            "clock": false,
-            "inout": false,
-            "size": 10
-          },
-          "position": {
-            "x": 1752,
-            "y": -280
-          }
-        },
-        {
-          "id": "aa905f8d-a5b3-4174-b1e6-f477c86cd4ef",
-          "type": "basic.input",
-          "data": {
-            "name": "y_px",
-            "range": "[9:0]",
-            "clock": false,
-            "inout": false,
-            "size": 10
-          },
-          "position": {
-            "x": 1752,
-            "y": -224
-          }
-        },
-        {
-          "id": "e9af1631-d09a-427f-8cb0-2e41ce9931e3",
-          "type": "basic.input",
-          "data": {
-            "name": "hsync",
-            "clock": false,
-            "inout": false
-          },
-          "position": {
-            "x": 1752,
-            "y": -168
-          }
-        },
-        {
-          "id": "0f34c3f0-e7b5-4d6b-910f-ee3d8a4caf34",
-          "type": "basic.input",
-          "data": {
-            "name": "vsync",
-            "clock": false,
-            "inout": false
-          },
-          "position": {
-            "x": 1752,
-            "y": -112
-          }
-        },
-        {
           "id": "339d597b-0dfa-4d6b-94f5-7ddaff388a11",
           "type": "basic.input",
           "data": {
@@ -84,12 +28,12 @@
             "inout": false
           },
           "position": {
-            "x": 1752,
-            "y": -56
+            "x": 1768,
+            "y": -280
           }
         },
         {
-          "id": "5c5dba8d-7f52-435c-87ec-26513b543566",
+          "id": "60725c9f-72a1-4b87-ba8d-eb8c06ca2302",
           "type": "basic.input",
           "data": {
             "name": "activeLineStart",
@@ -105,12 +49,12 @@
             "inout": false
           },
           "position": {
-            "x": 1752,
-            "y": 0
+            "x": 1768,
+            "y": -224
           }
         },
         {
-          "id": "ee4bcacf-a593-4520-adb3-d060bb523578",
+          "id": "7e7bdce8-3f9a-4011-b027-5b39f474c2be",
           "type": "basic.input",
           "data": {
             "name": "activeLineEnd",
@@ -126,18 +70,86 @@
             "inout": false
           },
           "position": {
-            "x": 1752,
-            "y": 64
+            "x": 1768,
+            "y": -168
           }
         },
         {
-          "id": "b2466348-f233-47d3-b622-8bdc4bc2c447",
+          "id": "fbd42820-f912-472b-9431-adffa76c4766",
+          "type": "basic.input",
+          "data": {
+            "name": "activeFrameStart",
+            "virtual": true,
+            "pins": [
+              {
+                "index": "0",
+                "name": "NULL",
+                "value": "NULL"
+              }
+            ],
+            "clock": false,
+            "inout": false
+          },
+          "position": {
+            "x": 1768,
+            "y": -112
+          }
+        },
+        {
+          "id": "7cd7554d-642e-4feb-9d5a-0c79d15f7c14",
+          "type": "basic.input",
+          "data": {
+            "name": "activeFrameEnd",
+            "virtual": true,
+            "pins": [
+              {
+                "index": "0",
+                "name": "NULL",
+                "value": "NULL"
+              }
+            ],
+            "clock": false,
+            "inout": false
+          },
+          "position": {
+            "x": 1768,
+            "y": -56
+          }
+        },
+        {
+          "id": "aa918027-798c-4109-a203-c03387d2abc7",
+          "type": "basic.input",
+          "data": {
+            "name": "lineStart",
+            "virtual": true,
+            "pins": [
+              {
+                "index": "0",
+                "name": "NULL",
+                "value": "NULL"
+              }
+            ],
+            "clock": false,
+            "inout": false
+          },
+          "position": {
+            "x": 1768,
+            "y": 0
+          }
+        },
+        {
+          "id": "011deb19-81e0-40d0-92b8-a0cf3033500b",
           "type": "basic.output",
           "data": {
             "name": "VGAStr",
             "virtual": true,
-            "range": "[29:0]",
+            "range": "[30:0]",
             "pins": [
+              {
+                "index": "30",
+                "name": "NULL",
+                "value": "NULL"
+              },
               {
                 "index": "29",
                 "name": "NULL",
@@ -292,75 +304,12 @@
             "inout": false
           },
           "position": {
-            "x": 2824,
+            "x": 2816,
             "y": 64
           }
         },
         {
-          "id": "cf5ad77a-7d04-4fe4-8184-8def585b61ca",
-          "type": "basic.input",
-          "data": {
-            "name": "activeFrameStart",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "clock": false,
-            "inout": false
-          },
-          "position": {
-            "x": 1752,
-            "y": 120
-          }
-        },
-        {
-          "id": "7ae677f5-6c5b-4c06-9a51-a583bf2f1777",
-          "type": "basic.input",
-          "data": {
-            "name": "activeFrameEnd",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "clock": false,
-            "inout": false
-          },
-          "position": {
-            "x": 1752,
-            "y": 176
-          }
-        },
-        {
-          "id": "f3b95419-8f2e-4e1a-af80-6efced8406f5",
-          "type": "basic.input",
-          "data": {
-            "name": "lineStart",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "clock": false,
-            "inout": false
-          },
-          "position": {
-            "x": 1752,
-            "y": 232
-          }
-        },
-        {
-          "id": "a0904c52-fe5e-4969-91a9-b564a2145ece",
+          "id": "954ecaa8-e512-458f-9af5-01eed135a0ab",
           "type": "basic.input",
           "data": {
             "name": "lineEnd",
@@ -376,12 +325,12 @@
             "inout": false
           },
           "position": {
-            "x": 1752,
-            "y": 288
+            "x": 1768,
+            "y": 64
           }
         },
         {
-          "id": "1825d6df-bf3b-433e-ab08-3f9208519fc5",
+          "id": "dadcf71d-ba1a-42b6-8f36-cc0d3c155a94",
           "type": "basic.input",
           "data": {
             "name": "frameStart",
@@ -397,12 +346,12 @@
             "inout": false
           },
           "position": {
-            "x": 1752,
-            "y": 344
+            "x": 1768,
+            "y": 120
           }
         },
         {
-          "id": "80d89885-7d02-4f59-b237-8b0c546f44ca",
+          "id": "c98d5c5a-5d50-4b39-b4e5-90e7c6acd377",
           "type": "basic.input",
           "data": {
             "name": "frameEnd",
@@ -418,7 +367,63 @@
             "inout": false
           },
           "position": {
-            "x": 1752,
+            "x": 1768,
+            "y": 176
+          }
+        },
+        {
+          "id": "0f34c3f0-e7b5-4d6b-910f-ee3d8a4caf34",
+          "type": "basic.input",
+          "data": {
+            "name": "vsync",
+            "clock": false,
+            "inout": false
+          },
+          "position": {
+            "x": 1768,
+            "y": 232
+          }
+        },
+        {
+          "id": "e9af1631-d09a-427f-8cb0-2e41ce9931e3",
+          "type": "basic.input",
+          "data": {
+            "name": "hsync",
+            "clock": false,
+            "inout": false
+          },
+          "position": {
+            "x": 1768,
+            "y": 288
+          }
+        },
+        {
+          "id": "aa905f8d-a5b3-4174-b1e6-f477c86cd4ef",
+          "type": "basic.input",
+          "data": {
+            "name": "y_px",
+            "range": "[9:0]",
+            "clock": false,
+            "inout": false,
+            "size": 10
+          },
+          "position": {
+            "x": 1768,
+            "y": 344
+          }
+        },
+        {
+          "id": "130d52fc-564a-4fcd-80ea-a8a3cc421411",
+          "type": "basic.input",
+          "data": {
+            "name": "x_px",
+            "range": "[9:0]",
+            "clock": false,
+            "inout": false,
+            "size": 10
+          },
+          "position": {
+            "x": 1768,
             "y": 400
           }
         },
@@ -428,22 +433,6 @@
           "data": {
             "ports": {
               "in": [
-                {
-                  "name": "x_px",
-                  "range": "[9:0]",
-                  "size": 10
-                },
-                {
-                  "name": "y_px",
-                  "range": "[9:0]",
-                  "size": 10
-                },
-                {
-                  "name": "hsync"
-                },
-                {
-                  "name": "vsync"
-                },
                 {
                   "name": "activeVideo"
                 },
@@ -470,20 +459,36 @@
                 },
                 {
                   "name": "frameEnd"
+                },
+                {
+                  "name": "vsync"
+                },
+                {
+                  "name": "hsync"
+                },
+                {
+                  "name": "y_px",
+                  "range": "[9:0]",
+                  "size": 10
+                },
+                {
+                  "name": "x_px",
+                  "range": "[9:0]",
+                  "size": 10
                 }
               ],
               "out": [
                 {
                   "name": "VGAStr",
-                  "range": "[29:0]",
-                  "size": 30
+                  "range": "[30:0]",
+                  "size": 31
                 }
               ],
               "inoutLeft": [],
               "inoutRight": []
             },
             "params": [],
-            "code": "\n\n// alias \n`define Active 0:0\n`define VS 1:1\n`define HS 2:2\n`define YC 12:3\n`define XC 22:13\n\n`define ALS 23:23\n`define ALE 24:24\n`define AFS 25:25\n`define AFE 26:26\n`define LS 27:27\n`define LE 28:28\n`define FS 29:29\n`define FE 30:30\n\nassign VGAStr[`XC] = x_px;\nassign VGAStr[`YC] = y_px;\nassign VGAStr[`HS] = hsync;\nassign VGAStr[`VS] = vsync;\nassign VGAStr[`Active] = activeVideo;\n\t\nassign VGAStr[`ALS] = activeLineStart;\nassign VGAStr[`ALE] = activeLineEnd;\nassign VGAStr[`AFS] = activeFrameStart;\nassign VGAStr[`AFE] = activeFrameEnd;\n\nassign VGAStr[`LS] = lineStart;\nassign VGAStr[`LE] = lineEnd;\nassign VGAStr[`FS] = frameStart;\nassign VGAStr[`FE] = frameEnd;"
+            "code": "// Aliases.\n`define Active 0:0\n`define ALS 1:1\n`define ALE 2:2\n`define AFS 3:3\n`define AFE 4:4\n`define LS 5:5\n`define LE 6:6\n`define FS 7:7\n`define FE 8:8\n`define VS 9:9\n`define HS 10:10\n`define YC 20:11\n`define XC 30:21\n\n// Assign.\nassign VGAStr[`Active] = activeVideo;\nassign VGAStr[`ALS] = activeLineStart;\nassign VGAStr[`ALE] = activeLineEnd;\nassign VGAStr[`AFS] = activeFrameStart;\nassign VGAStr[`AFE] = activeFrameEnd;\nassign VGAStr[`LS] = lineStart;\nassign VGAStr[`LE] = lineEnd;\nassign VGAStr[`FS] = frameStart;\nassign VGAStr[`FE] = frameEnd;\nassign VGAStr[`VS] = vsync;\nassign VGAStr[`HS] = hsync;\nassign VGAStr[`YC] = y_px;\nassign VGAStr[`XC] = x_px;\n\n\n\n\n\t\n"
           },
           "position": {
             "x": 1992,
@@ -550,7 +555,18 @@
         },
         {
           "source": {
-            "block": "5c5dba8d-7f52-435c-87ec-26513b543566",
+            "block": "fabbd2ae-d75a-443d-9b7e-b8205b86adb7",
+            "port": "VGAStr"
+          },
+          "target": {
+            "block": "011deb19-81e0-40d0-92b8-a0cf3033500b",
+            "port": "in"
+          },
+          "size": 31
+        },
+        {
+          "source": {
+            "block": "60725c9f-72a1-4b87-ba8d-eb8c06ca2302",
             "port": "out"
           },
           "target": {
@@ -560,7 +576,7 @@
         },
         {
           "source": {
-            "block": "ee4bcacf-a593-4520-adb3-d060bb523578",
+            "block": "7e7bdce8-3f9a-4011-b027-5b39f474c2be",
             "port": "out"
           },
           "target": {
@@ -570,37 +586,7 @@
         },
         {
           "source": {
-            "block": "cf5ad77a-7d04-4fe4-8184-8def585b61ca",
-            "port": "out"
-          },
-          "target": {
-            "block": "fabbd2ae-d75a-443d-9b7e-b8205b86adb7",
-            "port": "activeFrameStart"
-          }
-        },
-        {
-          "source": {
-            "block": "7ae677f5-6c5b-4c06-9a51-a583bf2f1777",
-            "port": "out"
-          },
-          "target": {
-            "block": "fabbd2ae-d75a-443d-9b7e-b8205b86adb7",
-            "port": "activeFrameEnd"
-          }
-        },
-        {
-          "source": {
-            "block": "f3b95419-8f2e-4e1a-af80-6efced8406f5",
-            "port": "out"
-          },
-          "target": {
-            "block": "fabbd2ae-d75a-443d-9b7e-b8205b86adb7",
-            "port": "lineStart"
-          }
-        },
-        {
-          "source": {
-            "block": "a0904c52-fe5e-4969-91a9-b564a2145ece",
+            "block": "954ecaa8-e512-458f-9af5-01eed135a0ab",
             "port": "out"
           },
           "target": {
@@ -610,7 +596,37 @@
         },
         {
           "source": {
-            "block": "1825d6df-bf3b-433e-ab08-3f9208519fc5",
+            "block": "aa918027-798c-4109-a203-c03387d2abc7",
+            "port": "out"
+          },
+          "target": {
+            "block": "fabbd2ae-d75a-443d-9b7e-b8205b86adb7",
+            "port": "lineStart"
+          }
+        },
+        {
+          "source": {
+            "block": "7cd7554d-642e-4feb-9d5a-0c79d15f7c14",
+            "port": "out"
+          },
+          "target": {
+            "block": "fabbd2ae-d75a-443d-9b7e-b8205b86adb7",
+            "port": "activeFrameEnd"
+          }
+        },
+        {
+          "source": {
+            "block": "fbd42820-f912-472b-9431-adffa76c4766",
+            "port": "out"
+          },
+          "target": {
+            "block": "fabbd2ae-d75a-443d-9b7e-b8205b86adb7",
+            "port": "activeFrameStart"
+          }
+        },
+        {
+          "source": {
+            "block": "dadcf71d-ba1a-42b6-8f36-cc0d3c155a94",
             "port": "out"
           },
           "target": {
@@ -620,24 +636,13 @@
         },
         {
           "source": {
-            "block": "80d89885-7d02-4f59-b237-8b0c546f44ca",
+            "block": "c98d5c5a-5d50-4b39-b4e5-90e7c6acd377",
             "port": "out"
           },
           "target": {
             "block": "fabbd2ae-d75a-443d-9b7e-b8205b86adb7",
             "port": "frameEnd"
           }
-        },
-        {
-          "source": {
-            "block": "fabbd2ae-d75a-443d-9b7e-b8205b86adb7",
-            "port": "VGAStr"
-          },
-          "target": {
-            "block": "b2466348-f233-47d3-b622-8bdc4bc2c447",
-            "port": "in"
-          },
-          "size": 30
         }
       ]
     }

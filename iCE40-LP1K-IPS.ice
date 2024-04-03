@@ -1245,7 +1245,7 @@
           "id": "f8669d54-0480-4eeb-9ae9-db3cf3ad69c9",
           "type": "basic.outputLabel",
           "data": {
-            "name": "SRAMReadAddress",
+            "name": "SRAMReadAddr",
             "range": "[17:0]",
             "blockColor": "fuchsia",
             "virtual": true,
@@ -1791,66 +1791,6 @@
           }
         },
         {
-          "id": "1bccc381-e08f-494e-8876-ab2380b5ba0f",
-          "type": "basic.inputLabel",
-          "data": {
-            "name": "sys_clk",
-            "blockColor": "fuchsia",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
-          },
-          "position": {
-            "x": 216,
-            "y": 888
-          }
-        },
-        {
-          "id": "3933e832-1010-4681-a57e-e455aca3f593",
-          "type": "basic.outputLabel",
-          "data": {
-            "name": "clk",
-            "blockColor": "fuchsia",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
-          },
-          "position": {
-            "x": -136,
-            "y": 920
-          }
-        },
-        {
-          "id": "40c73b83-6d5d-406d-b4d0-5c693391bec0",
-          "type": "basic.inputLabel",
-          "data": {
-            "name": "reset",
-            "blockColor": "fuchsia",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
-          },
-          "position": {
-            "x": 152,
-            "y": 952
-          }
-        },
-        {
           "id": "941ea568-34b4-4a5c-b0df-1dc0f1fa2f3e",
           "type": "basic.info",
           "data": {
@@ -1919,34 +1859,6 @@
           }
         },
         {
-          "id": "f1ed1f74-71bb-473c-82c7-b685cbdae625",
-          "type": "f5535186523202f5beca3f0d5de2771bbf01908b",
-          "position": {
-            "x": 8,
-            "y": 904
-          },
-          "size": {
-            "width": 96,
-            "height": 96
-          }
-        },
-        {
-          "id": "fa40313a-920a-4eb7-ae29-9f15e86a83c0",
-          "type": "basic.info",
-          "data": {
-            "info": "100Mhz Clock PLL generated",
-            "readonly": true
-          },
-          "position": {
-            "x": -136,
-            "y": 872
-          },
-          "size": {
-            "width": 272,
-            "height": 40
-          }
-        },
-        {
           "id": "515c9ea4-f8e8-4204-a211-ee92f966bde6",
           "type": "d6099eb3306b9c46b1d4f224693dd5dc10433d72",
           "position": {
@@ -2007,7 +1919,7 @@
               "inoutRight": []
             },
             "params": [],
-            "code": "`define Active 0:0\n`define ALS 1:1\n`define ALE 2:2\n`define AFS 3:3\n`define AFE 4:4\n`define LS 5:5\n`define LE 6:6\n`define FS 7:7\n`define FE 8:8\n`define VS 9:9\n`define HS 10:10\n`define YC 20:11\n`define XC 30:21\n`define VGA    30:0\n`define RGB    42:31\n\n\nreg [42:0] RGBStrReg;\n\nreg [12:0] counter;\n\nreg [17:0] sram_write_addr_reg;\nreg [17:0] sram_read_addr_reg;\nreg [15:0] sram_data_in;\n\nreg sram_wr_en_reg;\n\nalways @(posedge px_clk) begin\n  if (VGAStr[`ALS]) begin\n     counter <= 0;\n  end else begin\n     counter <= counter + 2;  \n  end\n \nend\n\n\n\nalways @(posedge px_clk)\nbegin\n    RGBStrReg[`VGA] <= VGAStr[`VGA];\n    \n    if (VGAStr[`Active]  ) begin\n      // Set the SRAM Controller address to the pixel address    \n      \n      RGBStrReg[`RGB] <= sram_data_out;\n    end else begin\n      RGBStrReg[`RGB] <= 12'b000000000000;\n    end\nend\nassign  RGBStr = RGBStrReg;\n\n\n// Set the write address\nassign sram_write_addr = sram_write_addr_reg;\n\n// Set the read address\nassign sram_read_addr = sram_read_addr_reg;\n\n// Turn on read mode.\nassign sram_wr_en = 1'b0;\n\n"
+            "code": "// Aliases.\n`define Active 0:0\n`define ALS 1:1\n`define ALE 2:2\n`define AFS 3:3\n`define AFE 4:4\n`define LS 5:5\n`define LE 6:6\n`define FS 7:7\n`define FE 8:8\n`define VS 9:9\n`define HS 10:10\n`define YC 20:11\n`define XC 30:21\n`define VGA    30:0\n`define RGB    42:31\n\n// Registers.\nreg [42:0] RGBStrReg;\nreg [17:0] sram_write_addr_reg;\nreg [17:0] sram_read_addr_reg;\nreg [15:0] sram_data_in;\n\n\nalways @(posedge px_clk)\nbegin\n\n    // Clone the VGA stream.\n    RGBStrReg[`VGA] <= VGAStr[`VGA];\n    \n    // If we are in the active screen region.\n    if (VGAStr[`Active]  ) begin\n    \n        // Set the SRAM Controller address to the pixel address    \n        sram_read_addr_reg <= VGAStr[`XC];\n        \n        // Set the RGB data to the data from the SRAM.\n        RGBStrReg[`RGB] <= sram_data_out;\n        \n    end else begin\n        // Always black if not it active screen.    \n        RGBStrReg[`RGB] <= 12'b000000000000;\n    end\nend\n\n// Output the RGB Stream.\nassign  RGBStr = RGBStrReg;\n\n// Set the write address\nassign sram_write_addr = sram_write_addr_reg;\n\n// Set the read address\nassign sram_read_addr = sram_read_addr_reg;\n\n// Turn on read mode.\nassign sram_wr_en = 1'b0;\n\n"
           },
           "position": {
             "x": 888,
@@ -2457,39 +2369,6 @@
             "port": "694cd94f-4724-4ad5-a87d-2bf7ed7405f4"
           },
           "size": 43
-        },
-        {
-          "source": {
-            "block": "f1ed1f74-71bb-473c-82c7-b685cbdae625",
-            "port": "ba122a35-a693-43a1-aa3f-33dd3b036d1d"
-          },
-          "target": {
-            "block": "1bccc381-e08f-494e-8876-ab2380b5ba0f",
-            "port": "inlabel"
-          },
-          "vertices": []
-        },
-        {
-          "source": {
-            "block": "f1ed1f74-71bb-473c-82c7-b685cbdae625",
-            "port": "3679fb2d-6c31-4b83-adf5-ec0bfd86cd00"
-          },
-          "target": {
-            "block": "40c73b83-6d5d-406d-b4d0-5c693391bec0",
-            "port": "inlabel"
-          },
-          "vertices": []
-        },
-        {
-          "source": {
-            "block": "3933e832-1010-4681-a57e-e455aca3f593",
-            "port": "outlabel"
-          },
-          "target": {
-            "block": "f1ed1f74-71bb-473c-82c7-b685cbdae625",
-            "port": "6620fd01-56e3-4142-931f-039802b520d2"
-          },
-          "vertices": []
         },
         {
           "source": {
@@ -4350,178 +4229,6 @@
         }
       }
     },
-    "f5535186523202f5beca3f0d5de2771bbf01908b": {
-      "package": {
-        "name": "pixelClockVGA",
-        "version": "1.0",
-        "description": "Genera la frecuencia de pixel VGA a partir de la frecuencia del sistema.",
-        "author": "Juan Manuel Rico",
-        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22652.495%22%20height=%22576.305%22%20viewBox=%220%200%20611.71429%20540.28571%22%3E%3Cg%20transform=%22translate(-69.857%20-230.79)%22%3E%3Crect%20width=%22605.714%22%20height=%22534.286%22%20x=%2272.857%22%20y=%22234.856%22%20ry=%2278.704%22%20stroke=%22#fff%22%20stroke-width=%226%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20fill=%22#fffffd%22%20d=%22M171.954%20559.628h85.845v30.445h-85.845z%22/%3E%3Cpath%20fill=%22#fffffd%22%20d=%22M242.247%20589.86l.603-168.04%2015.553.214-.604%20168.04z%22/%3E%3Cpath%20fill=%22#fffffd%22%20d=%22M242.85%20421.819h82.365v30.445H242.85zM309.06%20559.2h82.365v30.445H309.06zM376.476%20421.391h42.931v30.445h-42.931zM403.252%20558.772h42.931v30.445h-42.931zM431.234%20420.963h42.931v41.797h-42.931zM458.009%20558.344h42.931v30.445h-42.931z%22/%3E%3Cpath%20fill=%22#fffffd%22%20d=%22M309.06%20589.645l.603-168.04%2015.553.214-.604%20168.04zM375.873%20589.431l.604-168.04%2015.552.214-.603%20168.04zM403.252%20589.217l.603-168.04%2015.553.214-.604%20168.04zM430.63%20589.003l.604-168.04%2015.552.214-.603%20168.04zM458.01%20588.789l.603-168.04%2015.553.214-.604%20168.04zM171.954%20590.074l.604-168.04%2015.552.214-.603%20168.04z%22/%3E%3Cpath%20fill=%22#fffffd%22%20d=%22M105.745%20422.248h82.365v30.445h-82.365zM485.388%20588.575l.604-168.04%2015.552.214-.603%20168.04z%22/%3E%3Cpath%20fill=%22#fffffd%22%20d=%22M485.992%20420.535h42.931v30.445h-42.931zM512.767%20557.916h42.931v30.445h-42.931zM540.75%20420.107h42.931v41.797H540.75zM567.525%20557.487h42.931v30.445h-42.931z%22/%3E%3Cpath%20fill=%22#fffffd%22%20d=%22M512.768%20588.36l.603-168.04%2015.553.215-.604%20168.04zM540.146%20588.147l.604-168.04%2015.553.214-.604%20168.04zM567.525%20587.933l.604-168.04%2015.552.214-.604%20168.04zM594.904%20587.718l.604-168.04%2015.553.215-.604%20168.04z%22/%3E%3Cpath%20fill=%22#fffffd%22%20d=%22M595.508%20419.678h46.411v30.445h-46.411z%22/%3E%3C/g%3E%3C/svg%3E"
-      },
-      "design": {
-        "graph": {
-          "blocks": [
-            {
-              "id": "ba122a35-a693-43a1-aa3f-33dd3b036d1d",
-              "type": "basic.output",
-              "data": {
-                "name": "sys_clk",
-                "virtual": true,
-                "pins": [
-                  {
-                    "index": "0",
-                    "name": "NULL",
-                    "value": "NULL"
-                  }
-                ]
-              },
-              "position": {
-                "x": 1024,
-                "y": 304
-              }
-            },
-            {
-              "id": "6620fd01-56e3-4142-931f-039802b520d2",
-              "type": "basic.input",
-              "data": {
-                "name": "clk",
-                "virtual": true,
-                "pins": [
-                  {
-                    "index": "0",
-                    "name": "NULL",
-                    "value": "NULL"
-                  }
-                ],
-                "clock": false
-              },
-              "position": {
-                "x": -40,
-                "y": 568
-              }
-            },
-            {
-              "id": "acb20741-4ac4-4e28-b98c-802e1e5bd70d",
-              "type": "basic.output",
-              "data": {
-                "name": "PLL_LOCKED",
-                "virtual": true,
-                "pins": [
-                  {
-                    "index": "0",
-                    "name": "NULL",
-                    "value": "NULL"
-                  }
-                ],
-                "inout": false
-              },
-              "position": {
-                "x": 1064,
-                "y": 568
-              }
-            },
-            {
-              "id": "3679fb2d-6c31-4b83-adf5-ec0bfd86cd00",
-              "type": "basic.output",
-              "data": {
-                "name": "rstn",
-                "virtual": true,
-                "pins": [
-                  {
-                    "index": "0",
-                    "name": "NULL",
-                    "value": "NULL"
-                  }
-                ],
-                "inout": false
-              },
-              "position": {
-                "x": 1048,
-                "y": 832
-              }
-            },
-            {
-              "id": "3d451d01-e282-451e-b20c-3fc2afb2ec82",
-              "type": "basic.code",
-              "data": {
-                "ports": {
-                  "in": [
-                    {
-                      "name": "clk"
-                    }
-                  ],
-                  "out": [
-                    {
-                      "name": "sys_clk"
-                    },
-                    {
-                      "name": "PLL_LOCKED"
-                    },
-                    {
-                      "name": "rstn"
-                    }
-                  ],
-                  "inoutLeft": [],
-                  "inoutRight": []
-                },
-                "params": [],
-                "code": "reg [3:0] PLL_LOCKED_BUF;\n\n\nSB_PLL40_CORE #(.FEEDBACK_PATH(\"SIMPLE\"),\n    .PLLOUT_SELECT(\"GENCLK\"),\n    .FEEDBACK_PATH(\"SIMPLE\"),\n    .DIVR(4'b0000),         // DIVR =  0\n    .DIVF(7'b0010111),      // DIVF = 23\n    .DIVQ(3'b010),          // DIVQ =  2\n    .FILTER_RANGE(3'b010)   // FILTER_RANGE = 2\n)\nuut\n(\n    .LOCK(PLL_LOCKED),\n    .REFERENCECLK(clk),\n    .PLLOUTCORE(sys_clk),\n    .RESETB(1'b1),\n    .BYPASS(1'b0)\n);\n\nalways @(posedge sys_clk) begin\n    PLL_LOCKED_BUF <= {PLL_LOCKED_BUF, PLL_LOCKED};\nend    \n\nassign rstn = PLL_LOCKED_BUF[3];"
-              },
-              "position": {
-                "x": 160,
-                "y": 208
-              },
-              "size": {
-                "width": 808,
-                "height": 784
-              }
-            }
-          ],
-          "wires": [
-            {
-              "source": {
-                "block": "6620fd01-56e3-4142-931f-039802b520d2",
-                "port": "out"
-              },
-              "target": {
-                "block": "3d451d01-e282-451e-b20c-3fc2afb2ec82",
-                "port": "clk"
-              }
-            },
-            {
-              "source": {
-                "block": "3d451d01-e282-451e-b20c-3fc2afb2ec82",
-                "port": "sys_clk"
-              },
-              "target": {
-                "block": "ba122a35-a693-43a1-aa3f-33dd3b036d1d",
-                "port": "in"
-              }
-            },
-            {
-              "source": {
-                "block": "3d451d01-e282-451e-b20c-3fc2afb2ec82",
-                "port": "rstn"
-              },
-              "target": {
-                "block": "3679fb2d-6c31-4b83-adf5-ec0bfd86cd00",
-                "port": "in"
-              }
-            },
-            {
-              "source": {
-                "block": "3d451d01-e282-451e-b20c-3fc2afb2ec82",
-                "port": "PLL_LOCKED"
-              },
-              "target": {
-                "block": "acb20741-4ac4-4e28-b98c-802e1e5bd70d",
-                "port": "in"
-              }
-            }
-          ]
-        }
-      }
-    },
     "d6099eb3306b9c46b1d4f224693dd5dc10433d72": {
       "package": {
         "name": "",
@@ -5218,11 +4925,11 @@
                   "inoutRight": []
                 },
                 "params": [],
-                "code": "// SRAM IC - IS61WV25616BLL-10BLI\n// ~OE pin tied to ground permanently.\n// ~CE pin tied to ground permanently.\n// ~UB pin tied to ground permanently.\n// ~LB pin tied to ground permanently.\n// IO12, IO13, IO14, IO15 are \"no connect\" as we only have 12bit RGB data.\n\nreg [11:0] dataOutReg;\n\n// Set the SRAM address input to either the write or read address.\nassign sram_addr = wr_en ?  write_addr : read_addr;\n\n// Set the SRAM data input/output to data_in if we are writing, otherwise tristate.\n//assign sram_io = wr_en ? data_in : 12'bzzzzzzzzzzzz;\n\n// Set the SRAM write enable pin\n// assign sram_we = ~(wr_en & (~sys_clk));  \n// assign sram_we = (~wr_en)|sys_clk;\n\nassign sram_we = 1'b1;\n\nalways @(posedge sys_clk) begin\n   if (wr_en == 1'b0)\n     dataOutReg <= sram_io;\nend\n \nassign data_out = dataOutReg;"
+                "code": "// SRAM IC - IS61WV25616BLL-10BLI\n// ~OE pin tied to ground permanently.\n// ~CE pin tied to ground permanently.\n// ~UB pin tied to ground permanently.\n// ~LB pin tied to ground permanently.\n// IO12, IO13, IO14, IO15 are \"no connect\" as we only have 12bit RGB data.\n\nreg [11:0] dataOutReg;\n\n// Set the SRAM address input to either the write or read address.\nassign sram_addr = wr_en ?  write_addr : read_addr;\n\n// Set the SRAM data input/output to data_in if we are writing, otherwise tristate.\n// assign sram_io = wr_en ? data_in : 12'bzzzzzzzzzzzz;\n\n// Set the SRAM write enable pin\n// assign sram_we = ~(wr_en & (~sys_clk));  \n// assign sram_we = (~wr_en)|sys_clk;\n\nassign sram_we = 1'b1;\n\n// always @(posedge sys_clk) begin\n//   if (wr_en == 1'b0)\n//      dataOutReg <= sram_io;\n// end\n \nassign data_out = sram_io;"
               },
               "position": {
                 "x": 248,
-                "y": 112
+                "y": 104
               },
               "size": {
                 "width": 800,

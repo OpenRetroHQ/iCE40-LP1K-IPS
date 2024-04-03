@@ -696,11 +696,11 @@
               "inoutRight": []
             },
             "params": [],
-            "code": "// SRAM IC - IS61WV25616BLL-10BLI\n// ~OE pin tied to ground permanently.\n// ~CE pin tied to ground permanently.\n// ~UB pin tied to ground permanently.\n// ~LB pin tied to ground permanently.\n// IO12, IO13, IO14, IO15 are \"no connect\" as we only have 12bit RGB data.\n\nreg [11:0] dataOutReg;\n\n// Set the SRAM address input to either the write or read address.\nassign sram_addr = wr_en ?  write_addr : read_addr;\n\n// Set the SRAM data input/output to data_in if we are writing, otherwise tristate.\n//assign sram_io = wr_en ? data_in : 12'bzzzzzzzzzzzz;\n\n// Set the SRAM write enable pin\n// assign sram_we = ~(wr_en & (~sys_clk));  \n// assign sram_we = (~wr_en)|sys_clk;\n\nassign sram_we = 1'b1;\n\nalways @(posedge sys_clk) begin\n   if (wr_en == 1'b0)\n     dataOutReg <= sram_io;\nend\n \nassign data_out = dataOutReg;"
+            "code": "// SRAM IC - IS61WV25616BLL-10BLI\n// ~OE pin tied to ground permanently.\n// ~CE pin tied to ground permanently.\n// ~UB pin tied to ground permanently.\n// ~LB pin tied to ground permanently.\n// IO12, IO13, IO14, IO15 are \"no connect\" as we only have 12bit RGB data.\n\nreg [11:0] dataOutReg;\n\n// Set the SRAM address input to either the write or read address.\nassign sram_addr = wr_en ?  write_addr : read_addr;\n\n// Set the SRAM data input/output to data_in if we are writing, otherwise tristate.\n// assign sram_io = wr_en ? data_in : 12'bzzzzzzzzzzzz;\n\n// Set the SRAM write enable pin\n// assign sram_we = ~(wr_en & (~sys_clk));  \n// assign sram_we = (~wr_en)|sys_clk;\n\nassign sram_we = 1'b1;\n\n// always @(posedge sys_clk) begin\n//   if (wr_en == 1'b0)\n//      dataOutReg <= sram_io;\n// end\n \nassign data_out = sram_io;"
           },
           "position": {
             "x": 248,
-            "y": 112
+            "y": 104
           },
           "size": {
             "width": 800,
