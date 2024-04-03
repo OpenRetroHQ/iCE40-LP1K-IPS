@@ -157,7 +157,7 @@ module main (
   .sram_data_out(w36),
   .sram_data_in(w37)
  );
- vf55351 vc768b6 (
+ vf55351 v917657 (
   .v73ceb8(w31),
   .v7efef0(w38)
  );
@@ -590,8 +590,8 @@ module vd6099e (
  input [15:0] v76e5cf,
  input [11:0] v77de7c,
  output [17:0] v64d6af,
- output v619423,
- output [11:0] vdd0bfb
+ output [11:0] vdd0bfb,
+ output v619423
 );
  wire w0;
  wire [0:11] w1;
@@ -632,9 +632,9 @@ module vd6099e_v931b7c (
  input [17:0] read_addr,
  input [15:0] data_in,
  output [17:0] sram_addr,
+ output [11:0] data_out,
  output sram_we,
- inout [11:0] sram_io,
- inout [11:0] data_out
+ inout [11:0] sram_io
 );
  // SRAM IC - IS61WV25616BLL-10BLI
  // ~OE pin tied to ground permanently.
@@ -643,38 +643,26 @@ module vd6099e_v931b7c (
  // ~LB pin tied to ground permanently.
  // IO12, IO13, IO14, IO15 are "no connect" as we only have 12bit RGB data.
  
- reg [11:0] data_out_reg;
- reg [11:0] sram_io_reg;
+ reg [11:0] dataOutReg;
  
  // Set the SRAM address input to either the write or read address.
  assign sram_addr = wr_en ?  write_addr : read_addr;
  
- 
+ // Set the SRAM data input/output to data_in if we are writing, otherwise tristate.
+ // assign sram_io = wr_en ? data_in : 12'bzzzzzzzzzzzz;
  
  // Set the SRAM write enable pin
  // assign sram_we = ~(wr_en & (~sys_clk));  
- // assign sram_we = (~wr_en)|sys_clk;
+  assign sram_we = (~wr_en)|sys_clk;
  
- assign sram_we = 1'b1;
- 
- // Set the SRAM data input/output to data_in if we are writing, otherwise tristate.
- //assign sram_io = wr_en ? data_in : 12'bzzzzzzzzzzzz;
- 
- always @(posedge sys_clk) begin
-     if (wr_en == 1'b0) begin
-       //  sram_io_reg <= 12'bzzzzzzzzzzzz;
-     end else begin
-       //  sram_io_reg <= data_in;
-     end
- end
+ // assign sram_we = 1'b1;
  
  always @(posedge sys_clk) begin
    if (wr_en == 1'b0)
-      data_out_reg <= sram_io;
+      dataOutReg <= sram_io;
  end
   
- assign sram_io = sram_io_reg;
- assign data_out = data_out_reg;
+ assign data_out = dataOutReg;
 endmodule
 //---- Top entity
 module vf55351 (
@@ -696,9 +684,9 @@ module vf55351 (
 endmodule
 
 //---------------------------------------------------
-//-- 100Mhz Clock
+//-- pixelClockVGA
 //-- - - - - - - - - - - - - - - - - - - - - - - - --
-//-- 
+//-- Genera la frecuencia de pixel VGA a partir de la frecuencia del sistema.
 //---------------------------------------------------
 
 module vf55351_v0a8f52 (
@@ -706,6 +694,73 @@ module vf55351_v0a8f52 (
  output sys_clk,
  output reset
 );
+ ///////////////////////////////////////////////////////////////////////////////
+ // Company:     Ridotech
+ // Engineer:    Juan Manuel Rico
+ // Create Date: 11/01/2020
+ // Module Name: pixelClockVGA
+ //
+ // Description: Genera, utilizando el bloque PLL interno de Lattice y el reloj
+ //              del sistema, la frecuencia de pixel de 31.5Mhz necesaria para
+ //              un modo 640x480@72Hz.
+ //
+ // Dependencies: 
+ //
+ // Revisions: 
+ //     0.01 - Fichero creado.
+ //
+ // Additional Comments:
+ //            Se deja como parámetro el "Feedback divider" para poder adaptar
+ //            el bloque según la frecuencia de entrada del reloj de cada
+ //            tarjeta (TinyFPGA o Alhambra).
+ //
+ ///////////////////////////////////////////////////////////////////////////////
+ // module pixelClockVGA #(
+ //    parameter FDivider = 62         // Feedback divider default for 16Mhz.
+ // )
+ // (
+ //    input wire       sys_clk,       // System clock (12Mhz or 16Mhz)
+ //    output wire      px_clk         // Pixel clock.
+ // );
+ 
+     // Generated values for pixel clock of 31.5Mhz and 72Hz frame frecuency
+     // (12Mhz - iceZum Alhambra). Use "icepll" tool.
+     //
+     // # icepll -i12 -o31.5
+     //
+     // F_PLLIN:    12.000 MHz (given)
+     // F_PLLOUT:   31.500 MHz (requested)
+     // F_PLLOUT:   31.500 MHz (achieved)
+     //
+     // FEEDBACK: SIMPLE
+     // F_PFD:   12.000 MHz
+     // F_VCO: 1008.000 MHz
+     //
+     // DIVR:  0 (4'b0000)
+     // DIVF: 83 (7'b1010011)
+     // DIVQ:  5 (3'b101)
+     //
+     // FILTER_RANGE: 1 (3'b001)
+     //
+     // Generated values for pixel clock of 31.5Mhz and 72Hz frame frecuency
+     // (16Mhz - TinyFPGA-B2). Use "icepll" tool.
+     //
+     // # icepll -i16 -o31.5
+     //
+     // F_PLLIN:    16.000 MHz (given)
+     // F_PLLOUT:   31.500 MHz (requested)
+     // F_PLLOUT:   31.500 MHz (achieved)
+     //
+     // FEEDBACK: SIMPLE
+     // F_PFD:   16.000 MHz
+     // F_VCO: 1008.000 MHz
+     //
+     // DIVR:  0 (4'b0000)
+     // DIVF: 62 (7'b0111110)
+     // DIVQ:  5 (3'b101)
+     //
+     // FILTER_RANGE: 1 (3'b001)
+ 
  
      
  
@@ -727,6 +782,7 @@ module vf55351_v0a8f52 (
                      .RESETB(1'b1),
                      .BYPASS(1'b0)
                );
+ // endmodule
  
  
 endmodule
@@ -762,8 +818,8 @@ module main_v3d08f2 (
  reg [42:0] RGBStrReg;
  reg [17:0] sram_write_addr_reg;
  reg [17:0] sram_read_addr_reg;
- reg [15:0] sram_data_in;
- reg sram_wr_en_reg;
+ 
+ 
  
  always @(posedge px_clk)
  begin
@@ -777,17 +833,10 @@ module main_v3d08f2 (
          // Set the SRAM Controller address to the pixel address    
          sram_read_addr_reg <= VGAStr[`XC];
          
-         // Turn on read mode
-         sram_wr_en_reg <=  1'b0;
-         
          // Set the RGB data to the data from the SRAM.
          RGBStrReg[`RGB] <= sram_data_out;
          
      end else begin
-     
-         // Turn on write mode (for testing as it might have caused factoring out)
-         sram_wr_en_reg <=  1'b1;
-         
          // Always black if not it active screen.    
          RGBStrReg[`RGB] <= 12'b000000000000;
      end
@@ -803,7 +852,7 @@ module main_v3d08f2 (
  assign sram_read_addr = sram_read_addr_reg;
  
  // Turn on read mode.
- assign sram_wr_en = sram_wr_en_reg;
+ assign sram_wr_en = 1'b0;
  
  
 endmodule

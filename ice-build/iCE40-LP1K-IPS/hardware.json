@@ -21,7 +21,7 @@
         }
       },
       "cells": {
-        "$specify$1697": {
+        "$specify$1652": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -350,7 +350,7 @@
         }
       },
       "cells": {
-        "$specify$1697": {
+        "$specify$1652": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -420,7 +420,7 @@
         }
       },
       "cells": {
-        "$specify$1697": {
+        "$specify$1652": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -10281,7 +10281,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:150.15-159.3|main.v:768.2-794.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:150.15-159.3|main.v:824.2-843.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -10303,7 +10303,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:150.15-159.3|main.v:768.2-794.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:150.15-159.3|main.v:824.2-843.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -10325,7 +10325,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:150.15-159.3|main.v:768.2-794.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:150.15-159.3|main.v:824.2-843.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -10347,7 +10347,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:150.15-159.3|main.v:768.2-794.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:2.51-2.90"
+            "src": "main.v:150.15-159.3|main.v:824.2-843.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:2.51-2.90"
           },
           "port_directions": {
             "C": "input",
@@ -10627,7 +10627,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:150.15-159.3|main.v:768.2-794.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:150.15-159.3|main.v:824.2-843.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -10649,7 +10649,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:150.15-159.3|main.v:768.2-794.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:150.15-159.3|main.v:824.2-843.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -10671,7 +10671,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:150.15-159.3|main.v:768.2-794.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "main.v:150.15-159.3|main.v:824.2-843.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -10693,7 +10693,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:150.15-159.3|main.v:768.2-794.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "main.v:150.15-159.3|main.v:824.2-843.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -10715,7 +10715,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:150.15-159.3|main.v:768.2-794.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "main.v:150.15-159.3|main.v:824.2-843.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -10737,7 +10737,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:150.15-159.3|main.v:768.2-794.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "main.v:150.15-159.3|main.v:824.2-843.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -10759,7 +10759,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:150.15-159.3|main.v:768.2-794.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "main.v:150.15-159.3|main.v:824.2-843.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -10781,7 +10781,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:150.15-159.3|main.v:768.2-794.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "main.v:150.15-159.3|main.v:824.2-843.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -10803,7 +10803,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:150.15-159.3|main.v:768.2-794.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "main.v:150.15-159.3|main.v:824.2-843.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -10825,7 +10825,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:150.15-159.3|main.v:768.2-794.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "main.v:150.15-159.3|main.v:824.2-843.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -10847,7 +10847,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:150.15-159.3|main.v:768.2-794.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "main.v:150.15-159.3|main.v:824.2-843.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -10869,7 +10869,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:150.15-159.3|main.v:768.2-794.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "main.v:150.15-159.3|main.v:824.2-843.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -10884,51 +10884,6 @@
             "Q": [ 8 ]
           }
         },
-        "v3d08f2.sram_wr_en_reg_SB_DFF_Q": {
-          "hide_name": 0,
-          "type": "SB_DFF",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:150.15-159.3|main.v:768.2-794.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:2.51-2.90"
-          },
-          "port_directions": {
-            "C": "input",
-            "D": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "C": [ 2 ],
-            "D": [ 40 ],
-            "Q": [ 81 ]
-          }
-        },
-        "v3d08f2.sram_wr_en_reg_SB_LUT4_I3": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "0000000011111111"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/cells_map.v:12.34-13.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ "0" ],
-            "I1": [ "0" ],
-            "I2": [ "0" ],
-            "I3": [ 81 ],
-            "O": [ 82 ]
-          }
-        },
         "v4875ae_SB_DFFSR_Q": {
           "hide_name": 0,
           "type": "SB_DFFSR",
@@ -10936,7 +10891,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:150.15-159.3|main.v:768.2-794.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:150.15-159.3|main.v:824.2-843.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -10946,273 +10901,249 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 83 ],
+            "D": [ 81 ],
             "Q": [ 24 ],
             "R": [ 40 ]
           }
         },
-        "v4d888f.v931b7c.data_out_reg_SB_DFFE_Q": {
+        "v4d888f.v931b7c.dataOutReg_SB_DFF_Q": {
           "hide_name": 0,
-          "type": "SB_DFFE",
+          "type": "SB_DFF",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:139.10-149.3|main.v:671.2-674.5|main.v:614.18-624.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "main.v:139.10-149.3|main.v:660.2-663.5|main.v:614.18-624.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:2.51-2.90"
           },
           "port_directions": {
             "C": "input",
             "D": "input",
-            "E": "input",
             "Q": "output"
           },
           "connections": {
-            "C": [ 84 ],
+            "C": [ 82 ],
             "D": [ 38 ],
-            "E": [ 82 ],
-            "Q": [ 85 ]
-          }
-        },
-        "v4d888f.v931b7c.data_out_reg_SB_DFFE_Q_1": {
-          "hide_name": 0,
-          "type": "SB_DFFE",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:139.10-149.3|main.v:671.2-674.5|main.v:614.18-624.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
-          },
-          "port_directions": {
-            "C": "input",
-            "D": "input",
-            "E": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "C": [ 84 ],
-            "D": [ 37 ],
-            "E": [ 82 ],
-            "Q": [ 86 ]
-          }
-        },
-        "v4d888f.v931b7c.data_out_reg_SB_DFFE_Q_10": {
-          "hide_name": 0,
-          "type": "SB_DFFE",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:139.10-149.3|main.v:671.2-674.5|main.v:614.18-624.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
-          },
-          "port_directions": {
-            "C": "input",
-            "D": "input",
-            "E": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "C": [ 84 ],
-            "D": [ 28 ],
-            "E": [ 82 ],
-            "Q": [ 87 ]
-          }
-        },
-        "v4d888f.v931b7c.data_out_reg_SB_DFFE_Q_11": {
-          "hide_name": 0,
-          "type": "SB_DFFE",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:139.10-149.3|main.v:671.2-674.5|main.v:614.18-624.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
-          },
-          "port_directions": {
-            "C": "input",
-            "D": "input",
-            "E": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "C": [ 84 ],
-            "D": [ 27 ],
-            "E": [ 82 ],
-            "Q": [ 41 ]
-          }
-        },
-        "v4d888f.v931b7c.data_out_reg_SB_DFFE_Q_2": {
-          "hide_name": 0,
-          "type": "SB_DFFE",
-          "parameters": {
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:139.10-149.3|main.v:671.2-674.5|main.v:614.18-624.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
-          },
-          "port_directions": {
-            "C": "input",
-            "D": "input",
-            "E": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "C": [ 84 ],
-            "D": [ 36 ],
-            "E": [ 82 ],
             "Q": [ 83 ]
           }
         },
-        "v4d888f.v931b7c.data_out_reg_SB_DFFE_Q_3": {
+        "v4d888f.v931b7c.dataOutReg_SB_DFF_Q_1": {
           "hide_name": 0,
-          "type": "SB_DFFE",
+          "type": "SB_DFF",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:139.10-149.3|main.v:671.2-674.5|main.v:614.18-624.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "main.v:139.10-149.3|main.v:660.2-663.5|main.v:614.18-624.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:2.51-2.90"
           },
           "port_directions": {
             "C": "input",
             "D": "input",
-            "E": "input",
             "Q": "output"
           },
           "connections": {
-            "C": [ 84 ],
+            "C": [ 82 ],
+            "D": [ 37 ],
+            "Q": [ 84 ]
+          }
+        },
+        "v4d888f.v931b7c.dataOutReg_SB_DFF_Q_10": {
+          "hide_name": 0,
+          "type": "SB_DFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "main.v:139.10-149.3|main.v:660.2-663.5|main.v:614.18-624.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:2.51-2.90"
+          },
+          "port_directions": {
+            "C": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "C": [ 82 ],
+            "D": [ 28 ],
+            "Q": [ 85 ]
+          }
+        },
+        "v4d888f.v931b7c.dataOutReg_SB_DFF_Q_11": {
+          "hide_name": 0,
+          "type": "SB_DFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "main.v:139.10-149.3|main.v:660.2-663.5|main.v:614.18-624.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:2.51-2.90"
+          },
+          "port_directions": {
+            "C": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "C": [ 82 ],
+            "D": [ 27 ],
+            "Q": [ 41 ]
+          }
+        },
+        "v4d888f.v931b7c.dataOutReg_SB_DFF_Q_2": {
+          "hide_name": 0,
+          "type": "SB_DFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "main.v:139.10-149.3|main.v:660.2-663.5|main.v:614.18-624.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:2.51-2.90"
+          },
+          "port_directions": {
+            "C": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "C": [ 82 ],
+            "D": [ 36 ],
+            "Q": [ 81 ]
+          }
+        },
+        "v4d888f.v931b7c.dataOutReg_SB_DFF_Q_3": {
+          "hide_name": 0,
+          "type": "SB_DFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "main.v:139.10-149.3|main.v:660.2-663.5|main.v:614.18-624.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:2.51-2.90"
+          },
+          "port_directions": {
+            "C": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "C": [ 82 ],
             "D": [ 35 ],
-            "E": [ 82 ],
             "Q": [ 69 ]
           }
         },
-        "v4d888f.v931b7c.data_out_reg_SB_DFFE_Q_4": {
+        "v4d888f.v931b7c.dataOutReg_SB_DFF_Q_4": {
           "hide_name": 0,
-          "type": "SB_DFFE",
+          "type": "SB_DFF",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:139.10-149.3|main.v:671.2-674.5|main.v:614.18-624.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "main.v:139.10-149.3|main.v:660.2-663.5|main.v:614.18-624.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:2.51-2.90"
           },
           "port_directions": {
             "C": "input",
             "D": "input",
-            "E": "input",
             "Q": "output"
           },
           "connections": {
-            "C": [ 84 ],
+            "C": [ 82 ],
             "D": [ 34 ],
-            "E": [ 82 ],
             "Q": [ 68 ]
           }
         },
-        "v4d888f.v931b7c.data_out_reg_SB_DFFE_Q_5": {
+        "v4d888f.v931b7c.dataOutReg_SB_DFF_Q_5": {
           "hide_name": 0,
-          "type": "SB_DFFE",
+          "type": "SB_DFF",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:139.10-149.3|main.v:671.2-674.5|main.v:614.18-624.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "main.v:139.10-149.3|main.v:660.2-663.5|main.v:614.18-624.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:2.51-2.90"
           },
           "port_directions": {
             "C": "input",
             "D": "input",
-            "E": "input",
             "Q": "output"
           },
           "connections": {
-            "C": [ 84 ],
+            "C": [ 82 ],
             "D": [ 33 ],
-            "E": [ 82 ],
-            "Q": [ 88 ]
+            "Q": [ 86 ]
           }
         },
-        "v4d888f.v931b7c.data_out_reg_SB_DFFE_Q_6": {
+        "v4d888f.v931b7c.dataOutReg_SB_DFF_Q_6": {
           "hide_name": 0,
-          "type": "SB_DFFE",
+          "type": "SB_DFF",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:139.10-149.3|main.v:671.2-674.5|main.v:614.18-624.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "main.v:139.10-149.3|main.v:660.2-663.5|main.v:614.18-624.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:2.51-2.90"
           },
           "port_directions": {
             "C": "input",
             "D": "input",
-            "E": "input",
             "Q": "output"
           },
           "connections": {
-            "C": [ 84 ],
+            "C": [ 82 ],
             "D": [ 32 ],
-            "E": [ 82 ],
             "Q": [ 39 ]
           }
         },
-        "v4d888f.v931b7c.data_out_reg_SB_DFFE_Q_7": {
+        "v4d888f.v931b7c.dataOutReg_SB_DFF_Q_7": {
           "hide_name": 0,
-          "type": "SB_DFFE",
+          "type": "SB_DFF",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:139.10-149.3|main.v:671.2-674.5|main.v:614.18-624.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "main.v:139.10-149.3|main.v:660.2-663.5|main.v:614.18-624.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:2.51-2.90"
           },
           "port_directions": {
             "C": "input",
             "D": "input",
-            "E": "input",
             "Q": "output"
           },
           "connections": {
-            "C": [ 84 ],
+            "C": [ 82 ],
             "D": [ 31 ],
-            "E": [ 82 ],
-            "Q": [ 89 ]
+            "Q": [ 87 ]
           }
         },
-        "v4d888f.v931b7c.data_out_reg_SB_DFFE_Q_8": {
+        "v4d888f.v931b7c.dataOutReg_SB_DFF_Q_8": {
           "hide_name": 0,
-          "type": "SB_DFFE",
+          "type": "SB_DFF",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:139.10-149.3|main.v:671.2-674.5|main.v:614.18-624.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "main.v:139.10-149.3|main.v:660.2-663.5|main.v:614.18-624.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:2.51-2.90"
           },
           "port_directions": {
             "C": "input",
             "D": "input",
-            "E": "input",
             "Q": "output"
           },
           "connections": {
-            "C": [ 84 ],
+            "C": [ 82 ],
             "D": [ 30 ],
-            "E": [ 82 ],
             "Q": [ 42 ]
           }
         },
-        "v4d888f.v931b7c.data_out_reg_SB_DFFE_Q_9": {
+        "v4d888f.v931b7c.dataOutReg_SB_DFF_Q_9": {
           "hide_name": 0,
-          "type": "SB_DFFE",
+          "type": "SB_DFF",
           "parameters": {
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:139.10-149.3|main.v:671.2-674.5|main.v:614.18-624.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "main.v:139.10-149.3|main.v:660.2-663.5|main.v:614.18-624.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:2.51-2.90"
           },
           "port_directions": {
             "C": "input",
             "D": "input",
-            "E": "input",
             "Q": "output"
           },
           "connections": {
-            "C": [ 84 ],
+            "C": [ 82 ],
             "D": [ 29 ],
-            "E": [ 82 ],
-            "Q": [ 90 ]
+            "Q": [ 88 ]
           }
         },
         "v528485_SB_DFFSR_Q": {
@@ -11222,7 +11153,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:150.15-159.3|main.v:768.2-794.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:150.15-159.3|main.v:824.2-843.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -11232,7 +11163,7 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 89 ],
+            "D": [ 87 ],
             "Q": [ 19 ],
             "R": [ 40 ]
           }
@@ -11255,14 +11186,39 @@
             "O": "output"
           },
           "connections": {
-            "I0": [ 91 ],
-            "I1": [ 92 ],
-            "I2": [ 93 ],
-            "I3": [ 94 ],
+            "I0": [ 89 ],
+            "I1": [ 90 ],
+            "I2": [ 91 ],
+            "I3": [ 92 ],
             "O": [ 71 ]
           }
         },
         "v65bff5.v7964d5_SB_LUT4_O_I0_SB_LUT4_O": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "1111000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/cells_map.v:17.34-18.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ "0" ],
+            "I1": [ "0" ],
+            "I2": [ 93 ],
+            "I3": [ 94 ],
+            "O": [ 89 ]
+          }
+        },
+        "v65bff5.v7964d5_SB_LUT4_O_I0_SB_LUT4_O_1": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -11287,31 +11243,6 @@
             "O": [ 91 ]
           }
         },
-        "v65bff5.v7964d5_SB_LUT4_O_I0_SB_LUT4_O_1": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "1111000000000000"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/cells_map.v:17.34-18.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ "0" ],
-            "I1": [ "0" ],
-            "I2": [ 97 ],
-            "I3": [ 98 ],
-            "O": [ 93 ]
-          }
-        },
         "v65bff5.v7964d5_SB_LUT4_O_I1_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
@@ -11327,8 +11258,8 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 99 ],
-            "CO": [ 92 ],
+            "CI": [ 97 ],
+            "CO": [ 90 ],
             "I0": [ "0" ],
             "I1": [ 49 ]
           }
@@ -11348,8 +11279,8 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 100 ],
-            "CO": [ 99 ],
+            "CI": [ 98 ],
+            "CO": [ 97 ],
             "I0": [ "0" ],
             "I1": [ 51 ]
           }
@@ -11369,8 +11300,8 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 101 ],
-            "CO": [ 100 ],
+            "CI": [ 99 ],
+            "CO": [ 98 ],
             "I0": [ "0" ],
             "I1": [ 53 ]
           }
@@ -11390,8 +11321,8 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 102 ],
-            "CO": [ 101 ],
+            "CI": [ 100 ],
+            "CO": [ 99 ],
             "I0": [ "0" ],
             "I1": [ 55 ]
           }
@@ -11411,8 +11342,8 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 103 ],
-            "CO": [ 102 ],
+            "CI": [ 101 ],
+            "CO": [ 100 ],
             "I0": [ "0" ],
             "I1": [ 57 ]
           }
@@ -11432,8 +11363,8 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 104 ],
-            "CO": [ 103 ],
+            "CI": [ 102 ],
+            "CO": [ 101 ],
             "I0": [ "1" ],
             "I1": [ 59 ]
           }
@@ -11453,8 +11384,8 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 105 ],
-            "CO": [ 104 ],
+            "CI": [ 103 ],
+            "CO": [ 102 ],
             "I0": [ "0" ],
             "I1": [ 61 ]
           }
@@ -11474,8 +11405,8 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 106 ],
-            "CO": [ 105 ],
+            "CI": [ 104 ],
+            "CO": [ 103 ],
             "I0": [ "1" ],
             "I1": [ 63 ]
           }
@@ -11496,7 +11427,7 @@
           },
           "connections": {
             "CI": [ 67 ],
-            "CO": [ 106 ],
+            "CO": [ 104 ],
             "I0": [ "1" ],
             "I1": [ 65 ]
           }
@@ -11516,8 +11447,8 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 107 ],
-            "CO": [ 108 ],
+            "CI": [ 105 ],
+            "CO": [ 106 ],
             "I0": [ "1" ],
             "I1": [ 63 ]
           }
@@ -11537,8 +11468,8 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 109 ],
-            "CO": [ 107 ],
+            "CI": [ 107 ],
+            "CO": [ 105 ],
             "I0": [ "1" ],
             "I1": [ 65 ]
           }
@@ -11559,7 +11490,7 @@
           },
           "connections": {
             "CI": [ 66 ],
-            "CO": [ 109 ],
+            "CO": [ 107 ],
             "I0": [ "0" ],
             "I1": [ 67 ]
           }
@@ -11604,8 +11535,8 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 108 ],
-            "CO": [ 110 ],
+            "CI": [ 106 ],
+            "CO": [ 108 ],
             "I0": [ "0" ],
             "I1": [ 61 ]
           }
@@ -11631,7 +11562,7 @@
             "I0": [ "0" ],
             "I1": [ "0" ],
             "I2": [ "0" ],
-            "I3": [ 111 ],
+            "I3": [ 109 ],
             "O": [ 61 ]
           }
         },
@@ -11650,8 +11581,8 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 110 ],
-            "CO": [ 112 ],
+            "CI": [ 108 ],
+            "CO": [ 110 ],
             "I0": [ "0" ],
             "I1": [ 59 ]
           }
@@ -11677,7 +11608,7 @@
             "I0": [ "0" ],
             "I1": [ "0" ],
             "I2": [ "0" ],
-            "I3": [ 113 ],
+            "I3": [ 111 ],
             "O": [ 59 ]
           }
         },
@@ -11696,8 +11627,8 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 112 ],
-            "CO": [ 114 ],
+            "CI": [ 110 ],
+            "CO": [ 112 ],
             "I0": [ "0" ],
             "I1": [ 57 ]
           }
@@ -11723,7 +11654,7 @@
             "I0": [ "0" ],
             "I1": [ "0" ],
             "I2": [ "0" ],
-            "I3": [ 115 ],
+            "I3": [ 113 ],
             "O": [ 57 ]
           }
         },
@@ -11742,8 +11673,8 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 114 ],
-            "CO": [ 116 ],
+            "CI": [ 112 ],
+            "CO": [ 114 ],
             "I0": [ "0" ],
             "I1": [ 55 ]
           }
@@ -11769,7 +11700,7 @@
             "I0": [ "0" ],
             "I1": [ "0" ],
             "I2": [ "0" ],
-            "I3": [ 117 ],
+            "I3": [ 115 ],
             "O": [ 55 ]
           }
         },
@@ -11788,8 +11719,8 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 116 ],
-            "CO": [ 118 ],
+            "CI": [ 114 ],
+            "CO": [ 116 ],
             "I0": [ "0" ],
             "I1": [ 53 ]
           }
@@ -11815,7 +11746,7 @@
             "I0": [ "0" ],
             "I1": [ "0" ],
             "I2": [ "0" ],
-            "I3": [ 119 ],
+            "I3": [ 117 ],
             "O": [ 53 ]
           }
         },
@@ -11834,8 +11765,8 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 118 ],
-            "CO": [ 120 ],
+            "CI": [ 116 ],
+            "CO": [ 118 ],
             "I0": [ "1" ],
             "I1": [ 51 ]
           }
@@ -11861,7 +11792,7 @@
             "I0": [ "0" ],
             "I1": [ "0" ],
             "I2": [ "0" ],
-            "I3": [ 121 ],
+            "I3": [ 119 ],
             "O": [ 51 ]
           }
         },
@@ -11880,8 +11811,8 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 120 ],
-            "CO": [ 122 ],
+            "CI": [ 118 ],
+            "CO": [ 120 ],
             "I0": [ "0" ],
             "I1": [ 49 ]
           }
@@ -11905,10 +11836,10 @@
           },
           "connections": {
             "I0": [ "0" ],
-            "I1": [ 98 ],
-            "I2": [ 121 ],
-            "I3": [ 122 ],
-            "O": [ 123 ]
+            "I1": [ 96 ],
+            "I2": [ 119 ],
+            "I3": [ 120 ],
+            "O": [ 121 ]
           }
         },
         "v65bff5.v7964d5_SB_LUT4_O_I1_SB_CARRY_CO_I1_SB_CARRY_I1_CO_SB_LUT4_I3_I1_SB_LUT4_O": {
@@ -11931,9 +11862,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 113 ],
-            "I3": [ 124 ],
-            "O": [ 97 ]
+            "I2": [ 111 ],
+            "I3": [ 122 ],
+            "O": [ 95 ]
           }
         },
         "v65bff5.v7964d5_SB_LUT4_O_I1_SB_CARRY_CO_I1_SB_CARRY_I1_CO_SB_LUT4_I3_I1_SB_LUT4_O_1": {
@@ -11957,8 +11888,8 @@
             "I0": [ "0" ],
             "I1": [ "0" ],
             "I2": [ 46 ],
-            "I3": [ 125 ],
-            "O": [ 98 ]
+            "I3": [ 123 ],
+            "O": [ 96 ]
           }
         },
         "v65bff5.v7964d5_SB_LUT4_O_I1_SB_CARRY_CO_I1_SB_LUT4_O": {
@@ -11982,7 +11913,7 @@
             "I0": [ "0" ],
             "I1": [ "0" ],
             "I2": [ "0" ],
-            "I3": [ 126 ],
+            "I3": [ 124 ],
             "O": [ 49 ]
           }
         },
@@ -12004,10 +11935,10 @@
             "O": "output"
           },
           "connections": {
-            "I0": [ 91 ],
-            "I1": [ 92 ],
-            "I2": [ 93 ],
-            "I3": [ 94 ],
+            "I0": [ 89 ],
+            "I1": [ 90 ],
+            "I2": [ 91 ],
+            "I3": [ 92 ],
             "O": [ 40 ]
           }
         },
@@ -12026,13 +11957,34 @@
             "I1": "input"
           },
           "connections": {
+            "CI": [ 125 ],
+            "CO": [ 92 ],
+            "I0": [ "0" ],
+            "I1": [ 126 ]
+          }
+        },
+        "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO": {
+          "hide_name": 0,
+          "type": "SB_CARRY",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "main.v:107.10-122.3|main.v:425.24-425.36|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4"
+          },
+          "port_directions": {
+            "CI": "input",
+            "CO": "output",
+            "I0": "input",
+            "I1": "input"
+          },
+          "connections": {
             "CI": [ 127 ],
-            "CO": [ 94 ],
+            "CO": [ 125 ],
             "I0": [ "0" ],
             "I1": [ 128 ]
           }
         },
-        "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO": {
+        "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
@@ -12053,7 +12005,7 @@
             "I1": [ 130 ]
           }
         },
-        "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
+        "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
@@ -12070,29 +12022,8 @@
           "connections": {
             "CI": [ 131 ],
             "CO": [ 129 ],
-            "I0": [ "0" ],
-            "I1": [ 132 ]
-          }
-        },
-        "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
-          "hide_name": 0,
-          "type": "SB_CARRY",
-          "parameters": {
-          },
-          "attributes": {
-            "src": "main.v:107.10-122.3|main.v:425.24-425.36|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4"
-          },
-          "port_directions": {
-            "CI": "input",
-            "CO": "output",
-            "I0": "input",
-            "I1": "input"
-          },
-          "connections": {
-            "CI": [ 133 ],
-            "CO": [ 131 ],
             "I0": [ "1" ],
-            "I1": [ 134 ]
+            "I1": [ 132 ]
           }
         },
         "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
@@ -12110,10 +12041,10 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 135 ],
-            "CO": [ 133 ],
+            "CI": [ 133 ],
+            "CO": [ 131 ],
             "I0": [ "0" ],
-            "I1": [ 136 ]
+            "I1": [ 134 ]
           }
         },
         "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
@@ -12131,13 +12062,34 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 137 ],
-            "CO": [ 135 ],
+            "CI": [ 135 ],
+            "CO": [ 133 ],
             "I0": [ "1" ],
-            "I1": [ 138 ]
+            "I1": [ 136 ]
           }
         },
         "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
+          "hide_name": 0,
+          "type": "SB_CARRY",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "main.v:107.10-122.3|main.v:425.24-425.36|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4"
+          },
+          "port_directions": {
+            "CI": "input",
+            "CO": "output",
+            "I0": "input",
+            "I1": "input"
+          },
+          "connections": {
+            "CI": [ 137 ],
+            "CO": [ 135 ],
+            "I0": [ "0" ],
+            "I1": [ 138 ]
+          }
+        },
+        "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
@@ -12158,7 +12110,7 @@
             "I1": [ 140 ]
           }
         },
-        "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
+        "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
@@ -12179,7 +12131,7 @@
             "I1": [ 142 ]
           }
         },
-        "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
+        "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
@@ -12198,27 +12150,6 @@
             "CO": [ 141 ],
             "I0": [ "0" ],
             "I1": [ 144 ]
-          }
-        },
-        "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
-          "hide_name": 0,
-          "type": "SB_CARRY",
-          "parameters": {
-          },
-          "attributes": {
-            "src": "main.v:107.10-122.3|main.v:425.24-425.36|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4"
-          },
-          "port_directions": {
-            "CI": "input",
-            "CO": "output",
-            "I0": "input",
-            "I1": "input"
-          },
-          "connections": {
-            "CI": [ 145 ],
-            "CO": [ 143 ],
-            "I0": [ "0" ],
-            "I1": [ 146 ]
           }
         },
         "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_I1_SB_LUT4_O": {
@@ -12242,8 +12173,8 @@
             "I0": [ "0" ],
             "I1": [ "0" ],
             "I2": [ "0" ],
-            "I3": [ 147 ],
-            "O": [ 144 ]
+            "I3": [ 145 ],
+            "O": [ 142 ]
           }
         },
         "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_I1_SB_LUT4_O": {
@@ -12267,8 +12198,8 @@
             "I0": [ "0" ],
             "I1": [ "0" ],
             "I2": [ "0" ],
-            "I3": [ 148 ],
-            "O": [ 142 ]
+            "I3": [ 146 ],
+            "O": [ 140 ]
           }
         },
         "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_I1_SB_LUT4_O": {
@@ -12292,8 +12223,8 @@
             "I0": [ "0" ],
             "I1": [ "0" ],
             "I2": [ "0" ],
-            "I3": [ 149 ],
-            "O": [ 140 ]
+            "I3": [ 147 ],
+            "O": [ 138 ]
           }
         },
         "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_I1_SB_LUT4_O": {
@@ -12317,8 +12248,8 @@
             "I0": [ "0" ],
             "I1": [ "0" ],
             "I2": [ "0" ],
-            "I3": [ 150 ],
-            "O": [ 132 ]
+            "I3": [ 148 ],
+            "O": [ 130 ]
           }
         },
         "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_I1_SB_LUT4_O": {
@@ -12342,8 +12273,8 @@
             "I0": [ "0" ],
             "I1": [ "0" ],
             "I2": [ "0" ],
-            "I3": [ 151 ],
-            "O": [ 130 ]
+            "I3": [ 149 ],
+            "O": [ 128 ]
           }
         },
         "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_I1_SB_LUT4_O": {
@@ -12367,8 +12298,8 @@
             "I0": [ "0" ],
             "I1": [ "0" ],
             "I2": [ "0" ],
-            "I3": [ 152 ],
-            "O": [ 128 ]
+            "I3": [ 150 ],
+            "O": [ 126 ]
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q": {
@@ -12388,9 +12319,9 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 153 ],
-            "Q": [ 152 ],
-            "R": [ 154 ]
+            "D": [ 151 ],
+            "Q": [ 150 ],
+            "R": [ 152 ]
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_1": {
@@ -12410,9 +12341,9 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 155 ],
-            "Q": [ 151 ],
-            "R": [ 154 ]
+            "D": [ 153 ],
+            "Q": [ 149 ],
+            "R": [ 152 ]
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_10": {
@@ -12432,9 +12363,9 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 145 ],
-            "Q": [ 156 ],
-            "R": [ 154 ]
+            "D": [ 143 ],
+            "Q": [ 154 ],
+            "R": [ 152 ]
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_10_D_SB_LUT4_O": {
@@ -12458,8 +12389,8 @@
             "I0": [ "0" ],
             "I1": [ "0" ],
             "I2": [ "0" ],
-            "I3": [ 156 ],
-            "O": [ 145 ]
+            "I3": [ 154 ],
+            "O": [ 143 ]
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_1_D_SB_LUT4_O": {
@@ -12482,9 +12413,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 151 ],
-            "I3": [ 157 ],
-            "O": [ 155 ]
+            "I2": [ 149 ],
+            "I3": [ 155 ],
+            "O": [ 153 ]
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_1_D_SB_LUT4_O_I3_SB_CARRY_CO": {
@@ -12502,10 +12433,10 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 158 ],
-            "CO": [ 157 ],
+            "CI": [ 156 ],
+            "CO": [ 155 ],
             "I0": [ "0" ],
-            "I1": [ 150 ]
+            "I1": [ 148 ]
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_2": {
@@ -12525,9 +12456,9 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 159 ],
-            "Q": [ 150 ],
-            "R": [ 154 ]
+            "D": [ 157 ],
+            "Q": [ 148 ],
+            "R": [ 152 ]
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_2_D_SB_LUT4_O": {
@@ -12550,9 +12481,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 150 ],
-            "I3": [ 158 ],
-            "O": [ 159 ]
+            "I2": [ 148 ],
+            "I3": [ 156 ],
+            "O": [ 157 ]
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_2_D_SB_LUT4_O_I3_SB_CARRY_CO": {
@@ -12570,10 +12501,10 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 160 ],
-            "CO": [ 158 ],
+            "CI": [ 158 ],
+            "CO": [ 156 ],
             "I0": [ "0" ],
-            "I1": [ 95 ]
+            "I1": [ 93 ]
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_3": {
@@ -12593,9 +12524,9 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 161 ],
-            "Q": [ 95 ],
-            "R": [ 154 ]
+            "D": [ 159 ],
+            "Q": [ 93 ],
+            "R": [ 152 ]
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_3_D_SB_LUT4_O": {
@@ -12618,9 +12549,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 95 ],
-            "I3": [ 160 ],
-            "O": [ 161 ]
+            "I2": [ 93 ],
+            "I3": [ 158 ],
+            "O": [ 159 ]
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_3_D_SB_LUT4_O_I3_SB_CARRY_CO": {
@@ -12638,10 +12569,10 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 162 ],
-            "CO": [ 160 ],
+            "CI": [ 160 ],
+            "CO": [ 158 ],
             "I0": [ "0" ],
-            "I1": [ 163 ]
+            "I1": [ 161 ]
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_4": {
@@ -12661,9 +12592,9 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 164 ],
-            "Q": [ 163 ],
-            "R": [ 154 ]
+            "D": [ 162 ],
+            "Q": [ 161 ],
+            "R": [ 152 ]
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_4_D_SB_LUT4_O": {
@@ -12686,9 +12617,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 163 ],
-            "I3": [ 162 ],
-            "O": [ 164 ]
+            "I2": [ 161 ],
+            "I3": [ 160 ],
+            "O": [ 162 ]
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_4_D_SB_LUT4_O_I3_SB_CARRY_CO": {
@@ -12706,10 +12637,10 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 165 ],
-            "CO": [ 162 ],
+            "CI": [ 163 ],
+            "CO": [ 160 ],
             "I0": [ "0" ],
-            "I1": [ 96 ]
+            "I1": [ 94 ]
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_5": {
@@ -12729,9 +12660,9 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 166 ],
-            "Q": [ 96 ],
-            "R": [ 154 ]
+            "D": [ 164 ],
+            "Q": [ 94 ],
+            "R": [ 152 ]
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_5_D_SB_LUT4_O": {
@@ -12754,9 +12685,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 96 ],
-            "I3": [ 165 ],
-            "O": [ 166 ]
+            "I2": [ 94 ],
+            "I3": [ 163 ],
+            "O": [ 164 ]
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_5_D_SB_LUT4_O_I3_SB_CARRY_CO": {
@@ -12774,10 +12705,10 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 167 ],
-            "CO": [ 165 ],
+            "CI": [ 165 ],
+            "CO": [ 163 ],
             "I0": [ "0" ],
-            "I1": [ 149 ]
+            "I1": [ 147 ]
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_6": {
@@ -12797,9 +12728,9 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 168 ],
-            "Q": [ 149 ],
-            "R": [ 154 ]
+            "D": [ 166 ],
+            "Q": [ 147 ],
+            "R": [ 152 ]
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_6_D_SB_LUT4_O": {
@@ -12822,9 +12753,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 149 ],
-            "I3": [ 167 ],
-            "O": [ 168 ]
+            "I2": [ 147 ],
+            "I3": [ 165 ],
+            "O": [ 166 ]
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_6_D_SB_LUT4_O_I3_SB_CARRY_CO": {
@@ -12842,10 +12773,10 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 169 ],
-            "CO": [ 167 ],
+            "CI": [ 167 ],
+            "CO": [ 165 ],
             "I0": [ "0" ],
-            "I1": [ 148 ]
+            "I1": [ 146 ]
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_7": {
@@ -12865,9 +12796,9 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 170 ],
-            "Q": [ 148 ],
-            "R": [ 154 ]
+            "D": [ 168 ],
+            "Q": [ 146 ],
+            "R": [ 152 ]
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_7_D_SB_LUT4_O": {
@@ -12890,9 +12821,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 148 ],
-            "I3": [ 169 ],
-            "O": [ 170 ]
+            "I2": [ 146 ],
+            "I3": [ 167 ],
+            "O": [ 168 ]
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_7_D_SB_LUT4_O_I3_SB_CARRY_CO": {
@@ -12910,10 +12841,10 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 171 ],
-            "CO": [ 169 ],
+            "CI": [ 169 ],
+            "CO": [ 167 ],
             "I0": [ "0" ],
-            "I1": [ 147 ]
+            "I1": [ 145 ]
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_8": {
@@ -12933,9 +12864,9 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 172 ],
-            "Q": [ 147 ],
-            "R": [ 154 ]
+            "D": [ 170 ],
+            "Q": [ 145 ],
+            "R": [ 152 ]
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_8_D_SB_LUT4_O": {
@@ -12958,9 +12889,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 147 ],
-            "I3": [ 171 ],
-            "O": [ 172 ]
+            "I2": [ 145 ],
+            "I3": [ 169 ],
+            "O": [ 170 ]
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_8_D_SB_LUT4_O_I3_SB_CARRY_CO": {
@@ -12978,10 +12909,10 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 156 ],
-            "CO": [ 171 ],
+            "CI": [ 154 ],
+            "CO": [ 169 ],
             "I0": [ "0" ],
-            "I1": [ 173 ]
+            "I1": [ 171 ]
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_9": {
@@ -13001,9 +12932,9 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 174 ],
-            "Q": [ 173 ],
-            "R": [ 154 ]
+            "D": [ 172 ],
+            "Q": [ 171 ],
+            "R": [ 152 ]
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_9_D_SB_LUT4_O": {
@@ -13026,9 +12957,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 146 ],
-            "I3": [ 145 ],
-            "O": [ 174 ]
+            "I2": [ 144 ],
+            "I3": [ 143 ],
+            "O": [ 172 ]
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_9_D_SB_LUT4_O_I2_SB_LUT4_O": {
@@ -13052,8 +12983,8 @@
             "I0": [ "0" ],
             "I1": [ "0" ],
             "I2": [ "0" ],
-            "I3": [ 173 ],
-            "O": [ 146 ]
+            "I3": [ 171 ],
+            "O": [ 144 ]
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_D_SB_LUT4_O": {
@@ -13076,9 +13007,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 152 ],
-            "I3": [ 175 ],
-            "O": [ 153 ]
+            "I2": [ 150 ],
+            "I3": [ 173 ],
+            "O": [ 151 ]
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO": {
@@ -13096,10 +13027,10 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 157 ],
-            "CO": [ 175 ],
+            "CI": [ 155 ],
+            "CO": [ 173 ],
             "I0": [ "0" ],
-            "I1": [ 151 ]
+            "I1": [ 149 ]
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q": {
@@ -13120,10 +13051,10 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 176 ],
-            "E": [ 154 ],
-            "Q": [ 126 ],
-            "R": [ 123 ]
+            "D": [ 174 ],
+            "E": [ 152 ],
+            "Q": [ 124 ],
+            "R": [ 121 ]
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_1": {
@@ -13144,10 +13075,10 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 177 ],
-            "E": [ 154 ],
-            "Q": [ 121 ],
-            "R": [ 123 ]
+            "D": [ 175 ],
+            "E": [ 152 ],
+            "Q": [ 119 ],
+            "R": [ 121 ]
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_10": {
@@ -13169,9 +13100,9 @@
           "connections": {
             "C": [ 2 ],
             "D": [ 66 ],
-            "E": [ 154 ],
-            "Q": [ 124 ],
-            "R": [ 123 ]
+            "E": [ 152 ],
+            "Q": [ 122 ],
+            "R": [ 121 ]
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_10_D_SB_LUT4_O": {
@@ -13195,7 +13126,7 @@
             "I0": [ "0" ],
             "I1": [ "0" ],
             "I2": [ "0" ],
-            "I3": [ 124 ],
+            "I3": [ 122 ],
             "O": [ 66 ]
           }
         },
@@ -13219,9 +13150,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 121 ],
-            "I3": [ 178 ],
-            "O": [ 177 ]
+            "I2": [ 119 ],
+            "I3": [ 176 ],
+            "O": [ 175 ]
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_1_D_SB_LUT4_O_I3_SB_CARRY_CO": {
@@ -13239,10 +13170,10 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 179 ],
-            "CO": [ 178 ],
+            "CI": [ 177 ],
+            "CO": [ 176 ],
             "I0": [ "0" ],
-            "I1": [ 119 ]
+            "I1": [ 117 ]
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_2": {
@@ -13263,10 +13194,10 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 180 ],
-            "E": [ 154 ],
-            "Q": [ 119 ],
-            "R": [ 123 ]
+            "D": [ 178 ],
+            "E": [ 152 ],
+            "Q": [ 117 ],
+            "R": [ 121 ]
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_2_D_SB_LUT4_O": {
@@ -13289,9 +13220,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 119 ],
-            "I3": [ 179 ],
-            "O": [ 180 ]
+            "I2": [ 117 ],
+            "I3": [ 177 ],
+            "O": [ 178 ]
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_2_D_SB_LUT4_O_I3_SB_CARRY_CO": {
@@ -13309,10 +13240,10 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 181 ],
-            "CO": [ 179 ],
+            "CI": [ 179 ],
+            "CO": [ 177 ],
             "I0": [ "0" ],
-            "I1": [ 117 ]
+            "I1": [ 115 ]
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_3": {
@@ -13333,10 +13264,10 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 182 ],
-            "E": [ 154 ],
-            "Q": [ 117 ],
-            "R": [ 123 ]
+            "D": [ 180 ],
+            "E": [ 152 ],
+            "Q": [ 115 ],
+            "R": [ 121 ]
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_3_D_SB_LUT4_O": {
@@ -13359,9 +13290,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 117 ],
-            "I3": [ 181 ],
-            "O": [ 182 ]
+            "I2": [ 115 ],
+            "I3": [ 179 ],
+            "O": [ 180 ]
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_3_D_SB_LUT4_O_I3_SB_CARRY_CO": {
@@ -13379,10 +13310,10 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 183 ],
-            "CO": [ 181 ],
+            "CI": [ 181 ],
+            "CO": [ 179 ],
             "I0": [ "0" ],
-            "I1": [ 115 ]
+            "I1": [ 113 ]
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_4": {
@@ -13403,10 +13334,10 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 184 ],
-            "E": [ 154 ],
-            "Q": [ 115 ],
-            "R": [ 123 ]
+            "D": [ 182 ],
+            "E": [ 152 ],
+            "Q": [ 113 ],
+            "R": [ 121 ]
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_4_D_SB_LUT4_O": {
@@ -13429,9 +13360,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 115 ],
-            "I3": [ 183 ],
-            "O": [ 184 ]
+            "I2": [ 113 ],
+            "I3": [ 181 ],
+            "O": [ 182 ]
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_4_D_SB_LUT4_O_I3_SB_CARRY_CO": {
@@ -13449,10 +13380,10 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 185 ],
-            "CO": [ 183 ],
+            "CI": [ 183 ],
+            "CO": [ 181 ],
             "I0": [ "0" ],
-            "I1": [ 113 ]
+            "I1": [ 111 ]
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_5": {
@@ -13473,10 +13404,10 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 186 ],
-            "E": [ 154 ],
-            "Q": [ 113 ],
-            "R": [ 123 ]
+            "D": [ 184 ],
+            "E": [ 152 ],
+            "Q": [ 111 ],
+            "R": [ 121 ]
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_5_D_SB_LUT4_O": {
@@ -13499,9 +13430,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 113 ],
-            "I3": [ 185 ],
-            "O": [ 186 ]
+            "I2": [ 111 ],
+            "I3": [ 183 ],
+            "O": [ 184 ]
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_5_D_SB_LUT4_O_I3_SB_CARRY_CO": {
@@ -13519,10 +13450,10 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 187 ],
-            "CO": [ 185 ],
+            "CI": [ 185 ],
+            "CO": [ 183 ],
             "I0": [ "0" ],
-            "I1": [ 111 ]
+            "I1": [ 109 ]
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_6": {
@@ -13543,10 +13474,10 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 188 ],
-            "E": [ 154 ],
-            "Q": [ 111 ],
-            "R": [ 123 ]
+            "D": [ 186 ],
+            "E": [ 152 ],
+            "Q": [ 109 ],
+            "R": [ 121 ]
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_6_D_SB_LUT4_O": {
@@ -13569,9 +13500,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 111 ],
-            "I3": [ 187 ],
-            "O": [ 188 ]
+            "I2": [ 109 ],
+            "I3": [ 185 ],
+            "O": [ 186 ]
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_6_D_SB_LUT4_O_I3_SB_CARRY_CO": {
@@ -13589,8 +13520,8 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 189 ],
-            "CO": [ 187 ],
+            "CI": [ 187 ],
+            "CO": [ 185 ],
             "I0": [ "0" ],
             "I1": [ 46 ]
           }
@@ -13613,10 +13544,10 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 190 ],
-            "E": [ 154 ],
+            "D": [ 188 ],
+            "E": [ 152 ],
             "Q": [ 46 ],
-            "R": [ 123 ]
+            "R": [ 121 ]
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_7_D_SB_LUT4_O": {
@@ -13640,8 +13571,8 @@
             "I0": [ "0" ],
             "I1": [ "0" ],
             "I2": [ 46 ],
-            "I3": [ 189 ],
-            "O": [ 190 ]
+            "I3": [ 187 ],
+            "O": [ 188 ]
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_7_D_SB_LUT4_O_I3_SB_CARRY_CO": {
@@ -13659,10 +13590,10 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 191 ],
-            "CO": [ 189 ],
+            "CI": [ 189 ],
+            "CO": [ 187 ],
             "I0": [ "0" ],
-            "I1": [ 125 ]
+            "I1": [ 123 ]
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_7_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO": {
@@ -13680,8 +13611,8 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 124 ],
-            "CO": [ 191 ],
+            "CI": [ 122 ],
+            "CO": [ 189 ],
             "I0": [ "0" ],
             "I1": [ 47 ]
           }
@@ -13704,10 +13635,10 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 192 ],
-            "E": [ 154 ],
-            "Q": [ 125 ],
-            "R": [ 123 ]
+            "D": [ 190 ],
+            "E": [ 152 ],
+            "Q": [ 123 ],
+            "R": [ 121 ]
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_8_D_SB_LUT4_O": {
@@ -13731,8 +13662,8 @@
             "I0": [ "0" ],
             "I1": [ "0" ],
             "I2": [ 65 ],
-            "I3": [ 193 ],
-            "O": [ 192 ]
+            "I3": [ 191 ],
+            "O": [ 190 ]
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_8_D_SB_LUT4_O_I2_SB_LUT4_O": {
@@ -13756,7 +13687,7 @@
             "I0": [ "0" ],
             "I1": [ "0" ],
             "I2": [ "0" ],
-            "I3": [ 125 ],
+            "I3": [ 123 ],
             "O": [ 65 ]
           }
         },
@@ -13776,7 +13707,7 @@
           },
           "connections": {
             "CI": [ 66 ],
-            "CO": [ 193 ],
+            "CO": [ 191 ],
             "I0": [ "1" ],
             "I1": [ 67 ]
           }
@@ -13799,10 +13730,10 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 194 ],
-            "E": [ 154 ],
+            "D": [ 192 ],
+            "E": [ 152 ],
             "Q": [ 47 ],
-            "R": [ 123 ]
+            "R": [ 121 ]
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_9_D_SB_LUT4_O": {
@@ -13827,7 +13758,7 @@
             "I1": [ "0" ],
             "I2": [ 67 ],
             "I3": [ 66 ],
-            "O": [ 194 ]
+            "O": [ 192 ]
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_9_D_SB_LUT4_O_I2_SB_LUT4_O": {
@@ -13875,9 +13806,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 126 ],
-            "I3": [ 195 ],
-            "O": [ 176 ]
+            "I2": [ 124 ],
+            "I3": [ 193 ],
+            "O": [ 174 ]
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO": {
@@ -13895,10 +13826,10 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 178 ],
-            "CO": [ 195 ],
+            "CI": [ 176 ],
+            "CO": [ 193 ],
             "I0": [ "0" ],
-            "I1": [ 121 ]
+            "I1": [ 119 ]
           }
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q": {
@@ -13918,7 +13849,7 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 196 ],
+            "D": [ 194 ],
             "Q": [ 70 ],
             "R": [ 40 ]
           }
@@ -13940,7 +13871,7 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 197 ],
+            "D": [ 195 ],
             "Q": [ 72 ],
             "R": [ 40 ]
           }
@@ -13964,10 +13895,10 @@
           },
           "connections": {
             "I0": [ "0" ],
-            "I1": [ 150 ],
+            "I1": [ 148 ],
             "I2": [ "1" ],
-            "I3": [ 198 ],
-            "O": [ 197 ]
+            "I3": [ 196 ],
+            "O": [ 195 ]
           }
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_1_D_SB_LUT4_O_I3_SB_CARRY_CO": {
@@ -13985,9 +13916,9 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 199 ],
-            "CO": [ 198 ],
-            "I0": [ 95 ],
+            "CI": [ 197 ],
+            "CO": [ 196 ],
+            "I0": [ 93 ],
             "I1": [ "0" ]
           }
         },
@@ -14006,9 +13937,9 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 96 ],
-            "CO": [ 199 ],
-            "I0": [ 163 ],
+            "CI": [ 94 ],
+            "CO": [ 197 ],
+            "I0": [ 161 ],
             "I1": [ "1" ]
           }
         },
@@ -14029,7 +13960,7 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 200 ],
+            "D": [ 198 ],
             "Q": [ 73 ],
             "R": [ 40 ]
           }
@@ -14054,9 +13985,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 134 ],
-            "I3": [ 201 ],
-            "O": [ 200 ]
+            "I2": [ 132 ],
+            "I3": [ 199 ],
+            "O": [ 198 ]
           }
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_2_D_SB_LUT4_O_I2_SB_LUT4_O": {
@@ -14080,8 +14011,8 @@
             "I0": [ "0" ],
             "I1": [ "0" ],
             "I2": [ "0" ],
-            "I3": [ 95 ],
-            "O": [ 134 ]
+            "I3": [ 93 ],
+            "O": [ 132 ]
           }
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_2_D_SB_LUT4_O_I3_SB_CARRY_CI": {
@@ -14099,10 +14030,10 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 201 ],
-            "CO": [ 202 ],
+            "CI": [ 199 ],
+            "CO": [ 200 ],
             "I0": [ "0" ],
-            "I1": [ 134 ]
+            "I1": [ 132 ]
           }
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_2_D_SB_LUT4_O_I3_SB_CARRY_CI_CO_SB_CARRY_CI": {
@@ -14120,10 +14051,10 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 202 ],
-            "CO": [ 203 ],
+            "CI": [ 200 ],
+            "CO": [ 201 ],
             "I0": [ "1" ],
-            "I1": [ 132 ]
+            "I1": [ 130 ]
           }
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_2_D_SB_LUT4_O_I3_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_CARRY_CI": {
@@ -14141,10 +14072,10 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 203 ],
-            "CO": [ 204 ],
+            "CI": [ 201 ],
+            "CO": [ 202 ],
             "I0": [ "1" ],
-            "I1": [ 130 ]
+            "I1": [ 128 ]
           }
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_2_D_SB_LUT4_O_I3_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_CARRY_CI": {
@@ -14162,10 +14093,10 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 204 ],
-            "CO": [ 205 ],
+            "CI": [ 202 ],
+            "CO": [ 203 ],
             "I0": [ "0" ],
-            "I1": [ 128 ]
+            "I1": [ 126 ]
           }
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_2_D_SB_LUT4_O_I3_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_LUT4_I2": {
@@ -14187,10 +14118,10 @@
           },
           "connections": {
             "I0": [ "0" ],
-            "I1": [ 149 ],
-            "I2": [ 205 ],
-            "I3": [ 206 ],
-            "O": [ 154 ]
+            "I1": [ 147 ],
+            "I2": [ 203 ],
+            "I3": [ 204 ],
+            "O": [ 152 ]
           }
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_2_D_SB_LUT4_O_I3_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_LUT4_I2_I3_SB_LUT4_O": {
@@ -14212,10 +14143,10 @@
           },
           "connections": {
             "I0": [ "0" ],
-            "I1": [ 151 ],
-            "I2": [ 150 ],
-            "I3": [ 207 ],
-            "O": [ 206 ]
+            "I1": [ 149 ],
+            "I2": [ 148 ],
+            "I3": [ 205 ],
+            "O": [ 204 ]
           }
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_2_D_SB_LUT4_O_I3_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_LUT4_I2_I3_SB_LUT4_O_I3_SB_LUT4_O": {
@@ -14236,11 +14167,11 @@
             "O": "output"
           },
           "connections": {
-            "I0": [ 148 ],
-            "I1": [ 147 ],
-            "I2": [ 173 ],
-            "I3": [ 156 ],
-            "O": [ 207 ]
+            "I0": [ 146 ],
+            "I1": [ 145 ],
+            "I2": [ 171 ],
+            "I3": [ 154 ],
+            "O": [ 205 ]
           }
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_2_D_SB_LUT4_O_I3_SB_CARRY_CO": {
@@ -14258,10 +14189,10 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 138 ],
-            "CO": [ 201 ],
+            "CI": [ 136 ],
+            "CO": [ 199 ],
             "I0": [ "0" ],
-            "I1": [ 136 ]
+            "I1": [ 134 ]
           }
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_2_D_SB_LUT4_O_I3_SB_CARRY_CO_I1_SB_LUT4_O": {
@@ -14285,8 +14216,8 @@
             "I0": [ "0" ],
             "I1": [ "0" ],
             "I2": [ "0" ],
-            "I3": [ 163 ],
-            "O": [ 136 ]
+            "I3": [ 161 ],
+            "O": [ 134 ]
           }
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_3": {
@@ -14306,7 +14237,7 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 208 ],
+            "D": [ 206 ],
             "Q": [ 74 ],
             "R": [ 40 ]
           }
@@ -14330,10 +14261,10 @@
           },
           "connections": {
             "I0": [ "0" ],
-            "I1": [ 163 ],
+            "I1": [ 161 ],
             "I2": [ "1" ],
-            "I3": [ 96 ],
-            "O": [ 208 ]
+            "I3": [ 94 ],
+            "O": [ 206 ]
           }
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_4": {
@@ -14353,7 +14284,7 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 138 ],
+            "D": [ 136 ],
             "Q": [ 75 ],
             "R": [ 40 ]
           }
@@ -14379,8 +14310,8 @@
             "I0": [ "0" ],
             "I1": [ "0" ],
             "I2": [ "0" ],
-            "I3": [ 96 ],
-            "O": [ 138 ]
+            "I3": [ 94 ],
+            "O": [ 136 ]
           }
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_5": {
@@ -14400,7 +14331,7 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 149 ],
+            "D": [ 147 ],
             "Q": [ 76 ],
             "R": [ 40 ]
           }
@@ -14422,7 +14353,7 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 148 ],
+            "D": [ 146 ],
             "Q": [ 77 ],
             "R": [ 40 ]
           }
@@ -14444,7 +14375,7 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 147 ],
+            "D": [ 145 ],
             "Q": [ 78 ],
             "R": [ 40 ]
           }
@@ -14466,7 +14397,7 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 173 ],
+            "D": [ 171 ],
             "Q": [ 79 ],
             "R": [ 40 ]
           }
@@ -14488,7 +14419,7 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 156 ],
+            "D": [ 154 ],
             "Q": [ 80 ],
             "R": [ 40 ]
           }
@@ -14512,10 +14443,10 @@
           },
           "connections": {
             "I0": [ "0" ],
-            "I1": [ 151 ],
+            "I1": [ 149 ],
             "I2": [ "1" ],
-            "I3": [ 209 ],
-            "O": [ 196 ]
+            "I3": [ 207 ],
+            "O": [ 194 ]
           }
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO": {
@@ -14533,10 +14464,41 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 198 ],
-            "CO": [ 209 ],
-            "I0": [ 150 ],
+            "CI": [ 196 ],
+            "CO": [ 207 ],
+            "I0": [ 148 ],
             "I1": [ "1" ]
+          }
+        },
+        "v917657.v0a8f52.uut": {
+          "hide_name": 0,
+          "type": "SB_PLL40_CORE",
+          "parameters": {
+            "DIVF": "0010111",
+            "DIVQ": "010",
+            "DIVR": "0000",
+            "FEEDBACK_PATH": "SIMPLE",
+            "FILTER_RANGE": "010",
+            "PLLOUT_SELECT": "GENCLK"
+          },
+          "attributes": {
+            "hdlname": "v917657 v0a8f52 uut",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "main.v:160.10-163.3|main.v:777.14-784.17|main.v:679.18-683.3"
+          },
+          "port_directions": {
+            "BYPASS": "input",
+            "LOCK": "output",
+            "PLLOUTCORE": "output",
+            "REFERENCECLK": "input",
+            "RESETB": "input"
+          },
+          "connections": {
+            "BYPASS": [ "0" ],
+            "LOCK": [ 208 ],
+            "PLLOUTCORE": [ 82 ],
+            "REFERENCECLK": [ 2 ],
+            "RESETB": [ "1" ]
           }
         },
         "va834c1_SB_DFF_Q": {
@@ -14546,7 +14508,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:150.15-159.3|main.v:768.2-794.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:2.51-2.90"
+            "src": "main.v:150.15-159.3|main.v:824.2-843.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:2.51-2.90"
           },
           "port_directions": {
             "C": "input",
@@ -14555,7 +14517,7 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 210 ],
+            "D": [ 209 ],
             "Q": [ 4 ]
           }
         },
@@ -14577,11 +14539,11 @@
             "O": "output"
           },
           "connections": {
-            "I0": [ 211 ],
-            "I1": [ 149 ],
-            "I2": [ 212 ],
-            "I3": [ 213 ],
-            "O": [ 210 ]
+            "I0": [ 210 ],
+            "I1": [ 147 ],
+            "I2": [ 211 ],
+            "I3": [ 212 ],
+            "O": [ 209 ]
           }
         },
         "va834c1_SB_DFF_Q_D_SB_LUT4_O_I0_SB_LUT4_O": {
@@ -14603,10 +14565,10 @@
           },
           "connections": {
             "I0": [ "0" ],
-            "I1": [ 163 ],
-            "I2": [ 96 ],
-            "I3": [ 149 ],
-            "O": [ 211 ]
+            "I1": [ 161 ],
+            "I2": [ 94 ],
+            "I3": [ 147 ],
+            "O": [ 210 ]
           }
         },
         "va834c1_SB_DFF_Q_D_SB_LUT4_O_I2_SB_CARRY_CO": {
@@ -14624,13 +14586,34 @@
             "I1": "input"
           },
           "connections": {
+            "CI": [ 213 ],
+            "CO": [ 211 ],
+            "I0": [ "0" ],
+            "I1": [ 126 ]
+          }
+        },
+        "va834c1_SB_DFF_Q_D_SB_LUT4_O_I2_SB_CARRY_CO_CI_SB_CARRY_CO": {
+          "hide_name": 0,
+          "type": "SB_CARRY",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "main.v:107.10-122.3|main.v:423.31-423.48|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4"
+          },
+          "port_directions": {
+            "CI": "input",
+            "CO": "output",
+            "I0": "input",
+            "I1": "input"
+          },
+          "connections": {
             "CI": [ 214 ],
-            "CO": [ 212 ],
+            "CO": [ 213 ],
             "I0": [ "0" ],
             "I1": [ 128 ]
           }
         },
-        "va834c1_SB_DFF_Q_D_SB_LUT4_O_I2_SB_CARRY_CO_CI_SB_CARRY_CO": {
+        "va834c1_SB_DFF_Q_D_SB_LUT4_O_I2_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
@@ -14651,7 +14634,7 @@
             "I1": [ 130 ]
           }
         },
-        "va834c1_SB_DFF_Q_D_SB_LUT4_O_I2_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
+        "va834c1_SB_DFF_Q_D_SB_LUT4_O_I2_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
@@ -14672,7 +14655,7 @@
             "I1": [ 132 ]
           }
         },
-        "va834c1_SB_DFF_Q_D_SB_LUT4_O_I2_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
+        "va834c1_SB_DFF_Q_D_SB_LUT4_O_I2_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
@@ -14689,11 +14672,11 @@
           "connections": {
             "CI": [ 217 ],
             "CO": [ 216 ],
-            "I0": [ "0" ],
+            "I0": [ "1" ],
             "I1": [ 134 ]
           }
         },
-        "va834c1_SB_DFF_Q_D_SB_LUT4_O_I2_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
+        "va834c1_SB_DFF_Q_D_SB_LUT4_O_I2_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
@@ -14714,7 +14697,7 @@
             "I1": [ 136 ]
           }
         },
-        "va834c1_SB_DFF_Q_D_SB_LUT4_O_I2_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
+        "va834c1_SB_DFF_Q_D_SB_LUT4_O_I2_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
@@ -14735,7 +14718,7 @@
             "I1": [ 138 ]
           }
         },
-        "va834c1_SB_DFF_Q_D_SB_LUT4_O_I2_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
+        "va834c1_SB_DFF_Q_D_SB_LUT4_O_I2_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
@@ -14752,11 +14735,11 @@
           "connections": {
             "CI": [ 220 ],
             "CO": [ 219 ],
-            "I0": [ "1" ],
+            "I0": [ "0" ],
             "I1": [ 140 ]
           }
         },
-        "va834c1_SB_DFF_Q_D_SB_LUT4_O_I2_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
+        "va834c1_SB_DFF_Q_D_SB_LUT4_O_I2_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
@@ -14777,27 +14760,6 @@
             "I1": [ 142 ]
           }
         },
-        "va834c1_SB_DFF_Q_D_SB_LUT4_O_I2_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
-          "hide_name": 0,
-          "type": "SB_CARRY",
-          "parameters": {
-          },
-          "attributes": {
-            "src": "main.v:107.10-122.3|main.v:423.31-423.48|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4"
-          },
-          "port_directions": {
-            "CI": "input",
-            "CO": "output",
-            "I0": "input",
-            "I1": "input"
-          },
-          "connections": {
-            "CI": [ 222 ],
-            "CO": [ 221 ],
-            "I0": [ "0" ],
-            "I1": [ 144 ]
-          }
-        },
         "va834c1_SB_DFF_Q_D_SB_LUT4_O_I2_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
@@ -14813,10 +14775,10 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 145 ],
-            "CO": [ 222 ],
+            "CI": [ 143 ],
+            "CO": [ 221 ],
             "I0": [ "0" ],
-            "I1": [ 146 ]
+            "I1": [ 144 ]
           }
         },
         "va834c1_SB_DFF_Q_D_SB_LUT4_O_I3_SB_CARRY_CO": {
@@ -14834,13 +14796,34 @@
             "I1": "input"
           },
           "connections": {
+            "CI": [ 222 ],
+            "CO": [ 212 ],
+            "I0": [ "0" ],
+            "I1": [ 126 ]
+          }
+        },
+        "va834c1_SB_DFF_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO": {
+          "hide_name": 0,
+          "type": "SB_CARRY",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "main.v:107.10-122.3|main.v:423.18-423.27|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4"
+          },
+          "port_directions": {
+            "CI": "input",
+            "CO": "output",
+            "I0": "input",
+            "I1": "input"
+          },
+          "connections": {
             "CI": [ 223 ],
-            "CO": [ 213 ],
+            "CO": [ 222 ],
             "I0": [ "0" ],
             "I1": [ 128 ]
           }
         },
-        "va834c1_SB_DFF_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO": {
+        "va834c1_SB_DFF_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
@@ -14861,7 +14844,7 @@
             "I1": [ 130 ]
           }
         },
-        "va834c1_SB_DFF_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
+        "va834c1_SB_DFF_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
@@ -14882,7 +14865,7 @@
             "I1": [ 132 ]
           }
         },
-        "va834c1_SB_DFF_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
+        "va834c1_SB_DFF_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
@@ -14903,7 +14886,7 @@
             "I1": [ 134 ]
           }
         },
-        "va834c1_SB_DFF_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
+        "va834c1_SB_DFF_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
@@ -14924,7 +14907,7 @@
             "I1": [ 136 ]
           }
         },
-        "va834c1_SB_DFF_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
+        "va834c1_SB_DFF_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
@@ -14941,11 +14924,11 @@
           "connections": {
             "CI": [ 228 ],
             "CO": [ 227 ],
-            "I0": [ "0" ],
+            "I0": [ "1" ],
             "I1": [ 138 ]
           }
         },
-        "va834c1_SB_DFF_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
+        "va834c1_SB_DFF_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
@@ -14962,11 +14945,11 @@
           "connections": {
             "CI": [ 229 ],
             "CO": [ 228 ],
-            "I0": [ "1" ],
+            "I0": [ "0" ],
             "I1": [ 140 ]
           }
         },
-        "va834c1_SB_DFF_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
+        "va834c1_SB_DFF_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
           "parameters": {
@@ -14987,27 +14970,6 @@
             "I1": [ 142 ]
           }
         },
-        "va834c1_SB_DFF_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
-          "hide_name": 0,
-          "type": "SB_CARRY",
-          "parameters": {
-          },
-          "attributes": {
-            "src": "main.v:107.10-122.3|main.v:423.18-423.27|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4"
-          },
-          "port_directions": {
-            "CI": "input",
-            "CO": "output",
-            "I0": "input",
-            "I1": "input"
-          },
-          "connections": {
-            "CI": [ 231 ],
-            "CO": [ 230 ],
-            "I0": [ "0" ],
-            "I1": [ 144 ]
-          }
-        },
         "va834c1_SB_DFF_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO": {
           "hide_name": 0,
           "type": "SB_CARRY",
@@ -15023,10 +14985,10 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 145 ],
-            "CO": [ 231 ],
+            "CI": [ 143 ],
+            "CO": [ 230 ],
             "I0": [ "0" ],
-            "I1": [ 146 ]
+            "I1": [ 144 ]
           }
         },
         "vabdbaa_SB_DFFSR_Q": {
@@ -15036,7 +14998,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:150.15-159.3|main.v:768.2-794.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:150.15-159.3|main.v:824.2-843.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -15046,7 +15008,7 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 90 ],
+            "D": [ 88 ],
             "Q": [ 7 ],
             "R": [ 40 ]
           }
@@ -15058,7 +15020,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:150.15-159.3|main.v:768.2-794.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:150.15-159.3|main.v:824.2-843.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -15068,40 +15030,9 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 87 ],
+            "D": [ 85 ],
             "Q": [ 6 ],
             "R": [ 40 ]
-          }
-        },
-        "vc768b6.v0a8f52.uut": {
-          "hide_name": 0,
-          "type": "SB_PLL40_CORE",
-          "parameters": {
-            "DIVF": "0010111",
-            "DIVQ": "010",
-            "DIVR": "0000",
-            "FEEDBACK_PATH": "SIMPLE",
-            "FILTER_RANGE": "010",
-            "PLLOUT_SELECT": "GENCLK"
-          },
-          "attributes": {
-            "hdlname": "vc768b6 v0a8f52 uut",
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:160.10-163.3|main.v:722.14-729.17|main.v:691.18-695.3"
-          },
-          "port_directions": {
-            "BYPASS": "input",
-            "LOCK": "output",
-            "PLLOUTCORE": "output",
-            "REFERENCECLK": "input",
-            "RESETB": "input"
-          },
-          "connections": {
-            "BYPASS": [ "0" ],
-            "LOCK": [ 232 ],
-            "PLLOUTCORE": [ 84 ],
-            "REFERENCECLK": [ 2 ],
-            "RESETB": [ "1" ]
           }
         },
         "vdd4a9b_SB_DFFSR_Q": {
@@ -15111,7 +15042,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:150.15-159.3|main.v:768.2-794.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:150.15-159.3|main.v:824.2-843.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -15121,7 +15052,7 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 88 ],
+            "D": [ 86 ],
             "Q": [ 21 ],
             "R": [ 40 ]
           }
@@ -15133,7 +15064,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:150.15-159.3|main.v:768.2-794.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:150.15-159.3|main.v:824.2-843.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -15143,7 +15074,7 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 86 ],
+            "D": [ 84 ],
             "Q": [ 25 ],
             "R": [ 40 ]
           }
@@ -15155,7 +15086,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "main.v:150.15-159.3|main.v:768.2-794.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "main.v:150.15-159.3|main.v:824.2-843.5|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -15165,7 +15096,7 @@
           },
           "connections": {
             "C": [ 2 ],
-            "D": [ 85 ],
+            "D": [ 83 ],
             "Q": [ 26 ],
             "R": [ 40 ]
           }
@@ -15681,7 +15612,7 @@
           "bits": [ "x", "x", "x", "x", "x", "x", "x", "x", "x", 3, 4, "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", 5, 6, 7, 18, 19, 20, 21, 22, 23, 24, 25, 26 ],
           "attributes": {
             "hdlname": "v3d08f2 RGBStr",
-            "src": "main.v:150.15-159.3|main.v:738.16-738.22"
+            "src": "main.v:150.15-159.3|main.v:794.16-794.22"
           }
         },
         "v3d08f2.RGBStrReg": {
@@ -15689,15 +15620,15 @@
           "bits": [ "x", "x", "x", "x", "x", "x", "x", "x", "x", 3, 4, "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", 5, 6, 7, 18, 19, 20, 21, 22, 23, 24, 25, 26 ],
           "attributes": {
             "hdlname": "v3d08f2 RGBStrReg",
-            "src": "main.v:150.15-159.3|main.v:762.13-762.22"
+            "src": "main.v:150.15-159.3|main.v:818.13-818.22"
           }
         },
         "v3d08f2.VGAStr": {
           "hide_name": 0,
-          "bits": [ 71, 233, "x", 234, "x", "x", 235, "x", 236, 237, 238, "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", 80, 79, 78, 77, 76, 75, 74, 73, 72, 70 ],
+          "bits": [ 71, 231, "x", 232, "x", "x", 233, "x", 234, 235, 236, "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", 80, 79, 78, 77, 76, 75, 74, 73, 72, 70 ],
           "attributes": {
             "hdlname": "v3d08f2 VGAStr",
-            "src": "main.v:150.15-159.3|main.v:736.15-736.21",
+            "src": "main.v:150.15-159.3|main.v:792.15-792.21",
             "unused_bits": "1 3 6 8 9 10"
           }
         },
@@ -15706,15 +15637,15 @@
           "bits": [ 2 ],
           "attributes": {
             "hdlname": "v3d08f2 px_clk",
-            "src": "main.v:150.15-159.3|main.v:735.8-735.14"
+            "src": "main.v:150.15-159.3|main.v:791.8-791.14"
           }
         },
         "v3d08f2.sram_data_out": {
           "hide_name": 0,
-          "bits": [ 41, 87, 90, 42, 89, 39, 88, 68, 69, 83, 86, 85 ],
+          "bits": [ 41, 85, 88, 42, 87, 39, 86, 68, 69, 81, 84, 83 ],
           "attributes": {
             "hdlname": "v3d08f2 sram_data_out",
-            "src": "main.v:150.15-159.3|main.v:737.15-737.28"
+            "src": "main.v:150.15-159.3|main.v:793.15-793.28"
           }
         },
         "v3d08f2.sram_read_addr": {
@@ -15722,7 +15653,7 @@
           "bits": [ 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, "0", "0", "0", "0", "0", "0", "0", "0" ],
           "attributes": {
             "hdlname": "v3d08f2 sram_read_addr",
-            "src": "main.v:150.15-159.3|main.v:740.16-740.30"
+            "src": "main.v:150.15-159.3|main.v:796.16-796.30"
           }
         },
         "v3d08f2.sram_read_addr_reg": {
@@ -15730,45 +15661,15 @@
           "bits": [ 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, "0", "0", "0", "0", "0", "0", "0", "0" ],
           "attributes": {
             "hdlname": "v3d08f2 sram_read_addr_reg",
-            "src": "main.v:150.15-159.3|main.v:764.13-764.31"
+            "src": "main.v:150.15-159.3|main.v:820.13-820.31"
           }
         },
         "v3d08f2.sram_wr_en": {
           "hide_name": 0,
-          "bits": [ 81 ],
+          "bits": [ "0" ],
           "attributes": {
             "hdlname": "v3d08f2 sram_wr_en",
-            "src": "main.v:150.15-159.3|main.v:741.9-741.19"
-          }
-        },
-        "v3d08f2.sram_wr_en_reg": {
-          "hide_name": 0,
-          "bits": [ 81 ],
-          "attributes": {
-            "hdlname": "v3d08f2 sram_wr_en_reg",
-            "src": "main.v:150.15-159.3|main.v:766.6-766.20"
-          }
-        },
-        "v3d08f2.sram_wr_en_reg_SB_LUT4_I3_O": {
-          "hide_name": 0,
-          "bits": [ 82 ],
-          "attributes": {
-          }
-        },
-        "v3d08f2.sram_write_addr": {
-          "hide_name": 0,
-          "bits": [ "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x" ],
-          "attributes": {
-            "hdlname": "v3d08f2 sram_write_addr",
-            "src": "main.v:150.15-159.3|main.v:739.16-739.31"
-          }
-        },
-        "v3d08f2.sram_write_addr_reg": {
-          "hide_name": 0,
-          "bits": [ "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x" ],
-          "attributes": {
-            "hdlname": "v3d08f2 sram_write_addr_reg",
-            "src": "main.v:150.15-159.3|main.v:763.13-763.32"
+            "src": "main.v:150.15-159.3|main.v:797.9-797.19"
           }
         },
         "v4875ae": {
@@ -15778,20 +15679,12 @@
             "src": "main.v:20.9-20.16"
           }
         },
-        "v4d888f.v1c8814": {
-          "hide_name": 0,
-          "bits": [ "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x" ],
-          "attributes": {
-            "hdlname": "v4d888f v1c8814",
-            "src": "main.v:139.10-149.3|main.v:588.15-588.22"
-          }
-        },
         "v4d888f.v619423": {
           "hide_name": 0,
           "bits": [ "1" ],
           "attributes": {
             "hdlname": "v4d888f v619423",
-            "src": "main.v:139.10-149.3|main.v:593.9-593.16"
+            "src": "main.v:139.10-149.3|main.v:594.9-594.16"
           }
         },
         "v4d888f.v64d6af": {
@@ -15810,20 +15703,20 @@
             "src": "main.v:139.10-149.3|main.v:591.15-591.22"
           }
         },
-        "v4d888f.v931b7c.data_out": {
+        "v4d888f.v931b7c.dataOutReg": {
           "hide_name": 0,
-          "bits": [ 41, 87, 90, 42, 89, 39, 88, 68, 69, 83, 86, 85 ],
+          "bits": [ 41, 85, 88, 42, 87, 39, 86, 68, 69, 81, 84, 83 ],
           "attributes": {
-            "hdlname": "v4d888f v931b7c data_out",
-            "src": "main.v:139.10-149.3|main.v:637.15-637.23|main.v:614.18-624.3"
+            "hdlname": "v4d888f v931b7c dataOutReg",
+            "src": "main.v:139.10-149.3|main.v:646.13-646.23|main.v:614.18-624.3"
           }
         },
-        "v4d888f.v931b7c.data_out_reg": {
+        "v4d888f.v931b7c.data_out": {
           "hide_name": 0,
-          "bits": [ 41, 87, 90, 42, 89, 39, 88, 68, 69, 83, 86, 85 ],
+          "bits": [ 41, 85, 88, 42, 87, 39, 86, 68, 69, 81, 84, 83 ],
           "attributes": {
-            "hdlname": "v4d888f v931b7c data_out_reg",
-            "src": "main.v:139.10-149.3|main.v:646.13-646.25|main.v:614.18-624.3"
+            "hdlname": "v4d888f v931b7c data_out",
+            "src": "main.v:139.10-149.3|main.v:635.16-635.24|main.v:614.18-624.3"
           }
         },
         "v4d888f.v931b7c.read_addr": {
@@ -15847,15 +15740,7 @@
           "bits": [ 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38 ],
           "attributes": {
             "hdlname": "v4d888f v931b7c sram_io",
-            "src": "main.v:139.10-149.3|main.v:636.15-636.22|main.v:614.18-624.3"
-          }
-        },
-        "v4d888f.v931b7c.sram_io_reg": {
-          "hide_name": 0,
-          "bits": [ 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38 ],
-          "attributes": {
-            "hdlname": "v4d888f v931b7c sram_io_reg",
-            "src": "main.v:139.10-149.3|main.v:647.13-647.24|main.v:614.18-624.3"
+            "src": "main.v:139.10-149.3|main.v:637.15-637.22|main.v:614.18-624.3"
           }
         },
         "v4d888f.v931b7c.sram_we": {
@@ -15863,12 +15748,12 @@
           "bits": [ "1" ],
           "attributes": {
             "hdlname": "v4d888f v931b7c sram_we",
-            "src": "main.v:139.10-149.3|main.v:635.9-635.16|main.v:614.18-624.3"
+            "src": "main.v:139.10-149.3|main.v:636.9-636.16|main.v:614.18-624.3"
           }
         },
         "v4d888f.v931b7c.sys_clk": {
           "hide_name": 0,
-          "bits": [ 84 ],
+          "bits": [ 82 ],
           "attributes": {
             "hdlname": "v4d888f v931b7c sys_clk",
             "src": "main.v:139.10-149.3|main.v:629.8-629.15|main.v:614.18-624.3"
@@ -15876,18 +15761,10 @@
         },
         "v4d888f.v931b7c.wr_en": {
           "hide_name": 0,
-          "bits": [ 81 ],
+          "bits": [ "0" ],
           "attributes": {
             "hdlname": "v4d888f v931b7c wr_en",
             "src": "main.v:139.10-149.3|main.v:630.8-630.13|main.v:614.18-624.3"
-          }
-        },
-        "v4d888f.v931b7c.write_addr": {
-          "hide_name": 0,
-          "bits": [ "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x" ],
-          "attributes": {
-            "hdlname": "v4d888f v931b7c write_addr",
-            "src": "main.v:139.10-149.3|main.v:631.15-631.25|main.v:614.18-624.3"
           }
         },
         "v4d888f.v9377ba": {
@@ -15900,7 +15777,7 @@
         },
         "v4d888f.vb33f83": {
           "hide_name": 0,
-          "bits": [ 81 ],
+          "bits": [ "0" ],
           "attributes": {
             "hdlname": "v4d888f vb33f83",
             "src": "main.v:139.10-149.3|main.v:587.8-587.15"
@@ -15908,7 +15785,7 @@
         },
         "v4d888f.vb680b9": {
           "hide_name": 0,
-          "bits": [ 84 ],
+          "bits": [ 82 ],
           "attributes": {
             "hdlname": "v4d888f vb680b9",
             "src": "main.v:139.10-149.3|main.v:586.8-586.15"
@@ -15916,10 +15793,10 @@
         },
         "v4d888f.vdd0bfb": {
           "hide_name": 0,
-          "bits": [ 41, 87, 90, 42, 89, 39, 88, 68, 69, 83, 86, 85 ],
+          "bits": [ 41, 85, 88, 42, 87, 39, 86, 68, 69, 81, 84, 83 ],
           "attributes": {
             "hdlname": "v4d888f vdd0bfb",
-            "src": "main.v:139.10-149.3|main.v:594.16-594.23"
+            "src": "main.v:139.10-149.3|main.v:593.16-593.23"
           }
         },
         "v4d888f.w0": {
@@ -15932,7 +15809,7 @@
         },
         "v4d888f.w1": {
           "hide_name": 0,
-          "bits": [ 41, 87, 90, 42, 89, 39, 88, 68, 69, 83, 86, 85 ],
+          "bits": [ 41, 85, 88, 42, 87, 39, 86, 68, 69, 81, 84, 83 ],
           "upto": 1,
           "attributes": {
             "hdlname": "v4d888f w1",
@@ -15959,7 +15836,7 @@
         },
         "v4d888f.w4": {
           "hide_name": 0,
-          "bits": [ 81 ],
+          "bits": [ "0" ],
           "attributes": {
             "hdlname": "v4d888f w4",
             "src": "main.v:139.10-149.3|main.v:600.7-600.9"
@@ -15967,19 +15844,10 @@
         },
         "v4d888f.w5": {
           "hide_name": 0,
-          "bits": [ 84 ],
+          "bits": [ 82 ],
           "attributes": {
             "hdlname": "v4d888f w5",
             "src": "main.v:139.10-149.3|main.v:601.7-601.9"
-          }
-        },
-        "v4d888f.w6": {
-          "hide_name": 0,
-          "bits": [ "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x" ],
-          "upto": 1,
-          "attributes": {
-            "hdlname": "v4d888f w6",
-            "src": "main.v:139.10-149.3|main.v:602.14-602.16"
           }
         },
         "v4d888f.w7": {
@@ -16000,7 +15868,7 @@
         },
         "v65bff5.v0092bf": {
           "hide_name": 0,
-          "bits": [ 71, 233, "x", 234, "x", "x", 235, "x", 236, 237, 238, "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", 80, 79, 78, 77, 76, 75, 74, 73, 72, 70 ],
+          "bits": [ 71, 231, "x", 232, "x", "x", 233, "x", 234, 235, 236, "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", 80, 79, 78, 77, 76, 75, 74, 73, 72, 70 ],
           "attributes": {
             "hdlname": "v65bff5 v0092bf",
             "src": "main.v:123.10-138.3|main.v:478.16-478.23",
@@ -16025,7 +15893,7 @@
         },
         "v65bff5.v26390f": {
           "hide_name": 0,
-          "bits": [ 234 ],
+          "bits": [ 232 ],
           "attributes": {
             "hdlname": "v65bff5 v26390f",
             "src": "main.v:123.10-138.3|main.v:468.8-468.15",
@@ -16034,7 +15902,7 @@
         },
         "v65bff5.v2fd51b": {
           "hide_name": 0,
-          "bits": [ 237 ],
+          "bits": [ 235 ],
           "attributes": {
             "hdlname": "v65bff5 v2fd51b",
             "src": "main.v:123.10-138.3|main.v:474.8-474.15",
@@ -16051,7 +15919,7 @@
         },
         "v65bff5.v372172": {
           "hide_name": 0,
-          "bits": [ 238 ],
+          "bits": [ 236 ],
           "attributes": {
             "hdlname": "v65bff5 v372172",
             "src": "main.v:123.10-138.3|main.v:475.8-475.15",
@@ -16068,7 +15936,7 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I0": {
           "hide_name": 0,
-          "bits": [ 91, 92, 93, 94 ],
+          "bits": [ 89, 90, 91, 92 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -16076,7 +15944,7 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I1": {
           "hide_name": 0,
-          "bits": [ 92 ],
+          "bits": [ 90 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:425.40-425.52|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16084,7 +15952,7 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I1_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 99 ],
+          "bits": [ 97 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:425.40-425.52|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16092,7 +15960,7 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I1_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 100 ],
+          "bits": [ 98 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:425.40-425.52|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16100,7 +15968,7 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I1_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 101 ],
+          "bits": [ 99 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:425.40-425.52|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16108,7 +15976,7 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I1_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 102 ],
+          "bits": [ 100 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:425.40-425.52|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16116,7 +15984,7 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I1_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 103 ],
+          "bits": [ 101 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:425.40-425.52|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16124,7 +15992,7 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I1_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 104 ],
+          "bits": [ 102 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:425.40-425.52|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16132,7 +16000,7 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I1_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 105 ],
+          "bits": [ 103 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:425.40-425.52|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16140,7 +16008,7 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I1_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 106 ],
+          "bits": [ 104 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:425.40-425.52|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16154,7 +16022,7 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I1_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_I1_SB_CARRY_I1_CI": {
           "hide_name": 0,
-          "bits": [ 107 ],
+          "bits": [ 105 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:415.14-415.29|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16162,7 +16030,7 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I1_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_I1_SB_CARRY_I1_CI_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 109 ],
+          "bits": [ 107 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:415.14-415.29|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16176,7 +16044,7 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I1_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_I1_SB_CARRY_I1_CI": {
           "hide_name": 0,
-          "bits": [ 108 ],
+          "bits": [ 106 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:415.14-415.29|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16190,7 +16058,7 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I1_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_I1_SB_CARRY_I1_CI": {
           "hide_name": 0,
-          "bits": [ 110 ],
+          "bits": [ 108 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:415.14-415.29|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16204,7 +16072,7 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I1_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_I1_SB_CARRY_I1_CI": {
           "hide_name": 0,
-          "bits": [ 112 ],
+          "bits": [ 110 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:415.14-415.29|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16218,7 +16086,7 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I1_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_I1_SB_CARRY_I1_CI": {
           "hide_name": 0,
-          "bits": [ 114 ],
+          "bits": [ 112 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:415.14-415.29|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16232,7 +16100,7 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I1_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_I1_SB_CARRY_I1_CI": {
           "hide_name": 0,
-          "bits": [ 116 ],
+          "bits": [ 114 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:415.14-415.29|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16246,7 +16114,7 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I1_SB_CARRY_CO_CI_SB_CARRY_CO_I1_SB_CARRY_I1_CI": {
           "hide_name": 0,
-          "bits": [ 118 ],
+          "bits": [ 116 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:415.14-415.29|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16260,7 +16128,7 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I1_SB_CARRY_CO_I1_SB_CARRY_I1_CI": {
           "hide_name": 0,
-          "bits": [ 120 ],
+          "bits": [ 118 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:415.14-415.29|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16268,7 +16136,7 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I1_SB_CARRY_CO_I1_SB_CARRY_I1_CO": {
           "hide_name": 0,
-          "bits": [ 122 ],
+          "bits": [ 120 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:415.14-415.29|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16276,7 +16144,7 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I1_SB_CARRY_CO_I1_SB_CARRY_I1_CO_SB_LUT4_I3_I1": {
           "hide_name": 0,
-          "bits": [ 97, 98 ],
+          "bits": [ 95, 96 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -16284,7 +16152,7 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I1_SB_CARRY_CO_I1_SB_CARRY_I1_CO_SB_LUT4_I3_O": {
           "hide_name": 0,
-          "bits": [ 123 ],
+          "bits": [ 121 ],
           "attributes": {
           }
         },
@@ -16296,7 +16164,7 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I3": {
           "hide_name": 0,
-          "bits": [ 94 ],
+          "bits": [ 92 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:425.24-425.36|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16304,7 +16172,7 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 127 ],
+          "bits": [ 125 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:425.24-425.36|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16312,7 +16180,7 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 129 ],
+          "bits": [ 127 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:425.24-425.36|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16320,7 +16188,7 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 131 ],
+          "bits": [ 129 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:425.24-425.36|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16328,7 +16196,7 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 133 ],
+          "bits": [ 131 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:425.24-425.36|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16336,7 +16204,7 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 135 ],
+          "bits": [ 133 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:425.24-425.36|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16344,7 +16212,7 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 137 ],
+          "bits": [ 135 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:425.24-425.36|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16352,7 +16220,7 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 139 ],
+          "bits": [ 137 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:425.24-425.36|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16360,7 +16228,7 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 141 ],
+          "bits": [ 139 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:425.24-425.36|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16368,7 +16236,7 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 143 ],
+          "bits": [ 141 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:425.24-425.36|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16376,37 +16244,37 @@
         },
         "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_I1": {
           "hide_name": 0,
-          "bits": [ 144 ],
+          "bits": [ 142 ],
           "attributes": {
           }
         },
         "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_I1": {
           "hide_name": 0,
-          "bits": [ 142 ],
+          "bits": [ 140 ],
           "attributes": {
           }
         },
         "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_I1": {
           "hide_name": 0,
-          "bits": [ 140 ],
+          "bits": [ 138 ],
           "attributes": {
           }
         },
         "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_I1": {
           "hide_name": 0,
-          "bits": [ 132 ],
+          "bits": [ 130 ],
           "attributes": {
           }
         },
         "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_I1": {
           "hide_name": 0,
-          "bits": [ 130 ],
+          "bits": [ 128 ],
           "attributes": {
           }
         },
         "v65bff5.v7964d5_SB_LUT4_O_I3_SB_CARRY_CO_I1": {
           "hide_name": 0,
-          "bits": [ 128 ],
+          "bits": [ 126 ],
           "attributes": {
           }
         },
@@ -16420,7 +16288,7 @@
         },
         "v65bff5.vbebd3d.VGAStr": {
           "hide_name": 0,
-          "bits": [ 71, 233, "x", 234, "x", "x", 235, "x", 236, 237, 238, "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", 80, 79, 78, 77, 76, 75, 74, 73, 72, 70 ],
+          "bits": [ 71, 231, "x", 232, "x", "x", 233, "x", 234, 235, 236, "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", 80, 79, 78, 77, 76, 75, 74, 73, 72, 70 ],
           "attributes": {
             "hdlname": "v65bff5 vbebd3d VGAStr",
             "src": "main.v:123.10-138.3|main.v:546.16-546.22|main.v:508.18-523.3",
@@ -16437,7 +16305,7 @@
         },
         "v65bff5.vbebd3d.activeFrameStart": {
           "hide_name": 0,
-          "bits": [ 234 ],
+          "bits": [ 232 ],
           "attributes": {
             "hdlname": "v65bff5 vbebd3d activeFrameStart",
             "src": "main.v:123.10-138.3|main.v:536.8-536.24|main.v:508.18-523.3",
@@ -16454,7 +16322,7 @@
         },
         "v65bff5.vbebd3d.activeLineStart": {
           "hide_name": 0,
-          "bits": [ 233 ],
+          "bits": [ 231 ],
           "attributes": {
             "hdlname": "v65bff5 vbebd3d activeLineStart",
             "src": "main.v:123.10-138.3|main.v:534.8-534.23|main.v:508.18-523.3",
@@ -16471,7 +16339,7 @@
         },
         "v65bff5.vbebd3d.frameEnd": {
           "hide_name": 0,
-          "bits": [ 236 ],
+          "bits": [ 234 ],
           "attributes": {
             "hdlname": "v65bff5 vbebd3d frameEnd",
             "src": "main.v:123.10-138.3|main.v:541.8-541.16|main.v:508.18-523.3",
@@ -16488,7 +16356,7 @@
         },
         "v65bff5.vbebd3d.hsync": {
           "hide_name": 0,
-          "bits": [ 238 ],
+          "bits": [ 236 ],
           "attributes": {
             "hdlname": "v65bff5 vbebd3d hsync",
             "src": "main.v:123.10-138.3|main.v:543.8-543.13|main.v:508.18-523.3",
@@ -16497,7 +16365,7 @@
         },
         "v65bff5.vbebd3d.lineEnd": {
           "hide_name": 0,
-          "bits": [ 235 ],
+          "bits": [ 233 ],
           "attributes": {
             "hdlname": "v65bff5 vbebd3d lineEnd",
             "src": "main.v:123.10-138.3|main.v:539.8-539.15|main.v:508.18-523.3",
@@ -16514,7 +16382,7 @@
         },
         "v65bff5.vbebd3d.vsync": {
           "hide_name": 0,
-          "bits": [ 237 ],
+          "bits": [ 235 ],
           "attributes": {
             "hdlname": "v65bff5 vbebd3d vsync",
             "src": "main.v:123.10-138.3|main.v:542.8-542.13|main.v:508.18-523.3",
@@ -16539,7 +16407,7 @@
         },
         "v65bff5.vd6449d": {
           "hide_name": 0,
-          "bits": [ 236 ],
+          "bits": [ 234 ],
           "attributes": {
             "hdlname": "v65bff5 vd6449d",
             "src": "main.v:123.10-138.3|main.v:473.8-473.15",
@@ -16556,7 +16424,7 @@
         },
         "v65bff5.ve94b13": {
           "hide_name": 0,
-          "bits": [ 235 ],
+          "bits": [ 233 ],
           "attributes": {
             "hdlname": "v65bff5 ve94b13",
             "src": "main.v:123.10-138.3|main.v:471.8-471.15",
@@ -16573,7 +16441,7 @@
         },
         "v65bff5.vfed71d": {
           "hide_name": 0,
-          "bits": [ 233 ],
+          "bits": [ 231 ],
           "attributes": {
             "hdlname": "v65bff5 vfed71d",
             "src": "main.v:123.10-138.3|main.v:466.8-466.15",
@@ -16608,7 +16476,7 @@
         },
         "v65bff5.w11": {
           "hide_name": 0,
-          "bits": [ 234 ],
+          "bits": [ 232 ],
           "attributes": {
             "hdlname": "v65bff5 w11",
             "src": "main.v:123.10-138.3|main.v:491.7-491.10",
@@ -16625,7 +16493,7 @@
         },
         "v65bff5.w13": {
           "hide_name": 0,
-          "bits": [ 236 ],
+          "bits": [ 234 ],
           "attributes": {
             "hdlname": "v65bff5 w13",
             "src": "main.v:123.10-138.3|main.v:493.7-493.10",
@@ -16634,7 +16502,7 @@
         },
         "v65bff5.w2": {
           "hide_name": 0,
-          "bits": [ 238 ],
+          "bits": [ 236 ],
           "attributes": {
             "hdlname": "v65bff5 w2",
             "src": "main.v:123.10-138.3|main.v:482.7-482.9",
@@ -16643,7 +16511,7 @@
         },
         "v65bff5.w3": {
           "hide_name": 0,
-          "bits": [ 237 ],
+          "bits": [ 235 ],
           "attributes": {
             "hdlname": "v65bff5 w3",
             "src": "main.v:123.10-138.3|main.v:483.7-483.9",
@@ -16660,7 +16528,7 @@
         },
         "v65bff5.w5": {
           "hide_name": 0,
-          "bits": [ 71, 233, "x", 234, "x", "x", 235, "x", 236, 237, 238, "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", 80, 79, 78, 77, 76, 75, 74, 73, 72, 70 ],
+          "bits": [ 71, 231, "x", 232, "x", "x", 233, "x", 234, 235, 236, "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", 80, 79, 78, 77, 76, 75, 74, 73, 72, 70 ],
           "upto": 1,
           "attributes": {
             "hdlname": "v65bff5 w5",
@@ -16670,7 +16538,7 @@
         },
         "v65bff5.w6": {
           "hide_name": 0,
-          "bits": [ 233 ],
+          "bits": [ 231 ],
           "attributes": {
             "hdlname": "v65bff5 w6",
             "src": "main.v:123.10-138.3|main.v:486.7-486.9",
@@ -16687,7 +16555,7 @@
         },
         "v65bff5.w8": {
           "hide_name": 0,
-          "bits": [ 235 ],
+          "bits": [ 233 ],
           "attributes": {
             "hdlname": "v65bff5 w8",
             "src": "main.v:123.10-138.3|main.v:488.7-488.9",
@@ -16719,7 +16587,7 @@
         },
         "v8134b4.v40212f": {
           "hide_name": 0,
-          "bits": [ 234 ],
+          "bits": [ 232 ],
           "attributes": {
             "hdlname": "v8134b4 v40212f",
             "src": "main.v:107.10-122.3|main.v:301.9-301.16",
@@ -16752,7 +16620,7 @@
         },
         "v8134b4.v535766": {
           "hide_name": 0,
-          "bits": [ 236 ],
+          "bits": [ 234 ],
           "attributes": {
             "hdlname": "v8134b4 v535766",
             "src": "main.v:107.10-122.3|main.v:306.9-306.16",
@@ -16761,7 +16629,7 @@
         },
         "v8134b4.v7ab3fe": {
           "hide_name": 0,
-          "bits": [ 235 ],
+          "bits": [ 233 ],
           "attributes": {
             "hdlname": "v8134b4 v7ab3fe",
             "src": "main.v:107.10-122.3|main.v:304.9-304.16",
@@ -16778,7 +16646,7 @@
         },
         "v8134b4.v83ac33": {
           "hide_name": 0,
-          "bits": [ 238 ],
+          "bits": [ 236 ],
           "attributes": {
             "hdlname": "v8134b4 v83ac33",
             "src": "main.v:107.10-122.3|main.v:308.9-308.16",
@@ -16795,7 +16663,7 @@
         },
         "v8134b4.va8ebb1": {
           "hide_name": 0,
-          "bits": [ 233 ],
+          "bits": [ 231 ],
           "attributes": {
             "hdlname": "v8134b4 va8ebb1",
             "src": "main.v:107.10-122.3|main.v:299.9-299.16",
@@ -16812,7 +16680,7 @@
         },
         "v8134b4.vb4a5e4.activeFrameStart": {
           "hide_name": 0,
-          "bits": [ 234 ],
+          "bits": [ 232 ],
           "attributes": {
             "hdlname": "v8134b4 vb4a5e4 activeFrameStart",
             "src": "main.v:107.10-122.3|main.v:369.9-369.25|main.v:340.18-355.3",
@@ -16829,7 +16697,7 @@
         },
         "v8134b4.vb4a5e4.activeLineStart": {
           "hide_name": 0,
-          "bits": [ 233 ],
+          "bits": [ 231 ],
           "attributes": {
             "hdlname": "v8134b4 vb4a5e4 activeLineStart",
             "src": "main.v:107.10-122.3|main.v:367.9-367.24|main.v:340.18-355.3",
@@ -16846,7 +16714,7 @@
         },
         "v8134b4.vb4a5e4.frameEnd": {
           "hide_name": 0,
-          "bits": [ 236 ],
+          "bits": [ 234 ],
           "attributes": {
             "hdlname": "v8134b4 vb4a5e4 frameEnd",
             "src": "main.v:107.10-122.3|main.v:374.9-374.17|main.v:340.18-355.3",
@@ -16863,7 +16731,7 @@
         },
         "v8134b4.vb4a5e4.hc": {
           "hide_name": 0,
-          "bits": [ 156, 173, 147, 148, 149, 96, 163, 95, 150, 151, 152 ],
+          "bits": [ 154, 171, 145, 146, 147, 94, 161, 93, 148, 149, 150 ],
           "attributes": {
             "hdlname": "v8134b4 vb4a5e4 hc",
             "src": "main.v:107.10-122.3|main.v:396.13-396.15|main.v:340.18-355.3"
@@ -16871,7 +16739,7 @@
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_10_D": {
           "hide_name": 0,
-          "bits": [ 145 ],
+          "bits": [ 143 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:423.18-423.27|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:8.8-8.10"
@@ -16879,13 +16747,13 @@
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_1_D": {
           "hide_name": 0,
-          "bits": [ 155 ],
+          "bits": [ 153 ],
           "attributes": {
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_1_D_SB_LUT4_O_I3": {
           "hide_name": 0,
-          "bits": [ 157 ],
+          "bits": [ 155 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:407.16-407.22|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16893,13 +16761,13 @@
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_2_D": {
           "hide_name": 0,
-          "bits": [ 159 ],
+          "bits": [ 157 ],
           "attributes": {
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_2_D_SB_LUT4_O_I3": {
           "hide_name": 0,
-          "bits": [ 158 ],
+          "bits": [ 156 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:407.16-407.22|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16907,13 +16775,13 @@
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_3_D": {
           "hide_name": 0,
-          "bits": [ 161 ],
+          "bits": [ 159 ],
           "attributes": {
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_3_D_SB_LUT4_O_I3": {
           "hide_name": 0,
-          "bits": [ 160 ],
+          "bits": [ 158 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:407.16-407.22|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16921,13 +16789,13 @@
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_4_D": {
           "hide_name": 0,
-          "bits": [ 164 ],
+          "bits": [ 162 ],
           "attributes": {
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_4_D_SB_LUT4_O_I3": {
           "hide_name": 0,
-          "bits": [ 162 ],
+          "bits": [ 160 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:407.16-407.22|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16935,13 +16803,13 @@
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_5_D": {
           "hide_name": 0,
-          "bits": [ 166 ],
+          "bits": [ 164 ],
           "attributes": {
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_5_D_SB_LUT4_O_I3": {
           "hide_name": 0,
-          "bits": [ 165 ],
+          "bits": [ 163 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:407.16-407.22|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16949,13 +16817,13 @@
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_6_D": {
           "hide_name": 0,
-          "bits": [ 168 ],
+          "bits": [ 166 ],
           "attributes": {
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_6_D_SB_LUT4_O_I3": {
           "hide_name": 0,
-          "bits": [ 167 ],
+          "bits": [ 165 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:407.16-407.22|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16963,13 +16831,13 @@
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_7_D": {
           "hide_name": 0,
-          "bits": [ 170 ],
+          "bits": [ 168 ],
           "attributes": {
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_7_D_SB_LUT4_O_I3": {
           "hide_name": 0,
-          "bits": [ 169 ],
+          "bits": [ 167 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:407.16-407.22|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16977,13 +16845,13 @@
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_8_D": {
           "hide_name": 0,
-          "bits": [ 172 ],
+          "bits": [ 170 ],
           "attributes": {
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_8_D_SB_LUT4_O_I3": {
           "hide_name": 0,
-          "bits": [ 171 ],
+          "bits": [ 169 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:407.16-407.22|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -16991,13 +16859,13 @@
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_9_D": {
           "hide_name": 0,
-          "bits": [ 174 ],
+          "bits": [ 172 ],
           "attributes": {
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_9_D_SB_LUT4_O_I2": {
           "hide_name": 0,
-          "bits": [ "0", "0", 146, 145 ],
+          "bits": [ "0", "0", 144, 143 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:425.24-425.36|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -17005,13 +16873,13 @@
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_D": {
           "hide_name": 0,
-          "bits": [ 153 ],
+          "bits": [ 151 ],
           "attributes": {
           }
         },
         "v8134b4.vb4a5e4.hc_SB_DFFSR_Q_D_SB_LUT4_O_I3": {
           "hide_name": 0,
-          "bits": [ 175 ],
+          "bits": [ 173 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:407.16-407.22|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17019,7 +16887,7 @@
         },
         "v8134b4.vb4a5e4.hsync": {
           "hide_name": 0,
-          "bits": [ 238 ],
+          "bits": [ 236 ],
           "attributes": {
             "hdlname": "v8134b4 vb4a5e4 hsync",
             "src": "main.v:107.10-122.3|main.v:376.9-376.14|main.v:340.18-355.3",
@@ -17028,7 +16896,7 @@
         },
         "v8134b4.vb4a5e4.lineEnd": {
           "hide_name": 0,
-          "bits": [ 235 ],
+          "bits": [ 233 ],
           "attributes": {
             "hdlname": "v8134b4 vb4a5e4 lineEnd",
             "src": "main.v:107.10-122.3|main.v:372.9-372.16|main.v:340.18-355.3",
@@ -17053,7 +16921,7 @@
         },
         "v8134b4.vb4a5e4.vc": {
           "hide_name": 0,
-          "bits": [ 124, 47, 125, 46, 111, 113, 115, 117, 119, 121, 126 ],
+          "bits": [ 122, 47, 123, 46, 109, 111, 113, 115, 117, 119, 124 ],
           "attributes": {
             "hdlname": "v8134b4 vb4a5e4 vc",
             "src": "main.v:107.10-122.3|main.v:397.13-397.15|main.v:340.18-355.3"
@@ -17069,13 +16937,13 @@
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_1_D": {
           "hide_name": 0,
-          "bits": [ 177 ],
+          "bits": [ 175 ],
           "attributes": {
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_1_D_SB_LUT4_O_I3": {
           "hide_name": 0,
-          "bits": [ 178 ],
+          "bits": [ 176 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:416.19-416.25|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17083,13 +16951,13 @@
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_2_D": {
           "hide_name": 0,
-          "bits": [ 180 ],
+          "bits": [ 178 ],
           "attributes": {
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_2_D_SB_LUT4_O_I3": {
           "hide_name": 0,
-          "bits": [ 179 ],
+          "bits": [ 177 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:416.19-416.25|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17097,13 +16965,13 @@
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_3_D": {
           "hide_name": 0,
-          "bits": [ 182 ],
+          "bits": [ 180 ],
           "attributes": {
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_3_D_SB_LUT4_O_I3": {
           "hide_name": 0,
-          "bits": [ 181 ],
+          "bits": [ 179 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:416.19-416.25|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17111,13 +16979,13 @@
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_4_D": {
           "hide_name": 0,
-          "bits": [ 184 ],
+          "bits": [ 182 ],
           "attributes": {
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_4_D_SB_LUT4_O_I3": {
           "hide_name": 0,
-          "bits": [ 183 ],
+          "bits": [ 181 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:416.19-416.25|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17125,13 +16993,13 @@
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_5_D": {
           "hide_name": 0,
-          "bits": [ 186 ],
+          "bits": [ 184 ],
           "attributes": {
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_5_D_SB_LUT4_O_I3": {
           "hide_name": 0,
-          "bits": [ 185 ],
+          "bits": [ 183 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:416.19-416.25|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17139,13 +17007,13 @@
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_6_D": {
           "hide_name": 0,
-          "bits": [ 188 ],
+          "bits": [ 186 ],
           "attributes": {
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_6_D_SB_LUT4_O_I3": {
           "hide_name": 0,
-          "bits": [ 187 ],
+          "bits": [ 185 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:416.19-416.25|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17153,13 +17021,13 @@
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_7_D": {
           "hide_name": 0,
-          "bits": [ 190 ],
+          "bits": [ 188 ],
           "attributes": {
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_7_D_SB_LUT4_O_I3": {
           "hide_name": 0,
-          "bits": [ 189 ],
+          "bits": [ 187 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:416.19-416.25|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17167,7 +17035,7 @@
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_7_D_SB_LUT4_O_I3_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 191 ],
+          "bits": [ 189 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:416.19-416.25|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17175,13 +17043,13 @@
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_8_D": {
           "hide_name": 0,
-          "bits": [ 192 ],
+          "bits": [ 190 ],
           "attributes": {
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_8_D_SB_LUT4_O_I2": {
           "hide_name": 0,
-          "bits": [ "0", "0", 65, 193 ],
+          "bits": [ "0", "0", 65, 191 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:424.18-424.27|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -17189,7 +17057,7 @@
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_8_D_SB_LUT4_O_I3": {
           "hide_name": 0,
-          "bits": [ 193 ],
+          "bits": [ 191 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:424.18-424.27|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17197,7 +17065,7 @@
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_9_D": {
           "hide_name": 0,
-          "bits": [ 194 ],
+          "bits": [ 192 ],
           "attributes": {
           }
         },
@@ -17211,13 +17079,13 @@
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_D": {
           "hide_name": 0,
-          "bits": [ 176 ],
+          "bits": [ 174 ],
           "attributes": {
           }
         },
         "v8134b4.vb4a5e4.vc_SB_DFFESR_Q_D_SB_LUT4_O_I3": {
           "hide_name": 0,
-          "bits": [ 195 ],
+          "bits": [ 193 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:416.19-416.25|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17225,7 +17093,7 @@
         },
         "v8134b4.vb4a5e4.vsync": {
           "hide_name": 0,
-          "bits": [ 237 ],
+          "bits": [ 235 ],
           "attributes": {
             "hdlname": "v8134b4 vb4a5e4 vsync",
             "src": "main.v:107.10-122.3|main.v:375.9-375.14|main.v:340.18-355.3",
@@ -17250,13 +17118,13 @@
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_1_D": {
           "hide_name": 0,
-          "bits": [ 197 ],
+          "bits": [ 195 ],
           "attributes": {
           }
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_1_D_SB_LUT4_O_I3": {
           "hide_name": 0,
-          "bits": [ 198 ],
+          "bits": [ 196 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:447.19-447.30|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17264,7 +17132,7 @@
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_1_D_SB_LUT4_O_I3_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 199 ],
+          "bits": [ 197 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:447.19-447.30|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17272,13 +17140,13 @@
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_2_D": {
           "hide_name": 0,
-          "bits": [ 200 ],
+          "bits": [ 198 ],
           "attributes": {
           }
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_2_D_SB_LUT4_O_I2": {
           "hide_name": 0,
-          "bits": [ "0", "0", 134, 201 ],
+          "bits": [ "0", "0", 132, 199 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:406.10-406.26|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -17286,7 +17154,7 @@
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_2_D_SB_LUT4_O_I3": {
           "hide_name": 0,
-          "bits": [ 201 ],
+          "bits": [ 199 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:406.10-406.26|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17294,7 +17162,7 @@
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_2_D_SB_LUT4_O_I3_SB_CARRY_CI_CO": {
           "hide_name": 0,
-          "bits": [ 202 ],
+          "bits": [ 200 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:406.10-406.26|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17302,7 +17170,7 @@
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_2_D_SB_LUT4_O_I3_SB_CARRY_CI_CO_SB_CARRY_CI_CO": {
           "hide_name": 0,
-          "bits": [ 203 ],
+          "bits": [ 201 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:406.10-406.26|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17310,7 +17178,7 @@
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_2_D_SB_LUT4_O_I3_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_CARRY_CI_CO": {
           "hide_name": 0,
-          "bits": [ 204 ],
+          "bits": [ 202 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:406.10-406.26|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17318,7 +17186,7 @@
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_2_D_SB_LUT4_O_I3_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_CARRY_CI_CO": {
           "hide_name": 0,
-          "bits": [ 205 ],
+          "bits": [ 203 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:406.10-406.26|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17326,7 +17194,7 @@
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_2_D_SB_LUT4_O_I3_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_LUT4_I2_I3": {
           "hide_name": 0,
-          "bits": [ 149, 205, 206 ],
+          "bits": [ 147, 203, 204 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -17334,7 +17202,7 @@
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_2_D_SB_LUT4_O_I3_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_LUT4_I2_I3_SB_LUT4_O_I3": {
           "hide_name": 0,
-          "bits": [ 151, 150, 207 ],
+          "bits": [ 149, 148, 205 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -17342,25 +17210,25 @@
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_2_D_SB_LUT4_O_I3_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_LUT4_I2_O": {
           "hide_name": 0,
-          "bits": [ 154 ],
+          "bits": [ 152 ],
           "attributes": {
           }
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_2_D_SB_LUT4_O_I3_SB_CARRY_CO_I1": {
           "hide_name": 0,
-          "bits": [ 136 ],
+          "bits": [ 134 ],
           "attributes": {
           }
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_3_D": {
           "hide_name": 0,
-          "bits": [ 208 ],
+          "bits": [ 206 ],
           "attributes": {
           }
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_4_D": {
           "hide_name": 0,
-          "bits": [ 138 ],
+          "bits": [ 136 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:406.10-406.26|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:8.8-8.10"
@@ -17368,13 +17236,13 @@
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_D": {
           "hide_name": 0,
-          "bits": [ 196 ],
+          "bits": [ 194 ],
           "attributes": {
           }
         },
         "v8134b4.vb4a5e4.x_pxi_SB_DFFSR_Q_D_SB_LUT4_O_I3": {
           "hide_name": 0,
-          "bits": [ 209 ],
+          "bits": [ 207 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:447.19-447.30|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17398,7 +17266,7 @@
         },
         "v8134b4.vcbba55": {
           "hide_name": 0,
-          "bits": [ 237 ],
+          "bits": [ 235 ],
           "attributes": {
             "hdlname": "v8134b4 vcbba55",
             "src": "main.v:107.10-122.3|main.v:307.9-307.16",
@@ -17423,7 +17291,7 @@
         },
         "v8134b4.w0": {
           "hide_name": 0,
-          "bits": [ 237 ],
+          "bits": [ 235 ],
           "attributes": {
             "hdlname": "v8134b4 w0",
             "src": "main.v:107.10-122.3|main.v:312.7-312.9",
@@ -17432,7 +17300,7 @@
         },
         "v8134b4.w1": {
           "hide_name": 0,
-          "bits": [ 238 ],
+          "bits": [ 236 ],
           "attributes": {
             "hdlname": "v8134b4 w1",
             "src": "main.v:107.10-122.3|main.v:313.7-313.9",
@@ -17441,7 +17309,7 @@
         },
         "v8134b4.w10": {
           "hide_name": 0,
-          "bits": [ 235 ],
+          "bits": [ 233 ],
           "attributes": {
             "hdlname": "v8134b4 w10",
             "src": "main.v:107.10-122.3|main.v:322.7-322.10",
@@ -17458,7 +17326,7 @@
         },
         "v8134b4.w12": {
           "hide_name": 0,
-          "bits": [ 236 ],
+          "bits": [ 234 ],
           "attributes": {
             "hdlname": "v8134b4 w12",
             "src": "main.v:107.10-122.3|main.v:324.7-324.10",
@@ -17501,7 +17369,7 @@
         },
         "v8134b4.w5": {
           "hide_name": 0,
-          "bits": [ 233 ],
+          "bits": [ 231 ],
           "attributes": {
             "hdlname": "v8134b4 w5",
             "src": "main.v:107.10-122.3|main.v:317.7-317.9",
@@ -17510,7 +17378,7 @@
         },
         "v8134b4.w6": {
           "hide_name": 0,
-          "bits": [ 234 ],
+          "bits": [ 232 ],
           "attributes": {
             "hdlname": "v8134b4 w6",
             "src": "main.v:107.10-122.3|main.v:318.7-318.9",
@@ -17541,6 +17409,81 @@
             "src": "main.v:107.10-122.3|main.v:321.7-321.9"
           }
         },
+        "v917657.v0a8f52.clk": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "hdlname": "v917657 v0a8f52 clk",
+            "src": "main.v:160.10-163.3|main.v:693.8-693.11|main.v:679.18-683.3"
+          }
+        },
+        "v917657.v0a8f52.reset": {
+          "hide_name": 0,
+          "bits": [ 208 ],
+          "attributes": {
+            "hdlname": "v917657 v0a8f52 reset",
+            "src": "main.v:160.10-163.3|main.v:695.9-695.14|main.v:679.18-683.3",
+            "unused_bits": "0 "
+          }
+        },
+        "v917657.v0a8f52.sys_clk": {
+          "hide_name": 0,
+          "bits": [ 82 ],
+          "attributes": {
+            "hdlname": "v917657 v0a8f52 sys_clk",
+            "src": "main.v:160.10-163.3|main.v:694.9-694.16|main.v:679.18-683.3"
+          }
+        },
+        "v917657.v57221c": {
+          "hide_name": 0,
+          "bits": [ 208 ],
+          "attributes": {
+            "hdlname": "v917657 v57221c",
+            "src": "main.v:160.10-163.3|main.v:671.9-671.16",
+            "unused_bits": "0 "
+          }
+        },
+        "v917657.v73ceb8": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "hdlname": "v917657 v73ceb8",
+            "src": "main.v:160.10-163.3|main.v:669.8-669.15"
+          }
+        },
+        "v917657.v7efef0": {
+          "hide_name": 0,
+          "bits": [ 82 ],
+          "attributes": {
+            "hdlname": "v917657 v7efef0",
+            "src": "main.v:160.10-163.3|main.v:670.9-670.16"
+          }
+        },
+        "v917657.w0": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "hdlname": "v917657 w0",
+            "src": "main.v:160.10-163.3|main.v:673.7-673.9"
+          }
+        },
+        "v917657.w1": {
+          "hide_name": 0,
+          "bits": [ 82 ],
+          "attributes": {
+            "hdlname": "v917657 w1",
+            "src": "main.v:160.10-163.3|main.v:674.7-674.9"
+          }
+        },
+        "v917657.w2": {
+          "hide_name": 0,
+          "bits": [ 208 ],
+          "attributes": {
+            "hdlname": "v917657 w2",
+            "src": "main.v:160.10-163.3|main.v:675.7-675.9",
+            "unused_bits": "0 "
+          }
+        },
         "va834c1": {
           "hide_name": 0,
           "bits": [ 4 ],
@@ -17550,13 +17493,13 @@
         },
         "va834c1_SB_DFF_Q_D": {
           "hide_name": 0,
-          "bits": [ 210 ],
+          "bits": [ 209 ],
           "attributes": {
           }
         },
         "va834c1_SB_DFF_Q_D_SB_LUT4_O_I0": {
           "hide_name": 0,
-          "bits": [ 211, 149, 212, 213 ],
+          "bits": [ 210, 147, 211, 212 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -17564,7 +17507,7 @@
         },
         "va834c1_SB_DFF_Q_D_SB_LUT4_O_I2": {
           "hide_name": 0,
-          "bits": [ 212 ],
+          "bits": [ 211 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:423.31-423.48|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17572,7 +17515,7 @@
         },
         "va834c1_SB_DFF_Q_D_SB_LUT4_O_I2_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 214 ],
+          "bits": [ 213 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:423.31-423.48|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17580,7 +17523,7 @@
         },
         "va834c1_SB_DFF_Q_D_SB_LUT4_O_I2_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 215 ],
+          "bits": [ 214 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:423.31-423.48|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17588,7 +17531,7 @@
         },
         "va834c1_SB_DFF_Q_D_SB_LUT4_O_I2_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 216 ],
+          "bits": [ 215 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:423.31-423.48|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17596,7 +17539,7 @@
         },
         "va834c1_SB_DFF_Q_D_SB_LUT4_O_I2_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 217 ],
+          "bits": [ 216 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:423.31-423.48|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17604,7 +17547,7 @@
         },
         "va834c1_SB_DFF_Q_D_SB_LUT4_O_I2_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 218 ],
+          "bits": [ 217 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:423.31-423.48|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17612,7 +17555,7 @@
         },
         "va834c1_SB_DFF_Q_D_SB_LUT4_O_I2_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 219 ],
+          "bits": [ 218 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:423.31-423.48|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17620,7 +17563,7 @@
         },
         "va834c1_SB_DFF_Q_D_SB_LUT4_O_I2_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 220 ],
+          "bits": [ 219 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:423.31-423.48|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17628,7 +17571,7 @@
         },
         "va834c1_SB_DFF_Q_D_SB_LUT4_O_I2_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 221 ],
+          "bits": [ 220 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:423.31-423.48|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17636,7 +17579,7 @@
         },
         "va834c1_SB_DFF_Q_D_SB_LUT4_O_I2_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 222 ],
+          "bits": [ 221 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:423.31-423.48|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17644,7 +17587,7 @@
         },
         "va834c1_SB_DFF_Q_D_SB_LUT4_O_I3": {
           "hide_name": 0,
-          "bits": [ 213 ],
+          "bits": [ 212 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:423.18-423.27|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17652,7 +17595,7 @@
         },
         "va834c1_SB_DFF_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 223 ],
+          "bits": [ 222 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:423.18-423.27|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17660,7 +17603,7 @@
         },
         "va834c1_SB_DFF_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 224 ],
+          "bits": [ 223 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:423.18-423.27|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17668,7 +17611,7 @@
         },
         "va834c1_SB_DFF_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 225 ],
+          "bits": [ 224 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:423.18-423.27|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17676,7 +17619,7 @@
         },
         "va834c1_SB_DFF_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 226 ],
+          "bits": [ 225 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:423.18-423.27|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17684,7 +17627,7 @@
         },
         "va834c1_SB_DFF_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 227 ],
+          "bits": [ 226 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:423.18-423.27|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17692,7 +17635,7 @@
         },
         "va834c1_SB_DFF_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 228 ],
+          "bits": [ 227 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:423.18-423.27|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17700,7 +17643,7 @@
         },
         "va834c1_SB_DFF_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 229 ],
+          "bits": [ 228 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:423.18-423.27|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17708,7 +17651,7 @@
         },
         "va834c1_SB_DFF_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 230 ],
+          "bits": [ 229 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:423.18-423.27|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17716,7 +17659,7 @@
         },
         "va834c1_SB_DFF_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ 231 ],
+          "bits": [ 230 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "main.v:107.10-122.3|main.v:423.18-423.27|main.v:340.18-355.3|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|D:\\.icestudio\\apio\\packages\\tools-oss-cad-suite\\bin\\../share/yosys/ice40/abc9_model.v:4.9-4.11"
@@ -17748,81 +17691,6 @@
           "bits": [ 6 ],
           "attributes": {
             "src": "main.v:11.9-11.16"
-          }
-        },
-        "vc768b6.v0a8f52.clk": {
-          "hide_name": 0,
-          "bits": [ 2 ],
-          "attributes": {
-            "hdlname": "vc768b6 v0a8f52 clk",
-            "src": "main.v:160.10-163.3|main.v:705.8-705.11|main.v:691.18-695.3"
-          }
-        },
-        "vc768b6.v0a8f52.reset": {
-          "hide_name": 0,
-          "bits": [ 232 ],
-          "attributes": {
-            "hdlname": "vc768b6 v0a8f52 reset",
-            "src": "main.v:160.10-163.3|main.v:707.9-707.14|main.v:691.18-695.3",
-            "unused_bits": "0 "
-          }
-        },
-        "vc768b6.v0a8f52.sys_clk": {
-          "hide_name": 0,
-          "bits": [ 84 ],
-          "attributes": {
-            "hdlname": "vc768b6 v0a8f52 sys_clk",
-            "src": "main.v:160.10-163.3|main.v:706.9-706.16|main.v:691.18-695.3"
-          }
-        },
-        "vc768b6.v57221c": {
-          "hide_name": 0,
-          "bits": [ 232 ],
-          "attributes": {
-            "hdlname": "vc768b6 v57221c",
-            "src": "main.v:160.10-163.3|main.v:683.9-683.16",
-            "unused_bits": "0 "
-          }
-        },
-        "vc768b6.v73ceb8": {
-          "hide_name": 0,
-          "bits": [ 2 ],
-          "attributes": {
-            "hdlname": "vc768b6 v73ceb8",
-            "src": "main.v:160.10-163.3|main.v:681.8-681.15"
-          }
-        },
-        "vc768b6.v7efef0": {
-          "hide_name": 0,
-          "bits": [ 84 ],
-          "attributes": {
-            "hdlname": "vc768b6 v7efef0",
-            "src": "main.v:160.10-163.3|main.v:682.9-682.16"
-          }
-        },
-        "vc768b6.w0": {
-          "hide_name": 0,
-          "bits": [ 2 ],
-          "attributes": {
-            "hdlname": "vc768b6 w0",
-            "src": "main.v:160.10-163.3|main.v:685.7-685.9"
-          }
-        },
-        "vc768b6.w1": {
-          "hide_name": 0,
-          "bits": [ 84 ],
-          "attributes": {
-            "hdlname": "vc768b6 w1",
-            "src": "main.v:160.10-163.3|main.v:686.7-686.9"
-          }
-        },
-        "vc768b6.w2": {
-          "hide_name": 0,
-          "bits": [ 232 ],
-          "attributes": {
-            "hdlname": "vc768b6 w2",
-            "src": "main.v:160.10-163.3|main.v:687.7-687.9",
-            "unused_bits": "0 "
           }
         },
         "vdd4a9b": {
@@ -17906,7 +17774,7 @@
         },
         "w16": {
           "hide_name": 0,
-          "bits": [ 238 ],
+          "bits": [ 236 ],
           "attributes": {
             "src": "main.v:42.7-42.10",
             "unused_bits": "0 "
@@ -17914,7 +17782,7 @@
         },
         "w17": {
           "hide_name": 0,
-          "bits": [ 237 ],
+          "bits": [ 235 ],
           "attributes": {
             "src": "main.v:43.7-43.10",
             "unused_bits": "0 "
@@ -17929,7 +17797,7 @@
         },
         "w19": {
           "hide_name": 0,
-          "bits": [ 233 ],
+          "bits": [ 231 ],
           "attributes": {
             "src": "main.v:45.7-45.10",
             "unused_bits": "0 "
@@ -17951,7 +17819,7 @@
         },
         "w21": {
           "hide_name": 0,
-          "bits": [ 234 ],
+          "bits": [ 232 ],
           "attributes": {
             "src": "main.v:47.7-47.10",
             "unused_bits": "0 "
@@ -17973,7 +17841,7 @@
         },
         "w24": {
           "hide_name": 0,
-          "bits": [ 235 ],
+          "bits": [ 233 ],
           "attributes": {
             "src": "main.v:50.7-50.10",
             "unused_bits": "0 "
@@ -17988,7 +17856,7 @@
         },
         "w26": {
           "hide_name": 0,
-          "bits": [ 236 ],
+          "bits": [ 234 ],
           "attributes": {
             "src": "main.v:52.7-52.10",
             "unused_bits": "0 "
@@ -17996,7 +17864,7 @@
         },
         "w27": {
           "hide_name": 0,
-          "bits": [ 71, 233, "x", 234, "x", "x", 235, "x", 236, 237, 238, "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", 80, 79, 78, 77, 76, 75, 74, 73, 72, 70 ],
+          "bits": [ 71, 231, "x", 232, "x", "x", 233, "x", 234, 235, 236, "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", 80, 79, 78, 77, 76, 75, 74, 73, 72, 70 ],
           "upto": 1,
           "attributes": {
             "src": "main.v:53.14-53.17",
@@ -18039,23 +17907,17 @@
             "src": "main.v:57.7-57.10"
           }
         },
-        "w32": {
-          "hide_name": 0,
-          "bits": [ "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x" ],
-          "upto": 1,
-          "attributes": {
-            "src": "main.v:58.14-58.17"
-          }
-        },
         "w33": {
           "hide_name": 0,
-          "bits": [ 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 ],
+          "bits": [ 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, "0", "0", "0", "0", "0", "0", "0", "0" ],
+          "upto": 1,
           "attributes": {
+            "src": "main.v:59.14-59.17"
           }
         },
         "w34": {
           "hide_name": 0,
-          "bits": [ 81 ],
+          "bits": [ "0" ],
           "attributes": {
             "src": "main.v:60.7-60.10"
           }
@@ -18070,7 +17932,7 @@
         },
         "w36": {
           "hide_name": 0,
-          "bits": [ 41, 87, 90, 42, 89, 39, 88, 68, 69, 83, 86, 85 ],
+          "bits": [ 41, 85, 88, 42, 87, 39, 86, 68, 69, 81, 84, 83 ],
           "upto": 1,
           "attributes": {
             "src": "main.v:62.14-62.17"
@@ -18078,7 +17940,7 @@
         },
         "w38": {
           "hide_name": 0,
-          "bits": [ 84 ],
+          "bits": [ 82 ],
           "attributes": {
             "src": "main.v:64.7-64.10"
           }
