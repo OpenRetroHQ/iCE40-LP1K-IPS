@@ -590,8 +590,8 @@ module vd6099e (
  input [15:0] v76e5cf,
  input [11:0] v77de7c,
  output [17:0] v64d6af,
- output [11:0] vdd0bfb,
- output v619423
+ output v619423,
+ output [11:0] vdd0bfb
 );
  wire w0;
  wire [0:11] w1;
@@ -632,9 +632,9 @@ module vd6099e_v931b7c (
  input [17:0] read_addr,
  input [15:0] data_in,
  output [17:0] sram_addr,
- output [11:0] data_out,
  output sram_we,
- inout [11:0] sram_io
+ inout [11:0] sram_io,
+ inout [11:0] data_out
 );
  // SRAM IC - IS61WV25616BLL-10BLI
  // ~OE pin tied to ground permanently.
