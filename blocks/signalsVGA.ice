@@ -12,58 +12,6 @@
     "graph": {
       "blocks": [
         {
-          "id": "9c481124-0c6c-4f08-80f6-2ec1a16afd9b",
-          "type": "basic.output",
-          "data": {
-            "name": "x_px",
-            "range": "[9:0]",
-            "inout": false,
-            "size": 10
-          },
-          "position": {
-            "x": 920,
-            "y": 88
-          }
-        },
-        {
-          "id": "e6d80a12-f2da-4827-8420-458a8727fc4d",
-          "type": "basic.output",
-          "data": {
-            "name": "y_px",
-            "range": "[9:0]",
-            "inout": false,
-            "size": 10
-          },
-          "position": {
-            "x": 920,
-            "y": 160
-          }
-        },
-        {
-          "id": "0e4ec6f7-fe91-47bb-8666-305db4da1e5b",
-          "type": "basic.output",
-          "data": {
-            "name": "hsync",
-            "inout": false
-          },
-          "position": {
-            "x": 920,
-            "y": 232
-          }
-        },
-        {
-          "id": "d1e8b4bb-5fc8-4ed7-bb56-e77d0d3599d8",
-          "type": "basic.output",
-          "data": {
-            "name": "vsync",
-            "inout": false
-          },
-          "position": {
-            "x": 920,
-            "y": 304
-          }
-        },
-        {
           "id": "1abb0e43-39a7-4a67-a9f3-814c1bcfa121",
           "type": "basic.output",
           "data": {
@@ -79,8 +27,8 @@
             "inout": false
           },
           "position": {
-            "x": 920,
-            "y": 376
+            "x": 904,
+            "y": 88
           }
         },
         {
@@ -91,7 +39,55 @@
             "inout": false
           },
           "position": {
-            "x": 920,
+            "x": 904,
+            "y": 160
+          }
+        },
+        {
+          "id": "68fe07fe-a87c-47dc-80d9-49e8b6c93a90",
+          "type": "basic.output",
+          "data": {
+            "name": "activeLineEnd",
+            "inout": false
+          },
+          "position": {
+            "x": 904,
+            "y": 232
+          }
+        },
+        {
+          "id": "7d2db04d-7957-466c-8dfe-fe50e1fa0032",
+          "type": "basic.output",
+          "data": {
+            "name": "activeFrameStart",
+            "inout": false
+          },
+          "position": {
+            "x": 912,
+            "y": 304
+          }
+        },
+        {
+          "id": "af1ee2c0-ae7f-4970-9e12-de73eee58797",
+          "type": "basic.output",
+          "data": {
+            "name": "activeFrameEnd",
+            "inout": false
+          },
+          "position": {
+            "x": 912,
+            "y": 376
+          }
+        },
+        {
+          "id": "b8d77e81-72c3-4e43-b955-c83e98e54429",
+          "type": "basic.output",
+          "data": {
+            "name": "lineStart",
+            "inout": false
+          },
+          "position": {
+            "x": 912,
             "y": 448
           }
         },
@@ -109,54 +105,6 @@
           }
         },
         {
-          "id": "68fe07fe-a87c-47dc-80d9-49e8b6c93a90",
-          "type": "basic.output",
-          "data": {
-            "name": "activeLineEnd",
-            "inout": false
-          },
-          "position": {
-            "x": 920,
-            "y": 520
-          }
-        },
-        {
-          "id": "7d2db04d-7957-466c-8dfe-fe50e1fa0032",
-          "type": "basic.output",
-          "data": {
-            "name": "activeFrameStart",
-            "inout": false
-          },
-          "position": {
-            "x": 920,
-            "y": 592
-          }
-        },
-        {
-          "id": "af1ee2c0-ae7f-4970-9e12-de73eee58797",
-          "type": "basic.output",
-          "data": {
-            "name": "activeFrameEnd",
-            "inout": false
-          },
-          "position": {
-            "x": 920,
-            "y": 664
-          }
-        },
-        {
-          "id": "b8d77e81-72c3-4e43-b955-c83e98e54429",
-          "type": "basic.output",
-          "data": {
-            "name": "lineStart",
-            "inout": false
-          },
-          "position": {
-            "x": 920,
-            "y": 736
-          }
-        },
-        {
           "id": "5128cd55-1e5d-4fa5-a0b1-78d15b22aa26",
           "type": "basic.output",
           "data": {
@@ -164,8 +112,8 @@
             "inout": false
           },
           "position": {
-            "x": 920,
-            "y": 808
+            "x": 912,
+            "y": 520
           }
         },
         {
@@ -176,8 +124,8 @@
             "inout": false
           },
           "position": {
-            "x": 920,
-            "y": 880
+            "x": 912,
+            "y": 592
           }
         },
         {
@@ -188,7 +136,59 @@
             "inout": false
           },
           "position": {
-            "x": 920,
+            "x": 912,
+            "y": 664
+          }
+        },
+        {
+          "id": "d1e8b4bb-5fc8-4ed7-bb56-e77d0d3599d8",
+          "type": "basic.output",
+          "data": {
+            "name": "vsync",
+            "inout": false
+          },
+          "position": {
+            "x": 912,
+            "y": 736
+          }
+        },
+        {
+          "id": "0e4ec6f7-fe91-47bb-8666-305db4da1e5b",
+          "type": "basic.output",
+          "data": {
+            "name": "hsync",
+            "inout": false
+          },
+          "position": {
+            "x": 912,
+            "y": 808
+          }
+        },
+        {
+          "id": "e6d80a12-f2da-4827-8420-458a8727fc4d",
+          "type": "basic.output",
+          "data": {
+            "name": "y_px",
+            "range": "[9:0]",
+            "inout": false,
+            "size": 10
+          },
+          "position": {
+            "x": 912,
+            "y": 880
+          }
+        },
+        {
+          "id": "9c481124-0c6c-4f08-80f6-2ec1a16afd9b",
+          "type": "basic.output",
+          "data": {
+            "name": "x_px",
+            "range": "[9:0]",
+            "inout": false,
+            "size": 10
+          },
+          "position": {
+            "x": 912,
             "y": 952
           }
         },
@@ -203,22 +203,6 @@
                 }
               ],
               "out": [
-                {
-                  "name": "x_px",
-                  "range": "[9:0]",
-                  "size": 10
-                },
-                {
-                  "name": "y_px",
-                  "range": "[9:0]",
-                  "size": 10
-                },
-                {
-                  "name": "hsync"
-                },
-                {
-                  "name": "vsync"
-                },
                 {
                   "name": "activeVideo"
                 },
@@ -245,6 +229,22 @@
                 },
                 {
                   "name": "frameEnd"
+                },
+                {
+                  "name": "vsync"
+                },
+                {
+                  "name": "hsync"
+                },
+                {
+                  "name": "y_px",
+                  "range": "[9:0]",
+                  "size": 10
+                },
+                {
+                  "name": "x_px",
+                  "range": "[9:0]",
+                  "size": 10
                 }
               ],
               "inoutLeft": [],

@@ -16,14 +16,6 @@
           "type": "basic.output",
           "data": {
             "name": "vsync",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
             "inout": false
           },
           "position": {
@@ -36,14 +28,6 @@
           "type": "basic.output",
           "data": {
             "name": "hsync",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
             "inout": false
           },
           "position": {
@@ -56,14 +40,6 @@
           "type": "basic.output",
           "data": {
             "name": "r0",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
             "inout": false
           },
           "position": {
@@ -76,14 +52,6 @@
           "type": "basic.output",
           "data": {
             "name": "r1",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
             "inout": false
           },
           "position": {
@@ -96,14 +64,6 @@
           "type": "basic.output",
           "data": {
             "name": "r2",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
             "inout": false
           },
           "position": {
@@ -116,14 +76,6 @@
           "type": "basic.output",
           "data": {
             "name": "r3",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
             "inout": false
           },
           "position": {
@@ -136,14 +88,6 @@
           "type": "basic.output",
           "data": {
             "name": "g0",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
             "inout": false
           },
           "position": {
@@ -152,13 +96,53 @@
           }
         },
         {
-          "id": "0ac82180-3723-47fa-9fae-d8031a0626bf",
+          "id": "694cd94f-4724-4ad5-a87d-2bf7ed7405f4",
           "type": "basic.input",
           "data": {
-            "name": "RGBStr_i",
+            "name": "RGBStr",
             "virtual": true,
-            "range": "[34:0]",
+            "range": "[42:0]",
             "pins": [
+              {
+                "index": "42",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "41",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "40",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "39",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "38",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "37",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "36",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "35",
+                "name": "NULL",
+                "value": "NULL"
+              },
               {
                 "index": "34",
                 "name": "NULL",
@@ -348,14 +332,6 @@
           "type": "basic.output",
           "data": {
             "name": "g1",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
             "inout": false
           },
           "position": {
@@ -368,14 +344,6 @@
           "type": "basic.output",
           "data": {
             "name": "g2",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
             "inout": false
           },
           "position": {
@@ -388,14 +356,6 @@
           "type": "basic.output",
           "data": {
             "name": "g3",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
             "inout": false
           },
           "position": {
@@ -408,14 +368,6 @@
           "type": "basic.output",
           "data": {
             "name": "b0",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
             "inout": false
           },
           "position": {
@@ -428,14 +380,6 @@
           "type": "basic.output",
           "data": {
             "name": "b1",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
             "inout": false
           },
           "position": {
@@ -448,14 +392,6 @@
           "type": "basic.output",
           "data": {
             "name": "b2",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
             "inout": false
           },
           "position": {
@@ -468,14 +404,6 @@
           "type": "basic.output",
           "data": {
             "name": "b3",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
             "inout": false
           },
           "position": {
@@ -490,9 +418,9 @@
             "ports": {
               "in": [
                 {
-                  "name": "RGBStr_i",
-                  "range": "[34:0]",
-                  "size": 35
+                  "name": "RGBStr",
+                  "range": "[42:0]",
+                  "size": 43
                 }
               ],
               "out": [
@@ -543,7 +471,7 @@
               "inoutRight": []
             },
             "params": [],
-            "code": "// alias \n`define Active 0:0\n`define VS 1:1\n`define HS 2:2\n`define YC 12:3\n`define XC 22:13\n`define R0 23:23\n`define R1 24:24\n`define R2 25:25\n`define R3 26:26\n`define G0 27:27\n`define G1 28:28\n`define G2 29:29\n`define G3 30:30\n`define B0 31:31\n`define B1 32:32\n`define B2 33:33\n`define B3 34:34\n\n\nassign hsync = RGBStr_i[`HS];\nassign vsync = RGBStr_i[`VS];\n\nassign r0 = RGBStr_i[`R0];\nassign r1 = RGBStr_i[`R1];\nassign r2 = RGBStr_i[`R2];\nassign r3 = RGBStr_i[`R3];\n\nassign g0 = RGBStr_i[`G0];\nassign g1 = RGBStr_i[`G1];\nassign g2 = RGBStr_i[`G2];\nassign g3 = RGBStr_i[`G3];\n\nassign b0 = RGBStr_i[`B0];\nassign b1 = RGBStr_i[`B1];\nassign b2 = RGBStr_i[`B2];\nassign b3 = RGBStr_i[`B3];\n"
+            "code": "// alias \n`define Active 0:0\n`define VS 9:9\n`define HS 10:10\n`define YC 20:11\n`define XC 30:21\n`define R0 31:31\n`define R1 32:32\n`define R2 33:33\n`define R3 34:34\n`define G0 35:35\n`define G1 36:36\n`define G2 37:37\n`define G3 38:38\n`define B0 39:39\n`define B1 40:40\n`define B2 41:41\n`define B3 42:42\n\n\nassign hsync = RGBStr[`HS];\nassign vsync = RGBStr[`VS];\n\nassign r0 = RGBStr[`R0];\nassign r1 = RGBStr[`R1];\nassign r2 = RGBStr[`R2];\nassign r3 = RGBStr[`R3];\n\nassign g0 = RGBStr[`G0];\nassign g1 = RGBStr[`G1];\nassign g2 = RGBStr[`G2];\nassign g3 = RGBStr[`G3];\n\nassign b0 = RGBStr[`B0];\nassign b1 = RGBStr[`B1];\nassign b2 = RGBStr[`B2];\nassign b3 = RGBStr[`B3];\n"
           },
           "position": {
             "x": 2016,
@@ -698,14 +626,14 @@
         },
         {
           "source": {
-            "block": "0ac82180-3723-47fa-9fae-d8031a0626bf",
+            "block": "694cd94f-4724-4ad5-a87d-2bf7ed7405f4",
             "port": "out"
           },
           "target": {
             "block": "fabbd2ae-d75a-443d-9b7e-b8205b86adb7",
-            "port": "RGBStr_i"
+            "port": "RGBStr"
           },
-          "size": 35
+          "size": 43
         }
       ]
     }
